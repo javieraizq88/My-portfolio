@@ -17,25 +17,30 @@ const Home = props => {
 
             {/* Page Content */}
             <div class="row">
-                <div class="col-md-7 col-xs-7 mr-4 ml-5 mt-5 mb-5">
+                <div className="col-md-1"></div>
+                <div class="col-md-6 col-xs-6 mr-2 mt-5 mb-5">
                     <h1>What We Do</h1>
                     <hr />
                     <p className=" text-justify" id="p-Home">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deserunt neque tempore recusandae animi soluta quasi? Asperiores rem dolore eaque vel, porro, soluta unde debitis aliquam laboriosam. Repellat explicabo, maiores!</p>
                     <p className=" text-justify" id="p-Home">>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis optio neque consectetur consequatur magni in nisi, natus beatae quidem quam odit commodi ducimus totam eum, alias, adipisci nesciunt voluptate. Voluptatum.</p>
                     <a class="btn btn-primary btn-lg" href="#">Call to Action &raquo;</a>
                 </div>
-                <div className="col-md-4 col-xs-4 mt-5 mb-5">
+                <div className="col-md-4 col-xs-4 ml-5 mt-5 mb-5">
                     <h1 >Contact</h1>
                     <hr />
                     <address>
                         <p className="ml-3" id="p-Home"><strong>Javiera Izquierdo Martino</strong></p>
-                        <p className="ml-3" title="Phone" id="p-Home">Phone: (+56) 99 345 8208</p> 
-                        <p className="ml-3" title="Email" id="p-Home">Email:<a href="mailto:javieraizquierdo7@gmail.com">  javieraizquierdo7@gmail.com</a></p> 
-                        <br/>
+                        <p className="ml-3" title="Phone" id="p-Home">Phone: (+56) 99 345 8208</p>
+                        <p className="ml-3" title="Email" id="p-Home">Email:<a href="mailto:javieraizquierdo7@gmail.com">  javieraizquierdo7@gmail.com</a></p>
+                        <br />
                     </address>
-                    </div>
                 </div>
-            {/* <!-- /.row --> */}
+            </div>
+                {/* /.row */}
+
+
+
+
 
             <main>
 

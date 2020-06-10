@@ -80,7 +80,8 @@ footer a{
 footer #left-footer{
   flex: 1;
   border-right: 1px solid white;
-  padding-left: 32px;
+  text-align: center ;
+  margin-top: 10px;
 }
 
 footer #left-footer ul{
@@ -91,12 +92,12 @@ footer #left-footer ul{
 
 footer #right-footer{
   flex: 2;
-  padding: 8px;
+  margin-top: 10px;
   text-align: center;
 }
 
 footer #social-media-footer a .fa-facebook,
-footer #social-media-footer a .fa-youtube,
+footer #social-media-footer a .fa-linkedin,
 footer #social-media-footer a .fa-github {
   color: white;
   transition: 0.4s;
@@ -119,8 +120,8 @@ footer #social-media-footer ul li:hover a .fa-facebook{
 color: #3b5998;
 }
 
-footer #social-media-footer ul li:hover a .fa-youtube{
-color: red;
+footer #social-media-footer ul li:hover a .fa-linkedin{
+color: rgb(40, 105, 226);
 }
 
 footer #social-media-footer ul li:hover a .fa-github{

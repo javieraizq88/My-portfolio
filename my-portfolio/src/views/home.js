@@ -131,7 +131,8 @@ const Home = props => {
 
 
                 <footer>
-                    <div id="left-footer">
+                    <div className="row">
+                    <div className="col-md-6 col-xs-6" id="left-footer">
                         <h3>Quick Links</h3>
                         <p>
                             <ul>
@@ -157,8 +158,8 @@ const Home = props => {
                         </p>
                     </div>
 
-                    <div id="right-footer">
-                        <h3>Follow us on</h3>
+                    <div className="col-md-6 col-xs-6" id="right-footer">
+                        <h3>Follow me on</h3>
                         <div id="social-media-footer">
                             <ul>
                                 <li>
@@ -168,7 +169,7 @@ const Home = props => {
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <i className="fab fa-youtube"></i>
+                                        <i className="fab fa-linkedin"></i>
                                     </a>
                                 </li>
                                 <li>
@@ -179,6 +180,7 @@ const Home = props => {
                             </ul>
                         </div>
                         <p>This website is developed by JIM</p>
+                    </div>
                     </div>
                 </footer>
 

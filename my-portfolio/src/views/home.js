@@ -40,6 +40,14 @@ const Home = props => {
     </div>
   </nav>
 
+{/* banner */}
+  <div id="banner">
+                <h1>&lt; JIM &gt;</h1>
+                <h3>Full Stack Development</h3>
+            </div>
+
+
+
 
 
             {/* 
@@ -49,10 +57,7 @@ const Home = props => {
                 <input type="text" placeholder="Search here" />
             </div>
 
-            <div id="banner">
-                <h1>&lt; JIM &gt;</h1>
-                <h3>Full Stack Development</h3>
-            </div>
+
 
             <main>
                 <a to="#">

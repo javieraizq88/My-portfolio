@@ -128,15 +128,7 @@ const Home = props => {
 
 
 
-                <h2 className="section-heading">Source Code</h2>
 
-                <section id="section-source">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit aliquid sequi dolorem sint recusandae
-                        possimus quam accusantium! Aliquid, eum accusantium!
-            </p>
-                    <a href="#">Github Profile</a>
-                </section>
 
                 <footer>
                     <div id="left-footer">

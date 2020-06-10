@@ -1,0 +1,14 @@
+
+body{
+  padding-top: 56px;
+
+}
+
+.logo{
+    width: 20px;
+    height: 20px;
+}
+
+.navbarResponsive{
+    font-size: 100px;
+}

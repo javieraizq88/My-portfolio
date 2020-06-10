@@ -126,46 +126,7 @@ const Home = props => {
             <main>
 
 
-                <h2 className="section-heading">All Project</h2>
 
-                <section>
-                    <div className="card">
-                        <div className="card-image">
-                            <a to="#">
-                                <img src="img/3.jpg" alt="Card image" height="350px" />
-                            </a>
-                        </div>
-                        <div className="card-description">
-                            <a href="#">
-                                <h3>The Project title here</h3>
-                            </a>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis ullam commodi eos nihil,
-                                distinctio consequatur quia fugit perspiciatis qui voluptate voluptates praesentium asperiores
-                                fuga autem. Optio fugiat pariatur quibusdam possimus.
-                    </p>
-                            <a href="#" className="btn-readmore">Read more</a>
-                        </div>
-                    </div>
-                    <div className="card">
-                        <div className="card-image">
-                            <a href="#">
-                                <img src="img/4.jpg" alt="Card image" height="350px" />
-                            </a>
-                        </div>
-                        <div className="card-description">
-                            <a href="#">
-                                <h3>The Project title here</h3>
-                            </a>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis ullam commodi eos nihil,
-                                distinctio consequatur quia fugit perspiciatis qui voluptate voluptates praesentium asperiores
-                                fuga autem. Optio fugiat pariatur quibusdam possimus.
-                    </p>
-                            <a href="#" className="btn-readmore">Read more</a>
-                        </div>
-                    </div>
-                </section>
 
                 <h2 className="section-heading">Source Code</h2>
 

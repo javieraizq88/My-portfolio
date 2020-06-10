@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import logo from "../img/logo.jpg";
 
 
-const About = props => {
+const Contact = props => {
     return (
         <>
 
@@ -42,7 +42,7 @@ const About = props => {
 <br/>
 <br/>
 
-<h1>About</h1>
+<h1>Contact</h1>
 
 
 
@@ -50,4 +50,4 @@ const About = props => {
     )
 }
 
-export default About;  
+export default Contact;  

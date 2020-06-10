@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import logo from "../img/logo.jpg";
 
 
-const About = props => {
+const Services = props => {
     return (
         <>
 
@@ -21,10 +21,10 @@ const About = props => {
                             <li className="nav-item ">
                                 <Link className="nav-link" to="/">Home<span className="sr-only">(current)</span></Link>
                             </li>
-                            <li className="nav-item active">
+                            <li className="nav-item ">
                                 <Link className="nav-link" to="/about">About</Link>
                             </li>
-                            <li className="nav-item">
+                            <li className="nav-item active">
                                 <Link className="nav-link" to="/services">Services</Link>
                             </li>
                             <li className="nav-item">
@@ -42,7 +42,7 @@ const About = props => {
 <br/>
 <br/>
 
-<h1>About</h1>
+<h1>Services</h1>
 
 
 
@@ -50,4 +50,4 @@ const About = props => {
     )
 }
 
-export default About;  
+export default Services;  

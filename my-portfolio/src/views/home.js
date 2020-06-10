@@ -28,6 +28,7 @@ const Home = props => {
                     <h1 >Contact</h1>
                     <hr />
                     <address>
+                        <p className="ml-3" id="p-Home"><strong>Javiera Izquierdo Martino</strong></p>
                         <p className="ml-3" title="Phone" id="p-Home">Phone: (+56) 99 345 8208</p> 
                         <p className="ml-3" title="Email" id="p-Home">Email:<a href="mailto:javieraizquierdo7@gmail.com">  javieraizquierdo7@gmail.com</a></p> 
                         <br/>

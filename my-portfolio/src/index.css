@@ -67,7 +67,7 @@ background: rgb(47, 141, 24);
 /* Footer */
 
 footer{
-  background: black;
+  background: rgb(52, 53, 52);
   padding: 8px;
   color: #eee;
   display: flex;
@@ -127,3 +127,7 @@ color: rgb(40, 105, 226);
 footer #social-media-footer ul li:hover a .fa-github{
 color: #bbb;
 }
+
+
+
+

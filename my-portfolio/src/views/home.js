@@ -44,158 +44,141 @@ const Home = props => {
                     <h1>Projects</h1>
                     <hr />
                     <div className="card-group">
-                    <div class="col-md-4 mb-5">
-                        <div class="card h-100">
-                            <img class="card-img-top" src="http://placehold.it/300x200" alt="" />
-                            <div class="card-body">
-                                <h4 class="card-title">Project 1</h4>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus.</p>
-                            </div>
-                            <div class="card-footer">
-                                <a href="#" class="btn btn-primary">Find Out More!</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-5">
-                        <div class="card h-100">
-                            <img class="card-img-top" src="http://placehold.it/300x200" alt="" />
-                            <div class="card-body">
-                                <h4 class="card-title">Project 2</h4>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus.</p>
-                            </div>
-                            <div class="card-footer">
-                                <a href="#" class="btn btn-primary">Find Out More!</a>
+                        <div class="col-md-4 mb-5">
+                            <div class="card h-100">
+                                <img class="card-img-top" src="http://placehold.it/300x200" alt="" />
+                                <div class="card-body">
+                                    <h4 class="card-title">Project 1</h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#" class="btn btn-primary">Find Out More!</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-4 mb-5">
-                        <div class="card h-100">
-                            <img class="card-img-top" src="http://placehold.it/300x200" alt="" />
-                            <div class="card-body">
-                                <h4 class="card-title">Project 3</h4>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus.</p>
-                            </div>
-                            <div class="card-footer">
-                                <a href="#" class="btn btn-primary">Find Out More!</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-5">
-                        <div class="card h-100">
-                            <img class="card-img-top" src="http://placehold.it/300x200" alt="" />
-                            <div class="card-body">
-                                <h4 class="card-title">Project 4</h4>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus.</p>
-                            </div>
-                            <div class="card-footer">
-                                <a href="#" class="btn btn-primary">Find Out More!</a>
+                        <div class="col-md-4 mb-5">
+                            <div class="card h-100">
+                                <img class="card-img-top" src="http://placehold.it/300x200" alt="" />
+                                <div class="card-body">
+                                    <h4 class="card-title">Project 2</h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#" class="btn btn-primary">Find Out More!</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-4 mb-5">
-                        <div class="card h-100">
-                            <img class="card-img-top" src="http://placehold.it/300x200" alt="" />
-                            <div class="card-body">
-                                <h4 class="card-title">Project 5</h4>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus.</p>
-                            </div>
-                            <div class="card-footer">
-                                <a href="#" class="btn btn-primary">Find Out More!</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-5">
-                        <div class="card h-100">
-                            <img class="card-img-top" src="http://placehold.it/300x200" alt="" />
-                            <div class="card-body">
-                                <h4 class="card-title">Project 6</h4>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus.</p>
-                            </div>
-                            <div class="card-footer">
-                                <a href="#" class="btn btn-primary">Find Out More!</a>
+                        <div class="col-md-4 mb-5">
+                            <div class="card h-100">
+                                <img class="card-img-top" src="http://placehold.it/300x200" alt="" />
+                                <div class="card-body">
+                                    <h4 class="card-title">Project 3</h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#" class="btn btn-primary">Find Out More!</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                        <div class="col-md-4 mb-5">
+                            <div class="card h-100">
+                                <img class="card-img-top" src="http://placehold.it/300x200" alt="" />
+                                <div class="card-body">
+                                    <h4 class="card-title">Project 4</h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#" class="btn btn-primary">Find Out More!</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-5">
+                            <div class="card h-100">
+                                <img class="card-img-top" src="http://placehold.it/300x200" alt="" />
+                                <div class="card-body">
+                                    <h4 class="card-title">Project 5</h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#" class="btn btn-primary">Find Out More!</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-5">
+                            <div class="card h-100">
+                                <img class="card-img-top" src="http://placehold.it/300x200" alt="" />
+                                <div class="card-body">
+                                    <h4 class="card-title">Project 6</h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#" class="btn btn-primary">Find Out More!</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
             </div>
-
-
-
             <main>
 
-
-
-
-
-
+{/* footer */}
                 <footer>
                     <div className="row">
-                    <div className="col-md-6 col-xs-6" id="left-footer">
-                        <h3>Quick Links</h3>
-                        <p>
-                            <ul>
-                                <li>
-                                    <a className="active" to="#">Home</a>
-                                </li>
-                                <li>
-                                    <a to="#">About</a>
-                                </li>
-                                <li>
-                                    <a href="#">Privacy Policy</a>
-                                </li>
-                                <li>
-                                    <a to="#">Blogs</a>
-                                </li>
-                                <li>
-                                    <a to="#">Projects</a>
-                                </li>
-                                <li>
-                                    <a href="#">Contact</a>
-                                </li>
-                            </ul>
-                        </p>
-                    </div>
-
-                    <div className="col-md-6 col-xs-6" id="right-footer">
-                        <h3>Follow me on</h3>
-                        <div id="social-media-footer">
-                            <ul>
-                                <li>
-                                    <a href="#">
-                                        <i className="fab fa-facebook"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i className="fab fa-linkedin"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i className="fab fa-github"></i>
-                                    </a>
-                                </li>
-                            </ul>
+                        <div className="col-md-6 col-xs-6" id="left-footer">
+                            <h3>Quick Links</h3>
+                            <p>
+                                <ul>
+                                    <li>
+                                        <a className="active" to="#">Home</a>
+                                    </li>
+                                    <li>
+                                        <a to="#">About</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Privacy Policy</a>
+                                    </li>
+                                    <li>
+                                        <a to="#">Blogs</a>
+                                    </li>
+                                    <li>
+                                        <a to="#">Projects</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Contact</a>
+                                    </li>
+                                </ul>
+                            </p>
                         </div>
-                        <p>This website is developed by JIM</p>
-                    </div>
+
+                        <div className="col-md-6 col-xs-6" id="right-footer">
+                            <h3>Follow me on</h3>
+                            <div id="social-media-footer">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i className="fab fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i className="fab fa-linkedin"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i className="fab fa-github"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <p>This website is developed by JIM</p>
+                        </div>
                     </div>
                 </footer>
 
             </main>
 
-
-            {/* 
-
-
-            <div id="searchbox">
-                <input type="text" placeholder="Search here" />
-            </div>
-
-
-*/}
 
         </>
     )

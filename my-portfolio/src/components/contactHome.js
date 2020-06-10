@@ -42,8 +42,7 @@ const Contact = props => {
 <br/>
 <br/>
 
-<h1>Contact</h1>
-
+<h1 className="">Contact</h1>
 
 
         </>

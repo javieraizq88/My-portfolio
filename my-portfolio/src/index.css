@@ -17,19 +17,24 @@ code {
     monospace;
 }
 
-
 /* Navbar */
 
-#navbarResponsive{
+
+nav a{
+  padding: 0 32px;
+  transition: 0.4s;
   font-size: 20px;
 }
 
+nav a:hover{
+background: rgb(47, 141, 24);
 
+}
 
 /* Banner */
 
 #banner{
-  height: 100vh;
+  height: 70vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -43,7 +48,8 @@ code {
 }
 
 #banner h3{
-  background: rgba(153, 211, 158, 0.8);
+  background:  rgb(47, 141, 24);
+  color: white;
   border-radius: 8px;
   padding: 10px;
   font-size: 24px;

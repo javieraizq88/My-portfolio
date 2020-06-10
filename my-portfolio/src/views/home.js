@@ -8,55 +8,43 @@ const Home = props => {
 
             {/* Navbar */}
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <div class="container">
-    <img src={logo} id="logo" alt="JIM Logo" />
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="container">
+                    <img src={logo} id="logo" alt="JIM Logo" />
 
-      {/* <a class="navbar-brand" href="#">JIM</a>
+                    {/* <a class="navbar-brand" href="#">JIM</a>*/}
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-      </button> */}
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" id="navbarResponsive" href="#">Home
+      </button> 
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home
               <span class="sr-only">(current)</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
 
-{/* banner */}
-  <div id="banner">
+            {/* banner */}
+            <div id="banner">
                 <h1>&lt; JIM &gt;</h1>
                 <h3>Full Stack Development</h3>
             </div>
-
-
-
-
-
-            {/* 
-
-
-            <div id="searchbox">
-                <input type="text" placeholder="Search here" />
-            </div>
-
 
 
             <main>
@@ -207,7 +195,19 @@ const Home = props => {
                     </div>
                 </footer>
 
-            </main> */}
+            </main>
+
+
+            {/* 
+
+
+            <div id="searchbox">
+                <input type="text" placeholder="Search here" />
+            </div>
+
+
+*/}
+
         </>
     )
 }

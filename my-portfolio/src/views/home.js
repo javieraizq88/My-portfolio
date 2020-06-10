@@ -16,14 +16,14 @@ const Home = props => {
 
 
             {/* Page Content */}
-            <div class="row">
+            <div className="row">
                 <div className="col-md-1"></div>
-                <div class="col-md-6 col-xs-6 mr-2 mt-5 mb-5">
+                <div className="col-md-6 col-xs-6 mr-2 mt-5 mb-5">
                     <h1>What We Do</h1>
                     <hr />
                     <p className=" text-justify" id="p-Home">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deserunt neque tempore recusandae animi soluta quasi? Asperiores rem dolore eaque vel, porro, soluta unde debitis aliquam laboriosam. Repellat explicabo, maiores!</p>
                     <p className=" text-justify" id="p-Home">>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis optio neque consectetur consequatur magni in nisi, natus beatae quidem quam odit commodi ducimus totam eum, alias, adipisci nesciunt voluptate. Voluptatum.</p>
-                    <a class="btn btn-primary btn-lg" href="#">Call to Action &raquo;</a>
+                    <a className="btn btn-primary btn-lg" href="#">Call to Action &raquo;</a>
                 </div>
                 <div className="col-md-4 col-xs-4 ml-5 mt-5 mb-5">
                     <h1 >Contact</h1>
@@ -36,9 +36,90 @@ const Home = props => {
                     </address>
                 </div>
             </div>
-                {/* /.row */}
+            {/* /.row */}
 
+            <div className="row">
+                <div className="col-md-1"></div>
+                <div className="col-md-10 col-xs-10 mr-2 mt-5 mb-5">
+                    <h1>Projects</h1>
+                    <hr />
+                    <div className="card-group">
+                    <div class="col-md-4 mb-5">
+                        <div class="card h-100">
+                            <img class="card-img-top" src="http://placehold.it/300x200" alt="" />
+                            <div class="card-body">
+                                <h4 class="card-title">Project 1</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus.</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#" class="btn btn-primary">Find Out More!</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-5">
+                        <div class="card h-100">
+                            <img class="card-img-top" src="http://placehold.it/300x200" alt="" />
+                            <div class="card-body">
+                                <h4 class="card-title">Project 2</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus.</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#" class="btn btn-primary">Find Out More!</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-5">
+                        <div class="card h-100">
+                            <img class="card-img-top" src="http://placehold.it/300x200" alt="" />
+                            <div class="card-body">
+                                <h4 class="card-title">Project 3</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus.</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#" class="btn btn-primary">Find Out More!</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-5">
+                        <div class="card h-100">
+                            <img class="card-img-top" src="http://placehold.it/300x200" alt="" />
+                            <div class="card-body">
+                                <h4 class="card-title">Project 4</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus.</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#" class="btn btn-primary">Find Out More!</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-5">
+                        <div class="card h-100">
+                            <img class="card-img-top" src="http://placehold.it/300x200" alt="" />
+                            <div class="card-body">
+                                <h4 class="card-title">Project 5</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus.</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#" class="btn btn-primary">Find Out More!</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-5">
+                        <div class="card h-100">
+                            <img class="card-img-top" src="http://placehold.it/300x200" alt="" />
+                            <div class="card-body">
+                                <h4 class="card-title">Project 6</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus.</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#" class="btn btn-primary">Find Out More!</a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
 
+            </div>
 
 
 

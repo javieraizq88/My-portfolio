@@ -1,44 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from "../img/logo.jpg";
+import Navbar from '../components/navbarHome';
 
 const Home = props => {
     return (
         <>
-
-            {/* Navbar */}
-
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-                <div class="container">
-                    <img src={logo} id="logo" alt="JIM Logo" />
-
-                    {/* <a class="navbar-brand" href="#">JIM</a>*/}
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button> 
-                    <div class="collapse navbar-collapse" id="navbarResponsive">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">Home
-              <span class="sr-only">(current)</span>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Services</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Projects</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+            <Navbar />
 
             {/* banner */}
             <div id="banner">
@@ -47,10 +15,28 @@ const Home = props => {
             </div>
 
 
+            {/* Page Content */}
+            <div class="row">
+                <div class="col-md-7 col-xs-7 mr-4 ml-5 mt-5 mb-5">
+                    <h1>What We Do</h1>
+                    <hr />
+                    <p className=" text-justify" id="p-Home">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deserunt neque tempore recusandae animi soluta quasi? Asperiores rem dolore eaque vel, porro, soluta unde debitis aliquam laboriosam. Repellat explicabo, maiores!</p>
+                    <p className=" text-justify" id="p-Home">>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis optio neque consectetur consequatur magni in nisi, natus beatae quidem quam odit commodi ducimus totam eum, alias, adipisci nesciunt voluptate. Voluptatum.</p>
+                    <a class="btn btn-primary btn-lg" href="#">Call to Action &raquo;</a>
+                </div>
+                <div className="col-md-4 col-xs-4 mt-5 mb-5">
+                    <h1 >Contact</h1>
+                    <hr />
+                    <address>
+                        <p className="ml-3" title="Phone" id="p-Home">Phone: (+56) 99 345 8208</p> 
+                        <p className="ml-3" title="Email" id="p-Home">Email:<a href="mailto:javieraizquierdo7@gmail.com">  javieraizquierdo7@gmail.com</a></p> 
+                        <br/>
+                    </address>
+                    </div>
+                </div>
+            {/* <!-- /.row --> */}
+
             <main>
-                <a to="#">
-                    <h2 className="section-heading">All blogs</h2>
-                </a>
 
                 <section>
 

@@ -8,26 +8,23 @@ const NavbarStarWars = props => {
             <Link className="navbar-brand" to="/projects/starwars">Star Wars</Link>
                 <div className="collapse navbar-collapse " id="navbarNav">
                     <ul className="navbar-nav mr-auto border-right" id="navbar-item">
-                        {/* <li className="nav-item" >
-                            <Link className="nav-link border-left " to="/">Home<span class="sr-only">(current)</span></Link>
-                        </li> */}
                         <li className="nav-item">
-                            <Link className="nav-link border-left" to="/people">People</Link>
+                            <Link className="nav-link border-left" to="/projects/starwars/people">People</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link border-left" to="/films">Films</Link>
+                            <Link className="nav-link border-left" to="/projects/starwars/films">Films</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link border-left" to="/starships">Starships</Link>
+                            <Link className="nav-link border-left" to="/projects/starwars/starships">Starships</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link border-left" to="/vehicles">Vehicles</Link>
+                            <Link className="nav-link border-left" to="/projects/starwars/vehicles">Vehicles</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link border-left" to="/species">Species</Link>
+                            <Link className="nav-link border-left" to="/projects/starwars/species">Species</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link border-left" to="/planets">Planets</Link>
+                            <Link className="nav-link border-left" to="/projects/starwars/planets">Planets</Link>
                         </li>
                     </ul>
                 </div>

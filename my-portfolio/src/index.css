@@ -29,7 +29,6 @@ nav a{
 
 nav a:hover{
 background: rgb(47, 141, 24);
-
 }
 
 /* Banner */
@@ -158,6 +157,10 @@ color: #bbb;
 
 #navbar-starwars{
 margin-top: 158px; 
+}
+#navbar-starwars a:hover{
+  background-color: rgb(85, 87, 100);
+  color: white;
 }
 
 #container-home-starwars{

@@ -40,7 +40,74 @@ const PeopleStarWars = props => {
                 </div>
             </nav>
 
+                <div className="row" >
+                    <div className="row" id="contenido-general">
+                        {
+                            !!store.people &&
+                                store.people.results.length > 0 ?
+                                store.people.results.map((character, i) => {
+                                    const img = character.name.split(" ").join("-").toLowerCase() + ".jpg";
+                                    return (
+                                        <div className="card col-md-3 col-xs-3 ml-5 mt-3 p-1 bg-dark" key={i} id="card-general">
+                                            <div className="" id="card-general">
+                                                <img src={"/img/people/" + img} className="card-img-top" alt="..." />
+                                                <div className="card-body">
+                                                    <h5 className="card-title">{character.name}</h5>
+                                                    <p><Link to={"/people/" + character.name} className=" btn btn-danger">More...</Link></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    )
+                                })
+                                : (
+                                    <div className="col-md-12 col-xs-12 text-center">
+                                        <div className="spinner-grow" role="status">
+                                            <span className="sr-only">Loading...</span>
+                                        </div>
+                                    </div>
+                                )
+                        }
+                    </div>
+            </div>
 
+
+{/* botones */}
+
+            <div className="row">
+                <div className="col-md-12 col-xs-12 d-flex justify-content-between">
+                    {
+                        !!store.people &&
+                            store.people.previous !== null ?
+                            (
+                                <button className="btn btn-primary btn-md" 
+                                    onClick={() => actions.getPeople(store.people.previous)}>
+                                    Previous
+                                </button>
+                            ) : (
+                                <button className="btn btn-primary btn-md disabled"
+                                    onClick={() => actions.getPeople(store.people.previous)}>
+                                    Previous
+                                </button>
+                            )
+                    }
+                    {
+                        !!store.people &&
+                            store.people.next !== null ?
+                            (
+                                <button className="btn btn-primary btn-md"
+                                    onClick={() => actions.getPeople(store.people.next)}>
+                                    Next
+                                </button>
+                            ) : (
+                                <button className="btn btn-primary btn-md disabled"
+                                    onClick={() => actions.getPeople(store.people.next)}>
+                                    Next
+                                </button>
+                            )
+                    }
+
+                </div>
+            </div>
 
 
 

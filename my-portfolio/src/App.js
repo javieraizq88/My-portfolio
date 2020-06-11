@@ -7,6 +7,7 @@ import Services from "./components/servicesHome";
 import Projects from "./components/projectsHome";
 import Contact from "./components/contactHome";
 import HomeStarWars from "./components/starwars/homeStarWars";
+import PeopleStarWars from "./components/starwars/peopleStarWars";
 
 const App = props => {
     return (
@@ -18,6 +19,7 @@ const App = props => {
                 <Route exact path="/projects" component={Projects} />
                 <Route exact path="/contact" component={Contact} />
                 <Route exact path="/projects/starwars" component={HomeStarWars} />
+                <Route exact path="/projects/starwars/people" component={PeopleStarWars} />
 
             </Switch>
         </BrowserRouter>

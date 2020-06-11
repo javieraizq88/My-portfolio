@@ -147,7 +147,7 @@ color: #bbb;
 }
 
 
-/* Star Wars */
+/* STAR WARS */
 
 .titulo-starwars{
   background-color: black;
@@ -155,13 +155,18 @@ color: #bbb;
   text-align: center;
 }
 
+/* navbar SW */
+
 #navbar-starwars{
 margin-top: 158px; 
 }
+
 #navbar-starwars a:hover{
   background-color: rgb(85, 87, 100);
   color: white;
 }
+
+/* home SW */
 
 #container-home-starwars{
   background: url(https://www.pixel4k.com/wp-content/uploads/2018/09/stars-galaxy-milky-way-starry-sky-night-sky-4k_1536016962.jpg) no-repeat center fixed !important;
@@ -172,7 +177,6 @@ margin-top: 158px;
 }
 
 #imagen-home-starwars{
-  width: 450px;
-  height: 300px;
-  margin: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }

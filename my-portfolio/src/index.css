@@ -129,5 +129,15 @@ color: #bbb;
 }
 
 
+/* Projects */
 
+#project{
+  background: rgb(241, 231, 231);
+}
+
+#titulo-card-project{
+  text-align: center;
+  margin-top: 30px;
+  font-size: 1.5;
+}
 

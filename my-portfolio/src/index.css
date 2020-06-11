@@ -135,9 +135,41 @@ color: #bbb;
   background: rgb(241, 231, 231);
 }
 
+#card-starwars{
+  background: rgb(26, 25, 25);
+  color: white;
+}
+
 #titulo-card-project{
   text-align: center;
-  margin-top: 30px;
+  color: white;
+  margin-top: 22px;
   font-size: 1.5;
 }
 
+
+/* Star Wars */
+
+.titulo-starwars{
+  background-color: black;
+  color: white; 
+  text-align: center;
+}
+
+#navbar-starwars{
+margin-top: 158px; 
+}
+
+#container-home-starwars{
+  background: url(https://www.pixel4k.com/wp-content/uploads/2018/09/stars-galaxy-milky-way-starry-sky-night-sky-4k_1536016962.jpg) no-repeat center fixed !important;
+  min-height:100%;
+  background-size: cover;
+  background-color: black !important;
+  margin-top: 222px;
+}
+
+#imagen-home-starwars{
+  width: 450px;
+  height: 300px;
+  margin: 20px;
+}

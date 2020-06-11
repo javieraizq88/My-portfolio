@@ -6,6 +6,7 @@ import About from "./components/aboutHome";
 import Services from "./components/servicesHome";
 import Projects from "./components/projectsHome";
 import Contact from "./components/contactHome";
+import HomeStarWars from "./components/starwars/homeStarWars";
 
 const App = props => {
     return (
@@ -16,6 +17,7 @@ const App = props => {
                 <Route exact path="/services" component={Services} />
                 <Route exact path="/projects" component={Projects} />
                 <Route exact path="/contact" component={Contact} />
+                <Route exact path="/projects/starwars" component={HomeStarWars} />
 
             </Switch>
         </BrowserRouter>

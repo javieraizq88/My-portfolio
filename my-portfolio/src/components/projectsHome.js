@@ -49,8 +49,8 @@ const Projects = props => {
                     <hr />
                     <div className="card-group">
                         <div className="col-md-4 mb-5">
-                            <div className="card h-100">
-                                <h3 className="card-title " id="titulo-card-project">Starwars</h3>
+                            <div className="card h-100" id="card-starwars">
+                                <h3 className="card-header " id="titulo-card-project">Starwars</h3>
                                 <div className="card-body">
                                     <img className="card-img-top" src="http://placehold.it/300x200" alt="" />
                                     <br />
@@ -66,13 +66,11 @@ const Projects = props => {
                                             API  -
                                             J Query
                                         </lo>
-
                                     </ul>
-
                                     <p className="card-text">(Use Fire Fox to open this projects please)</p>
                                 </div>
                                 <div className="card-footer">
-                                    <a href="#" className="btn btn-primary">Find Out More!</a>
+                                    <Link to="/projects/starwars" className="btn btn-primary">Find Out More!</Link>
                                 </div>
                             </div>
                         </div>

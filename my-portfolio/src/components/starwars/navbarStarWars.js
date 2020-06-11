@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 const NavbarStarWars = props => {
     return (
         <>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light " id="navbar">
-            <a class="navbar-brand" href="/">Star Wars</a>
+            <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top " id="navbar-starwars">
+            <Link className="navbar-brand" to="/projects/starwars">Star Wars</Link>
                 <div className="collapse navbar-collapse " id="navbarNav">
                     <ul className="navbar-nav mr-auto border-right" id="navbar-item">
                         {/* <li className="nav-item" >

@@ -41,8 +41,9 @@ const PlanetsStarWars = props => {
             </nav>
 
 
+<br/>
 
-
+<h1>Planets</h1>
 
             </div>
         </>

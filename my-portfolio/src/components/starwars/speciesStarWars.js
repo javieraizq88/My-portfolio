@@ -41,6 +41,9 @@ const SpeciesStarWars = props => {
             </nav>
 
 
+<br/>
+
+<h1>Species</h1>
 
             </div>
         </>

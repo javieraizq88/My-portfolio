@@ -72,7 +72,6 @@ const PeopleStarWars = props => {
 
 
 {/* botones */}
-
             <div className="row">
                 <div className="col-md-12 col-xs-12 d-flex justify-content-between">
                     {

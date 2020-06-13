@@ -7,7 +7,6 @@ const StarshipsStarWars = props => {
     const { store, actions } = useContext(Context);
     const { people } = store;
 
-    console.log(people)
     return (
         <>
         <div id="container-home-starwars">

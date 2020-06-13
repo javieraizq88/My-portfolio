@@ -17,6 +17,7 @@ import CharacterStarWars from "./components/starwars/peopleCharacterStarWars";
 import PlanetStarWars from "./components/starwars/planetsPlanetStarWars";
 import StarshipStarWars from "./components/starwars/starshipsStarsipStarWars";
 import SpecieStarWars from "./components/starwars/speciesSpeciesStarWars";
+import VehicleStarWars from "./components/starwars/vehiclesVehicleStarWars";
 
 const App = props => {
     return (
@@ -38,7 +39,7 @@ const App = props => {
                 <Route exact path="/projects/starwars/planets/planet" component={PlanetStarWars} />
                 <Route exact path="/projects/starwars/starships/starship" component={StarshipStarWars} />
                 <Route exact path="/projects/starwars/species/specie" component={SpecieStarWars} />
-                <Route exact path="/projects/starwars/vehicles/vehicle" component={} />
+                <Route exact path="/projects/starwars/vehicles/vehicle" component={VehicleStarWars} />
 
             </Switch>
         </BrowserRouter>

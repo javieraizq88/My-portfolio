@@ -9,6 +9,9 @@ import Contact from "./components/contactHome";
 import HomeStarWars from "./components/starwars/homeStarWars";
 import PeopleStarWars from "./components/starwars/peopleStarWars";
 import FilmsStarWars from "./components/starwars/filmsStarWars";
+import PlanetsStarWars from "./components/starwars/planetsStarWars";
+import StarshipsStarWars from "./components/starwars/starshipsStarWars";
+import VehiclesStarWars from "./components/starwars/vehiclesStarWars";
 
 const App = props => {
     return (
@@ -22,8 +25,9 @@ const App = props => {
                 <Route exact path="/projects/starwars" component={HomeStarWars} />
                 <Route exact path="/projects/starwars/people" component={PeopleStarWars} />
                 <Route exact path="/projects/starwars/films" component={FilmsStarWars} />
-                <Route exact path="/projects/starwars/people" component={PeopleStarWars} />
-                <Route exact path="/projects/starwars/people" component={PeopleStarWars} />
+                <Route exact path="/projects/starwars/planets" component={PlanetsStarWars} />
+                <Route exact path="/projects/starwars/starships" component={StarshipsStarWars} />
+                <Route exact path="/projects/starwars/vehicles" component={VehiclesStarWars} />
 
             </Switch>
         </BrowserRouter>

@@ -3,7 +3,7 @@ import { Context } from "../../store/appContext";
 import Titulo from "./tituloStarWars";
 import { Link } from "react-router-dom";
 
-const PeopleStarWars = props => {
+const SpeciesStarWars = props => {
     const { store, actions } = useContext(Context);
     const { people } = store;
 
@@ -42,11 +42,9 @@ const PeopleStarWars = props => {
 
 
 
-
-
             </div>
         </>
     )
 }
 
-export default PeopleStarWars;
+export default SpeciesStarWars;

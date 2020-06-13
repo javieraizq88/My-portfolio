@@ -24,13 +24,13 @@ const PeopleStarWars = props => {
                         <li className="nav-item ">
                             <Link className="nav-link border-left" to="/projects/starwars/films">Films</Link>
                         </li>
-                        <li className="nav-item active">
+                        <li className="nav-item ">
                             <Link className="nav-link border-left" to="/projects/starwars/starships">Starships</Link>
                         </li>
                         <li className="nav-item ">
                             <Link className="nav-link border-left" to="/projects/starwars/vehicles">Vehicles</Link>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item active">
                             <Link className="nav-link border-left" to="/projects/starwars/species">Species</Link>
                         </li>
                         <li className="nav-item">

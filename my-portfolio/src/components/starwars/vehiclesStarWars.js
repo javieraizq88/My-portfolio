@@ -3,11 +3,10 @@ import { Context } from "../../store/appContext";
 import Titulo from "./tituloStarWars";
 import { Link } from "react-router-dom";
 
-const PeopleStarWars = props => {
+const VehiclesStarWars = props => {
     const { store, actions } = useContext(Context);
     const { people } = store;
 
-    console.log(people)
     return (
         <>
         <div id="container-home-starwars">
@@ -49,4 +48,4 @@ const PeopleStarWars = props => {
     )
 }
 
-export default PeopleStarWars;
+export default VehiclesStarWars;

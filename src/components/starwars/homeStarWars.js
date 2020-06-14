@@ -37,6 +37,7 @@ const HomeStarWars = props => {
                             <Link className="nav-link border-left" to="/projects/starwars/planets">Planets</Link>
                         </li>
                     </ul>
+                        <button type="button" className="btn btn-success" id="back-to-jim">Back to JIM</button>
                 </div>
             </nav>
 

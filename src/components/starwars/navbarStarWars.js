@@ -27,6 +27,7 @@ const NavbarStarWars = props => {
                             <Link className="nav-link border-left" to="/projects/starwars/planets">Planets</Link>
                         </li>
                     </ul>
+                    
                 </div>
             </nav>
         </>

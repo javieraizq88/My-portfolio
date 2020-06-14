@@ -40,9 +40,12 @@ const SpeciesStarWars = props => {
             </nav>
 
 
+<h1 className="bg-white">Species</h1>
+<br/>
+<br/>
+<br/>
 <br/>
 
-<h1>Species</h1>
 
             </div>
         </>

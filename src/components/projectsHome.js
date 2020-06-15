@@ -78,11 +78,11 @@ const Projects = props => {
                             <div className="card h-100">
                                 <img className="card-img-top" src="http://placehold.it/300x200" alt="" />
                                 <div className="card-body">
-                                    <h4 className="card-title">Project 2</h4>
+                                    <h4 className="card-title">Tic-tac-toe</h4>
                                     <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus.</p>
                                 </div>
                                 <div className="card-footer">
-                                    <a href="#" className="btn btn-primary">Find Out More!</a>
+                                <Link to="/projects/tic-tac-toe" className="btn btn-primary">Find Out More!</Link>
                                 </div>
                             </div>
                         </div>

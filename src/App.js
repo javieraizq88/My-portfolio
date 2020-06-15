@@ -18,6 +18,7 @@ import PlanetStarWars from "./components/starwars/planetsPlanetStarWars";
 import StarshipStarWars from "./components/starwars/starshipsStarsipStarWars";
 import SpecieStarWars from "./components/starwars/speciesSpeciesStarWars";
 import VehicleStarWars from "./components/starwars/vehiclesVehicleStarWars";
+import TicTac from "./components/tic-tac-toe/Tic-tac-toe";
 
 const App = props => {
     return (
@@ -29,6 +30,7 @@ const App = props => {
                 <Route exact path="/projects" component={Projects} />
                 <Route exact path="/contact" component={Contact} />
                 <Route exact path="/projects/starwars" component={HomeStarWars} />
+                <Route exact path="/projects/tic-tac-toe" component={TicTac} />
                 <Route exact path="/projects/starwars/people" component={PeopleStarWars} />
                 <Route exact path="/projects/starwars/films" component={FilmsStarWars} />
                 <Route exact path="/projects/starwars/planets" component={PlanetsStarWars} />

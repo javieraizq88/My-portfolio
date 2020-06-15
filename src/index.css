@@ -132,6 +132,12 @@ color: #bbb;
 
 #project{
   background: rgb(241, 231, 231);
+
+}
+#titulo-card{
+  text-align: center;
+  margin-top: 22px;
+  font-size: 1.5;
 }
 
 #card-starwars{
@@ -139,18 +145,36 @@ color: #bbb;
   color: white;
 }
 
-#titulo-card-project{
-  text-align: center;
-  color: white;
-  margin-top: 22px;
-  font-size: 1.5;
+#card-TrafficLight{
+  background-color: rgba(179, 179, 179, 0.733);
 }
+
+#card-Tic-tac-toe{
+  background-color: rgb(128, 209, 233);
+}
+
+.SW{
+  color: white;
+}
+
+
+#card-img-TL{
+  margin-top: 60px;
+  width: 380px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
 
 #back-to-jim{
   padding: 12px;
   font-size: 18px;
   background-color: rgb(47, 141, 24);
 }
+
+
 
 
 /* STAR WARS */

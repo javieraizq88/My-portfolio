@@ -59,7 +59,7 @@ class TrafiicLight extends React.Component {
 
     render() {
         return (
-            <div className="">
+            <div id="TL-bg">
 
             <h1 id="titulo-semaforo">Traffic Light <Link type="button" className="btn btn-success" to="/projects" id="back-to-jim-TL">Back to JIM</Link></h1>
                    

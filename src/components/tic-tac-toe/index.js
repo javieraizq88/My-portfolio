@@ -12,9 +12,6 @@ import * as serviceWorker from './serviceWorker';
 import TicTac from './Tic-tac-toe';
 
 
-
-
-
 ReactDOM.render(<TicTac />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change

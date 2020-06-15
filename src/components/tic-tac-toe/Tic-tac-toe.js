@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import Board from './components/board';
 import Winner from './components/Winner';
 import Form from './components/Form';

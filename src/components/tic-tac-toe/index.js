@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import TicTac from './App';
 import * as serviceWorker from './serviceWorker';
  // Add css files
  import 'bootstrap/dist/css/bootstrap.min.css';

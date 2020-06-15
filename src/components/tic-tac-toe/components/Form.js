@@ -4,7 +4,7 @@ function Form(props) {
 
   return (
     <>
-      <p>It is {props.player} turn</p>
+      <h2 id="turn-gato">It is {props.player} turn</h2>
       <div className="grid-container">
         <div className="grid-item div1" id="div1" onClick={(e) => props.desiccion(e)}></div>
         <div className="grid-item div2" id="div2" onClick={(e) => props.desiccion(e)}></div>

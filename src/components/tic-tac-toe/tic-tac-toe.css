@@ -1,13 +1,62 @@
-body {
+#gato {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
       'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
       sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: white;
+    background-color: rgb(231, 242, 250);
+    height: 762px;
+  }
+  #parte-arriba{
+    padding-left: 100px;
+    padding-top: 20px;
+    font-size: 52px;
+}
+
+#turn-gato{
+  font-size: 25px;
+  margin-bottom: 24px;
+}
+
+  #styleTop {
+    background-color: #4fb2ec;
+    width: 50%;
+    height: 32rem;
+    margin: 5% auto;
+  }
+
+  #styleChoosePlayer {
+    background-color: #4A453F;
+    width: 70%;
+    height: 14rem;
+    margin: 12% auto;
+    padding: 1rem;
   }
   
+  #styleButtonX{
+    background-color: #3E3732;
+    border: none;
+    color: yellow;
+    margin-top: 10px;
+    width: 30%;
+    margin-right: 35px;
+  }
+
+  #styleButtonO {
+    background-color: #3E3732;
+    border: none;
+    color: blue;
+    margin-top: 10px;
+    width: 30%;
+    margin-left: 35px;
+  }
+
+  #styleInsideButton{
+    font-size: 40px;
+  }
+
+
   code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
       monospace;
@@ -23,7 +72,7 @@ body {
     padding: 10px;
   }
   .grid-item {
-    background-color: #adddaf;
+    background-color: #ffffff;
     padding: 25px;
     height: 120px;
     font-size: 40px;
@@ -31,12 +80,11 @@ body {
   }
   
   .div1{
-    border-right: 1px solid #696662;
-    border-bottom: 1px solid #696662
+    border-bottom: 1px solid #696662;
   }
   .div2{
     border-left: 1px solid #696662;
-    border-bottom: 1px solid #696662
+    border-bottom: 1px solid #696662;
   }
   .div3{
     border-left: 1px solid #696662;

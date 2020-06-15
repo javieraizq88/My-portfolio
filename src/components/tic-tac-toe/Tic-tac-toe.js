@@ -2,13 +2,7 @@ import React from 'react';
 import Board from './components/board';
 import Winner from './components/Winner';
 import Form from './components/Form';
-
-const styleTop = {
-  backgroundColor: '#000057',
-  width: "50%",
-  height: "32rem",
-  margin: "5% auto",
-}
+import './tic-tac-toe.css';
 
 class TicTac extends React.Component {
   constructor(props) {
@@ -127,11 +121,13 @@ class TicTac extends React.Component {
 
   render() {
     return (
-      <div className="container text-center p-2" style={styleTop}>
-        <h1 className="mt-2 mb-0" style={{ color: 'white' }}>Tic Tac Toe</h1>
+        <div id="gato">
+<h1 id="parte-arriba"> Tic Tac Toe</h1>
+      <div className="container text-center p-5"  id="styleTop">
         <div className={this.state.visual === 1 ? this.state.visible : this.state.invisible}><Board select={this.goForm} handleInput={this.handleInput} /></div>
         <div className={this.state.visual === 2 ? this.state.visible : this.state.invisible}><Form player={this.state.symbol} symbol={this.state.symbol} desiccion={this.desiccion} /></div>
         <div className={this.state.visual === 3 ? this.state.visible : this.state.invisible}><Winner playero={this.state.winner} /></div>
+      </div>
       </div>
     )
   }

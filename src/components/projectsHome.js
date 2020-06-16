@@ -59,7 +59,7 @@ const Projects = props => {
                                     <h5 className="card-text-projects">Tecnology and Lenguages</h5>
                                     <ul>
                                         <lo>
-                                            HTML 5 - CSS 3 - Bootstrap - React.Js -JavaScript
+                                            HTML 5 - CSS 3 - Bootstrap - React.Js -JavaScript - Responsive
                                         </lo>
                                     </ul>
                                     <p className="card-text">(Use Fire Fox to open this projects please)</p>
@@ -135,16 +135,33 @@ const Projects = props => {
                                     <h5> Github Project</h5>
                                     <p id="link-github">https://github.com/javieraizq88/InstagramPost</p>
                                 </div>
-
                                 <div className="card-footer">
                                     <Link to="/projects/instagram-post" id="boton-ver-proyecto" className="btn btn-primary">Find Out More!</Link>
                                 </div>
                             </div>
                         </div>
 
-
-
-
+                        {/* Digital Postcard */}
+                        <div className="col-md-4 mb-4">
+                            <div className="card h-100" id="card-InstagramPost">
+                                <h3 className="card-header" name="IP" id="titulo-card">Digital Postcard</h3>
+                                <img className="card-img-top" id="card-img-TL" src="/img/digital-postcard/DP.jpg" alt="" />
+                                <div className="card-body">
+                                    <h5 className="card-text-projects">Tecnology and Lenguages</h5>
+                                    <ul>
+                                        <lo>
+                                            HTML 5 - CSS 3
+                                        </lo>
+                                    </ul>
+                                    <br />
+                                    <h5> Github Project</h5>
+                                    <p id="link-github">https://github.com/javieraizq88/digital-postcard</p>
+                                </div>
+                                <div className="card-footer">
+                                    <Link to="/projects/digital-postcard" id="boton-ver-proyecto" className="btn btn-primary">Find Out More!</Link>
+                                </div>
+                            </div>
+                        </div>
 
                     </div>
                 </div>

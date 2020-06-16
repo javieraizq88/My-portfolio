@@ -1,0 +1,54 @@
+#instagram-post {
+    background-color: rgb(124, 124, 119);
+    height: 720px;
+    color: rgb(124, 124, 119);
+}
+
+.caja {
+    width: 400px;
+    background-color: white;
+    margin: 20px auto;
+}
+.caja .caja-header{
+    width: 100%;
+    margin: 0px auto;
+    padding-top: 5px;
+}
+.caja .caja-header .caja-header-left{
+    width: 75%;
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+.caja .caja-header .caja-header-right i:nth-child(1){
+    margin: 2px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.caja .caja-body img {
+    width: 380px;
+    height: 300px;
+    object-fit: cover;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.caja .caja-icons,
+.caja-text {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.caja .caja-icons i:nth-child(4){
+    margin: 2px;
+    float: right;
+}
+
+.caja-text{
+    text-align: justify;
+    padding-bottom: 3px;
+}

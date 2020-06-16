@@ -41,13 +41,14 @@ const Projects = props => {
             <br />
             <br />
 
-
             <div className="row" id="project">
                 <div className="col-md-1"></div>
                 <div className="col-md-10 col-xs-10 mr-2 mt-5 mb-5">
                     <h1>Projects</h1>
                     <hr />
                     <div className="card-group">
+                        
+                        {/* Star Wars */}
                         <div className="col-md-4 mb-5">
                             <div className="card h-100" id="card-starwars">
                                 <h3 className="card-header" name="SW" id="titulo-card">Starwars</h3>
@@ -70,26 +71,7 @@ const Projects = props => {
                             </div>
                         </div>
 
-                        <div className="col-md-4 mb-5">
-                            <div className="card h-100" id="card-TrafficLight">
-                                <h3 className="card-header" name="TL" id="titulo-card">Traffic Light</h3>
-                                    <img className= "card-img-top" id="card-img-TL" src="/img/traffic-light/TL-imagen.jpg" alt="" />
-                                <div className="card-body">
-                                    <br />
-                                    <br />
-                                    <h5 className="card-text-projects">Tecnology and Lenguages</h5>
-                                    <ul>
-                                        <lo>
-                                            HTML 5 - CSS 3 - Bootstrap - React.Js -JavaScript 
-                                        </lo>
-                                    </ul>
-                                </div>
-                                <div className="card-footer">
-                                    <Link to="/projects/traffic-light" id="boton-ver-proyecto" className="btn btn-primary">Find Out More!</Link>
-                                </div>
-                            </div>
-                        </div>
-
+                        {/* Tic Tac Toe */}
                         <div className="col-md-4 mb-5">
                             <div className="card h-100" id="card-Tic-tac-toe">
                                 <h3 className="card-header" name="TL" id="titulo-card">Tic-Tac Toe</h3>
@@ -110,45 +92,52 @@ const Projects = props => {
                             </div>
                         </div>
 
-
-
-
+                        {/* Traffic Light */}
                         <div className="col-md-4 mb-5">
-                            <div className="card h-100">
-                                <img className="card-img-top" src="http://placehold.it/300x200" alt="" />
+                            <div className="card h-100" id="card-TrafficLight">
+                                <h3 className="card-header" name="TL" id="titulo-card">Traffic Light</h3>
+                                    <img className= "card-img-top" id="card-img-TL" src="/img/traffic-light/TL-imagen.jpg" alt="" />
                                 <div className="card-body">
-                                    <h4 className="card-title">Project 4</h4>
-                                    <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus.</p>
+                                    <br />
+                                    <br />
+                                    <h5 className="card-text-projects">Tecnology and Lenguages</h5>
+                                    <ul>
+                                        <lo>
+                                            HTML 5 - CSS 3 - Bootstrap - React.Js -JavaScript 
+                                        </lo>
+                                    </ul>
                                 </div>
                                 <div className="card-footer">
-                                    <a href="#" className="btn btn-primary">Find Out More!</a>
+                                    <Link to="/projects/traffic-light" id="boton-ver-proyecto" className="btn btn-primary">Find Out More!</Link>
                                 </div>
                             </div>
                         </div>
+
+                        {/* Instagram Post */}
                         <div className="col-md-4 mb-5">
-                            <div className="card h-100">
-                                <img className="card-img-top" src="http://placehold.it/300x200" alt="" />
+                            <div className="card h-100" id="card-TrafficLight">
+                                <h3 className="card-header" name="TL" id="titulo-card">Instagram Post</h3>
+                                    <img className= "card-img-top" id="card-img-TL" src="/img/traffic-light/TL-imagen.jpg" alt="" />
                                 <div className="card-body">
-                                    <h4 className="card-title">Project 5</h4>
-                                    <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus.</p>
+                                    <br />
+                                    <br />
+                                    <h5 className="card-text-projects">Tecnology and Lenguages</h5>
+                                    <ul>
+                                        <lo>
+                                            HTML 5 - CSS 3 
+                                        </lo>
+                                    </ul>
                                 </div>
                                 <div className="card-footer">
-                                    <a href="#" className="btn btn-primary">Find Out More!</a>
+                                    <Link to="/projects/instagram-post" id="boton-ver-proyecto" className="btn btn-primary">Find Out More!</Link>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-4 mb-5">
-                            <div className="card h-100">
-                                <img className="card-img-top" src="http://placehold.it/300x200" alt="" />
-                                <div className="card-body">
-                                    <h4 className="card-title">Project 6</h4>
-                                    <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus.</p>
-                                </div>
-                                <div className="card-footer">
-                                    <a href="#" className="btn btn-primary">Find Out More!</a>
-                                </div>
-                            </div>
-                        </div>
+
+
+
+
+
                     </div>
                 </div>
 

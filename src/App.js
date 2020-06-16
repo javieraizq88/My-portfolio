@@ -20,6 +20,7 @@ import SpecieStarWars from "./components/starwars/speciesSpeciesStarWars";
 import VehicleStarWars from "./components/starwars/vehiclesVehicleStarWars";
 import TicTac from "./components/tic-tac-toe/Tic-tac-toe";
 import TrafiicLight from "./components/traffic-light/traffic-light";
+import InstagramPost from "./components/instagram-post/instagram-post";
 
 const App = props => {
     return (
@@ -33,6 +34,7 @@ const App = props => {
                 <Route exact path="/projects/starwars" component={HomeStarWars} />
                 <Route exact path="/projects/tic-tac-toe" component={TicTac} />
                 <Route exact path="/projects/traffic-light" component={TrafiicLight} />
+                <Route exact path="/projects/instagram-post" component={InstagramPost} />
                 <Route exact path="/projects/starwars/people" component={PeopleStarWars} />
                 <Route exact path="/projects/starwars/films" component={FilmsStarWars} />
                 <Route exact path="/projects/starwars/planets" component={PlanetsStarWars} />

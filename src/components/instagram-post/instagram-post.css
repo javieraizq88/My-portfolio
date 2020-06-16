@@ -1,7 +1,16 @@
 #instagram-post {
     background-color: rgb(124, 124, 119);
-    height: 720px;
+    height: 722px;
     color: rgb(124, 124, 119);
+}
+
+#back-to-jim-IP{
+    position: absolute;
+    margin-left: 20px ;
+    margin-top: 20px ;
+    padding: 12px;
+    font-size: 18px;
+    background-color: rgb(47, 141, 24);
 }
 
 .caja {
@@ -43,6 +52,11 @@
     margin-right: 10px;
     margin-top: 5px;
 }
+
+#icons-abajo-foto{
+    margin: 3px;
+}
+
 .caja .caja-icons i:nth-child(4){
     margin: 2px;
     float: right;

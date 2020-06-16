@@ -140,23 +140,9 @@ color: #bbb;
   font-size: 1.5;
 }
 
-#card-starwars{
-  background: rgb(26, 25, 25);
-  color: white;
+#card-InstagramPost{
+  background-color: rgba(250, 250, 250, 0.925);
 }
-
-#card-TrafficLight{
-  background-color: rgba(179, 179, 179, 0.733);
-}
-
-#card-Tic-tac-toe{
-  background-color: rgb(128, 209, 233);
-}
-
-.SW{
-  color: white;
-}
-
 
 #card-img-TL{
   margin-top: 60px;
@@ -165,8 +151,12 @@ color: #bbb;
   margin-right: auto;
 }
 
-
-
+#boton-ver-proyecto{
+  margin-left: 35px;
+  margin-right: 90px;
+  background-color: rgb(40, 85, 233);
+  color: white;
+}
 
 #back-to-jim{
   padding: 12px;

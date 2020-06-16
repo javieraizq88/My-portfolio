@@ -6,8 +6,9 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     background-color: rgb(231, 242, 250);
-    height: 762px;
+    height: 720px;
   }
+  
   #parte-arriba{
     padding-left: 100px;
     padding-top: 20px;
@@ -23,7 +24,8 @@
     background-color: #4fb2ec;
     width: 50%;
     height: 32rem;
-    margin: 5% auto;
+    margin: auto;
+    margin-top: 50px;
   }
 
   #styleChoosePlayer {

@@ -50,7 +50,7 @@ const Projects = props => {
                         
                         {/* Star Wars */}
                         <div className="col-md-4 mb-5">
-                            <div className="card h-100" id="card-starwars">
+                            <div className="card h-100" id="card-InstagramPost">
                                 <h3 className="card-header" name="SW" id="titulo-card">Starwars</h3>
                                 <div className="card-body">
                                     <img className="card-img-top" src="http://placehold.it/300x200" alt="" />
@@ -73,7 +73,7 @@ const Projects = props => {
 
                         {/* Tic Tac Toe */}
                         <div className="col-md-4 mb-5">
-                            <div className="card h-100" id="card-Tic-tac-toe">
+                            <div className="card h-100" id="card-InstagramPost">
                                 <h3 className="card-header" name="TL" id="titulo-card">Tic-Tac Toe</h3>
                                     <img className="card-img-top " id="card-img-TL" src="/img/tic-tac-toe/gato.jpg" alt="" />
                                 <div className="card-body">
@@ -94,7 +94,7 @@ const Projects = props => {
 
                         {/* Traffic Light */}
                         <div className="col-md-4 mb-5">
-                            <div className="card h-100" id="card-TrafficLight">
+                            <div className="card h-100" id="card-InstagramPost">
                                 <h3 className="card-header" name="TL" id="titulo-card">Traffic Light</h3>
                                     <img className= "card-img-top" id="card-img-TL" src="/img/traffic-light/TL-imagen.jpg" alt="" />
                                 <div className="card-body">
@@ -115,9 +115,9 @@ const Projects = props => {
 
                         {/* Instagram Post */}
                         <div className="col-md-4 mb-5">
-                            <div className="card h-100" id="card-TrafficLight">
-                                <h3 className="card-header" name="TL" id="titulo-card">Instagram Post</h3>
-                                    <img className= "card-img-top" id="card-img-TL" src="/img/traffic-light/TL-imagen.jpg" alt="" />
+                            <div className="card h-100" id="card-InstagramPost">
+                                <h3 className="card-header" name="IP" id="titulo-card">Instagram Post</h3>
+                                    <img className= "card-img-top" id="card-img-TL" src="/img/instagram-post/IP.jpg" alt="" />
                                 <div className="card-body">
                                     <br />
                                     <br />
@@ -127,6 +127,7 @@ const Projects = props => {
                                             HTML 5 - CSS 3 
                                         </lo>
                                     </ul>
+                                   <h5> <Link to="#" id="boton-github" >See the code on Github</Link></h5>
                                 </div>
                                 <div className="card-footer">
                                     <Link to="/projects/instagram-post" id="boton-ver-proyecto" className="btn btn-primary">Find Out More!</Link>

@@ -1,0 +1,26 @@
+.col{
+    background-color: rgb(240, 240, 240);
+}
+
+h1{
+    margin-top: 5px;
+}
+
+#dropdown{
+    padding-left: 5px;
+}
+
+
+#imagen-IPF{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+#back-to-jim-IPF{
+    position: absolute;
+    margin-left: 1426px ;
+    margin-top: 20px ;
+    padding: 12px;
+    font-size: 18px;
+    background-color: rgb(230, 46, 33);
+}

@@ -119,6 +119,28 @@ const Projects = props => {
                             </div>
                         </div>
 
+                        {/* Instagram photo feed */}
+                        <div className="col-md-4 mb-4">
+                            <div className="card h-100" id="card-InstagramPost">
+                                <h3 className="card-header" name="TL" id="titulo-card">Instagram Photo Feed</h3>
+                                <img className="card-img-top" id="card-img-TL" src="/img/traffic-light/TL-imagen.jpg" alt="" />
+                                <div className="card-body">
+                                    <h5 className="card-text-projects">Tecnology and Lenguages</h5>
+                                    <ul>
+                                        <lo>
+                                            HTML 5 - CSS 3 - Bootstrap 
+                                        </lo>
+                                    </ul>
+                                    <br />
+                                    <h5> Github Project</h5>
+                                    <p id="link-github">https://github.com/javieraizq88/TrafficLightWithReact</p>
+                                </div>
+                                <div className="card-footer">
+                                    <Link to="/projects/instagram-photo-feed" id="boton-ver-proyecto" className="btn btn-primary">Find Out More!</Link>
+                                </div>
+                            </div>
+                        </div>
+
                         {/* Instagram Post */}
                         <div className="col-md-4 mb-4">
                             <div className="card h-100" id="card-InstagramPost">

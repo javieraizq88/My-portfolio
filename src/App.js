@@ -22,6 +22,7 @@ import TicTac from "./components/tic-tac-toe/Tic-tac-toe";
 import TrafiicLight from "./components/traffic-light/traffic-light";
 import InstagramPost from "./components/instagram-post/instagram-post";
 import DigitalPostcard from "./components/digital-postcard/digital-postcard";
+import InstagramPhotoFeed from "./components/instagram-photo-feed/instagram-photo-feed";
 
 const App = props => {
     return (
@@ -37,6 +38,7 @@ const App = props => {
                 <Route exact path="/projects/traffic-light" component={TrafiicLight} />
                 <Route exact path="/projects/instagram-post" component={InstagramPost} />
                 <Route exact path="/projects/digital-postcard" component={DigitalPostcard} />
+                <Route exact path="/projects/instagram-photo-feed" component={InstagramPhotoFeed} />
                 <Route exact path="/projects/starwars/people" component={PeopleStarWars} />
                 <Route exact path="/projects/starwars/films" component={FilmsStarWars} />
                 <Route exact path="/projects/starwars/planets" component={PlanetsStarWars} />

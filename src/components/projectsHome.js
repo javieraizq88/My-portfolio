@@ -43,48 +43,53 @@ const Projects = props => {
 
             <div className="row" id="project">
                 <div className="col-md-1"></div>
-                <div className="col-md-10 col-xs-10 mr-2 mt-5 mb-5">
+                <div id="titulo-projects" className="col-md-10 col-xs-10 mr-2 mb-4">
                     <h1>Projects</h1>
                     <hr />
                     <div className="card-group">
-                        
+
                         {/* Star Wars */}
                         <div className="col-md-4 mb-5">
                             <div className="card h-100" id="card-InstagramPost">
-                                <h3 className="card-header" name="SW" id="titulo-card">Starwars</h3>
-                                <div className="card-body">
-                                    <img className="card-img-top" src="http://placehold.it/300x200" alt="" />
-                                    <br />
-                                    <br />
-                                    <h5 className="card-text">Tecnology and Lenguages</h5>
-                                    <ul>
-                                        <lo>
-                                        HTML 5 - CSS 3 - Bootstrap - React.Js -JavaScript - API  - J Query
-
-                                        </lo>
-                                    </ul>
-                                    <p className="card-text">(Use Fire Fox to open this projects please)</p>
+                                <h3 className="card-header" name="TL" id="titulo-card">Star Wars</h3>
+                                <div className="card-img">
+                                    <img className="card-img-top " id="card-img-TL" src="/img/starwars/SW.jpg" alt="" />
                                 </div>
-                                <div className="card-footer">
-                                    <Link to="/projects/starwars" className="btn btn-primary">Find Out More!</Link>
-                                </div>
-                            </div>
-                        </div>
-
-                        {/* Tic Tac Toe */}
-                        <div className="col-md-4 mb-5">
-                            <div className="card h-100" id="card-InstagramPost">
-                                <h3 className="card-header" name="TL" id="titulo-card">Tic-Tac Toe</h3>
-                                    <img className="card-img-top " id="card-img-TL" src="/img/tic-tac-toe/gato.jpg" alt="" />
                                 <div className="card-body">
-                                    <br />
-                                    <br />
                                     <h5 className="card-text-projects">Tecnology and Lenguages</h5>
                                     <ul>
                                         <lo>
                                             HTML 5 - CSS 3 - Bootstrap - React.Js -JavaScript
                                         </lo>
                                     </ul>
+                                    <p className="card-text">(Use Fire Fox to open this projects please)</p>
+                                    <h5> Github Project</h5>
+                                    <p id="link-github">https://github.com/javieraizq88/TrafficLightWithReact</p>
+                                </div>
+                                <div className="card-footer">
+                                    <Link to="/projects/starwars" id="boton-ver-proyecto" className="btn btn-primary">Find Out More!</Link>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        {/* Tic Tac Toe */}
+                        <div className="col-md-4 mb-5">
+                            <div className="card h-100" id="card-InstagramPost">
+                                <h3 className="card-header" name="TL" id="titulo-card">Tic-Tac Toe</h3>
+                                <div className="card-img">
+                                    <img className="card-img-top " id="card-img-TL" src="/img/tic-tac-toe/gato.jpg" alt="" />
+                                </div>
+                                <div className="card-body">
+                                    <h5 className="card-text-projects">Tecnology and Lenguages</h5>
+                                    <ul>
+                                        <lo>
+                                            HTML 5 - CSS 3 - Bootstrap - React.Js -JavaScript
+                                        </lo>
+                                    </ul>
+                                    <br />
+                                    <h5> Github Project</h5>
+                                    <p id="link-github">https://github.com/javieraizq88/ticTacToeWithReact</p>
                                 </div>
                                 <div className="card-footer">
                                     <Link to="/projects/tic-tac-toe" id="boton-ver-proyecto" className="btn btn-primary">Find Out More!</Link>
@@ -96,16 +101,17 @@ const Projects = props => {
                         <div className="col-md-4 mb-5">
                             <div className="card h-100" id="card-InstagramPost">
                                 <h3 className="card-header" name="TL" id="titulo-card">Traffic Light</h3>
-                                    <img className= "card-img-top" id="card-img-TL" src="/img/traffic-light/TL-imagen.jpg" alt="" />
+                                <img className="card-img-top" id="card-img-TL" src="/img/traffic-light/TL-imagen.jpg" alt="" />
                                 <div className="card-body">
-                                    <br />
-                                    <br />
                                     <h5 className="card-text-projects">Tecnology and Lenguages</h5>
                                     <ul>
                                         <lo>
-                                            HTML 5 - CSS 3 - Bootstrap - React.Js -JavaScript 
+                                            HTML 5 - CSS 3 - Bootstrap - React.Js -JavaScript
                                         </lo>
                                     </ul>
+                                    <br />
+                                    <h5> Github Project</h5>
+                                    <p id="link-github">https://github.com/javieraizq88/TrafficLightWithReact</p>
                                 </div>
                                 <div className="card-footer">
                                     <Link to="/projects/traffic-light" id="boton-ver-proyecto" className="btn btn-primary">Find Out More!</Link>
@@ -117,18 +123,19 @@ const Projects = props => {
                         <div className="col-md-4 mb-5">
                             <div className="card h-100" id="card-InstagramPost">
                                 <h3 className="card-header" name="IP" id="titulo-card">Instagram Post</h3>
-                                    <img className= "card-img-top" id="card-img-TL" src="/img/instagram-post/IP.jpg" alt="" />
+                                <img className="card-img-top" id="card-img-TL" src="/img/instagram-post/IP.jpg" alt="" />
                                 <div className="card-body">
-                                    <br />
-                                    <br />
                                     <h5 className="card-text-projects">Tecnology and Lenguages</h5>
                                     <ul>
                                         <lo>
-                                            HTML 5 - CSS 3 
+                                            HTML 5 - CSS 3
                                         </lo>
                                     </ul>
-                                   <h5> <Link to="#" id="boton-github" >See the code on Github</Link></h5>
+                                    <br />
+                                    <h5> Github Project</h5>
+                                    <p id="link-github">https://github.com/javieraizq88/InstagramPost</p>
                                 </div>
+
                                 <div className="card-footer">
                                     <Link to="/projects/instagram-post" id="boton-ver-proyecto" className="btn btn-primary">Find Out More!</Link>
                                 </div>

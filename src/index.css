@@ -132,12 +132,14 @@ color: #bbb;
 
 #project{
   background: rgb(241, 231, 231);
-
 }
+#titulo-projects{
+margin-top: 30px;
+}
+
 #titulo-card{
   text-align: center;
   margin-top: 22px;
-  font-size: 1.5;
 }
 
 #card-InstagramPost{
@@ -145,15 +147,19 @@ color: #bbb;
 }
 
 #card-img-TL{
-  margin-top: 60px;
-  width: 380px;
-  margin-left: auto;
-  margin-right: auto;
+margin: auto;
+padding-right: 10px;
+padding-left: 10px;
+padding-top: 10px;
+height: 200px;
 }
 
+#link-github{
+  text-align: center;
+}
+
+
 #boton-ver-proyecto{
-  margin-left: 35px;
-  margin-right: 90px;
   background-color: rgb(40, 85, 233);
   color: white;
 }
@@ -175,10 +181,14 @@ color: #bbb;
   text-align: center;
 }
 
+#titulo-starwars{
+  height: 130px;
+}
+
 /* navbar SW */
 
 #navbar-starwars{
-margin-top: 158px; 
+margin-top: 128px; 
 }
 
 #navbar-starwars a:hover{
@@ -190,15 +200,16 @@ margin-top: 158px;
 
 #container-home-starwars{
   background: url(https://www.pixel4k.com/wp-content/uploads/2018/09/stars-galaxy-milky-way-starry-sky-night-sky-4k_1536016962.jpg) no-repeat center fixed !important;
-  min-height:100%;
   background-size: cover;
   background-color: black !important;
-  margin-top: 222px;
+  margin-top: 200px;
+  height: 522px;
 }
 
 #imagen-home-starwars{
-  margin-top: 20px;
+  margin-top: 40px;
   margin-bottom: 10px;
+  height: 182px;
 }
 
 /* componente general */

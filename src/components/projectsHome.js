@@ -49,7 +49,7 @@ const Projects = props => {
                     <div className="card-group">
 
                         {/* Star Wars */}
-                        <div className="col-md-4 mb-5">
+                        <div className="col-md-4 mb-4">
                             <div className="card h-100" id="card-InstagramPost">
                                 <h3 className="card-header" name="TL" id="titulo-card">Star Wars</h3>
                                 <div className="card-img">
@@ -74,7 +74,7 @@ const Projects = props => {
 
 
                         {/* Tic Tac Toe */}
-                        <div className="col-md-4 mb-5">
+                        <div className="col-md-4 mb-4">
                             <div className="card h-100" id="card-InstagramPost">
                                 <h3 className="card-header" name="TL" id="titulo-card">Tic-Tac Toe</h3>
                                 <div className="card-img">
@@ -98,7 +98,7 @@ const Projects = props => {
                         </div>
 
                         {/* Traffic Light */}
-                        <div className="col-md-4 mb-5">
+                        <div className="col-md-4 mb-4">
                             <div className="card h-100" id="card-InstagramPost">
                                 <h3 className="card-header" name="TL" id="titulo-card">Traffic Light</h3>
                                 <img className="card-img-top" id="card-img-TL" src="/img/traffic-light/TL-imagen.jpg" alt="" />
@@ -120,7 +120,7 @@ const Projects = props => {
                         </div>
 
                         {/* Instagram Post */}
-                        <div className="col-md-4 mb-5">
+                        <div className="col-md-4 mb-4">
                             <div className="card h-100" id="card-InstagramPost">
                                 <h3 className="card-header" name="IP" id="titulo-card">Instagram Post</h3>
                                 <img className="card-img-top" id="card-img-TL" src="/img/instagram-post/IP.jpg" alt="" />

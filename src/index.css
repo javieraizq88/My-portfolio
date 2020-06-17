@@ -355,3 +355,21 @@ color: black;
 #card-species img{
 height: 115px;
 }
+
+/* Planets */
+
+#card-planets{
+  width: 200px;
+  height: 350px;
+  background: rgb(202, 202, 202);
+  color: white;
+  text-align: center;
+}
+
+#card-planets img{
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  overflow: hidden;
+  margin: 0 auto;
+}

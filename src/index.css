@@ -341,3 +341,18 @@ color: black;
 #card-vehicles li{
   padding-left: 40px;
 }
+
+/* Species */
+
+#text-card-species{
+  color: black;
+}
+
+#card-species{
+  background: rgb(247, 255, 247);
+  margin-right: 0px;
+}
+#card-species img{
+width: 100px;
+height: 100px;
+}

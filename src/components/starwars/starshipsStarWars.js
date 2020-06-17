@@ -69,7 +69,41 @@ const StarshipsStarWars = props => {
                     </div>
                 </div>
 
+                <div className="row">
+                <div className="col-md-12 col-xs-12 d-flex justify-content-between">
+                    {
+                        !!store.starships &&
+                        store.starships.previous !== null ?
+                            (
+                                <button className="btn btn-primary btn-md"
+                                    onClick={() => actions.getStarships(store.starships.previous)}>
+                                    Previous
+                                </button>
+                            ) :( 
+                                <button className="btn btn-primary btn-md disabled"
+                                    onClick={() => actions.getStarships(store.starships.previous)}>
+                                    Previous
+                                </button>
+                            )
+                    }
+                    {
+                        !!store.starships &&
+                        store.starships.next !== null ?
+                            (
+                                <button className="btn btn-primary btn-md"
+                                    onClick={() => actions.getStarships(store.starships.next)}>
+                                    Next
+                                </button>
+                            ) :( 
+                                <button className="btn btn-primary btn-md disabled"
+                                    onClick={() => actions.getStarships(store.starships.next)}>
+                                    Next
+                                </button>
+                            )
+                    }
 
+                </div>
+            </div>
 
             </div>
         </>

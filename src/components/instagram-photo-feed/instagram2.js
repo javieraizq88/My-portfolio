@@ -50,240 +50,205 @@ const InstagramPhotoFeed2 = props => {
 
 
             <div id="instagram-post2">
-            <div className="caja">
-                <div className="caja-header">
-                    <div className="caja-header-left">
-                        <div className="">
+                <div className="caja">
+                    <div className="caja-header">
+                        <div className="caja-header-left">
                             <div className="">
-                                HTML5<br />
+                                <div className="">
+                                    HTML5<br />
                                 Rigoberto
                     </div>
+                            </div>
+                        </div>
+                        <div className="caja-header-right">
+                            <i id="imagen-superior-derecha" className="far fa-address-card"></i>
                         </div>
                     </div>
-                    <div className="caja-header-right">
-                        <i id="imagen-superior-derecha" className="far fa-address-card"></i>
+                    <div className="caja-body">
+                        <img src="https://picsum.photos/id/34/400/300" alt="" />
+                    </div>
+                    <div className="caja-icons">
+                        <i id="icons-abajo-foto" className="far fa-heart fa-1x"></i>
+                        <i id="icons-abajo-foto" className="far fa-comment  fa-1x"></i>
+                        <i id="icons-abajo-foto" className="far fa-paper-plane fa-1x"></i>
+                        <i id="icons-abajo-foto" className="far fa-bookmark  fa-1x"></i>
+                    </div>
+                    <div className="caja-text">
+                        <p>Liked by <strong>4GeeksAcademy, HTML5. Web</strong> and <strong>100,000 others</strong></p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, repellat. Odit maiores
+                            eligendi harum recusandae, sequi sunt blanditiis similique veritatis, mollitia eius optio
+                            hic. Debitis hic nam repudiandae similique minus!
+            </p>
                     </div>
                 </div>
-                <div className="caja-body">
-                    <img src="https://picsum.photos/id/34/400/300" alt="" />
-                </div>
-                <div className="caja-icons">
-                    <i id="icons-abajo-foto" className="far fa-heart fa-1x"></i>
-                    <i id="icons-abajo-foto" className="far fa-comment  fa-1x"></i>
-                    <i id="icons-abajo-foto" className="far fa-paper-plane fa-1x"></i>
-                    <i id="icons-abajo-foto" className="far fa-bookmark  fa-1x"></i>
-                </div>
-                <div className="caja-text">
-                    <p>Liked by <strong>4GeeksAcademy, HTML5. Web</strong> and <strong>100,000 others</strong></p>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, repellat. Odit maiores
-                        eligendi harum recusandae, sequi sunt blanditiis similique veritatis, mollitia eius optio
-                        hic. Debitis hic nam repudiandae similique minus!
-            </p>
-                </div>
-            </div>
 
-            <div className="caja">
-                <div className="caja-header">
-                    <div className="caja-header-left">
-                        <div className="">
+                <div className="caja">
+                    <div className="caja-header">
+                        <div className="caja-header-left">
                             <div className="">
-                                HTML5<br />
+                                <div className="">
+                                    HTML5<br />
                                 Rigoberto
                     </div>
+                            </div>
+                        </div>
+                        <div className="caja-header-right">
+                            <i id="imagen-superior-derecha" className="far fa-address-card"></i>
                         </div>
                     </div>
-                    <div className="caja-header-right">
-                        <i id="imagen-superior-derecha" className="far fa-address-card"></i>
+                    <div className="caja-body">
+                        <img src="https://picsum.photos/id/3/400/300" alt="" />
+                    </div>
+                    <div className="caja-icons">
+                        <i id="icons-abajo-foto" className="far fa-heart fa-1x"></i>
+                        <i id="icons-abajo-foto" className="far fa-comment  fa-1x"></i>
+                        <i id="icons-abajo-foto" className="far fa-paper-plane fa-1x"></i>
+                        <i id="icons-abajo-foto" className="far fa-bookmark  fa-1x"></i>
+                    </div>
+                    <div className="caja-text">
+                        <p>Liked by <strong>4GeeksAcademy, HTML5. Web</strong> and <strong>100,000 others</strong></p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, repellat. Odit maiores
+                            eligendi harum recusandae, sequi sunt blanditiis similique veritatis, mollitia eius optio
+                            hic. Debitis hic nam repudiandae similique minus!
+            </p>
                     </div>
                 </div>
-                <div className="caja-body">
-                                      <img src="https://picsum.photos/id/3/400/300" alt="" />
-                </div>
-                <div className="caja-icons">
-                    <i id="icons-abajo-foto" className="far fa-heart fa-1x"></i>
-                    <i id="icons-abajo-foto" className="far fa-comment  fa-1x"></i>
-                    <i id="icons-abajo-foto" className="far fa-paper-plane fa-1x"></i>
-                    <i id="icons-abajo-foto" className="far fa-bookmark  fa-1x"></i>
-                </div>
-                <div className="caja-text">
-                    <p>Liked by <strong>4GeeksAcademy, HTML5. Web</strong> and <strong>100,000 others</strong></p>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, repellat. Odit maiores
-                        eligendi harum recusandae, sequi sunt blanditiis similique veritatis, mollitia eius optio
-                        hic. Debitis hic nam repudiandae similique minus!
-            </p>
-                </div>
-            </div>
 
-          
 
-            <div className="caja">
-                <div className="caja-header">
-                    <div className="caja-header-left">
-                        <div className="">
+
+                <div className="caja">
+                    <div className="caja-header">
+                        <div className="caja-header-left">
                             <div className="">
-                                HTML5<br />
+                                <div className="">
+                                    HTML5<br />
                                 Rigoberto
                     </div>
+                            </div>
+                        </div>
+                        <div className="caja-header-right">
+                            <i id="imagen-superior-derecha" className="far fa-address-card"></i>
                         </div>
                     </div>
-                    <div className="caja-header-right">
-                        <i id="imagen-superior-derecha" className="far fa-address-card"></i>
+                    <div className="caja-body">
+                        <img src="https://picsum.photos/id/304/400/300" alt="" />
+                    </div>
+                    <div className="caja-icons">
+                        <i id="icons-abajo-foto" className="far fa-heart fa-1x"></i>
+                        <i id="icons-abajo-foto" className="far fa-comment  fa-1x"></i>
+                        <i id="icons-abajo-foto" className="far fa-paper-plane fa-1x"></i>
+                        <i id="icons-abajo-foto" className="far fa-bookmark  fa-1x"></i>
+                    </div>
+                    <div className="caja-text">
+                        <p>Liked by <strong>4GeeksAcademy, HTML5. Web</strong> and <strong>100,000 others</strong></p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, repellat. Odit maiores
+                            eligendi harum recusandae, sequi sunt blanditiis similique veritatis, mollitia eius optio
+                            hic. Debitis hic nam repudiandae similique minus!
+            </p>
                     </div>
                 </div>
-                <div className="caja-body">
-                    <img src="https://picsum.photos/id/304/400/300" alt="" />
-                </div>
-                <div className="caja-icons">
-                    <i id="icons-abajo-foto" className="far fa-heart fa-1x"></i>
-                    <i id="icons-abajo-foto" className="far fa-comment  fa-1x"></i>
-                    <i id="icons-abajo-foto" className="far fa-paper-plane fa-1x"></i>
-                    <i id="icons-abajo-foto" className="far fa-bookmark  fa-1x"></i>
-                </div>
-                <div className="caja-text">
-                    <p>Liked by <strong>4GeeksAcademy, HTML5. Web</strong> and <strong>100,000 others</strong></p>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, repellat. Odit maiores
-                        eligendi harum recusandae, sequi sunt blanditiis similique veritatis, mollitia eius optio
-                        hic. Debitis hic nam repudiandae similique minus!
-            </p>
-                </div>
-            </div>
 
-            <div className="caja">
-                <div className="caja-header">
-                    <div className="caja-header-left">
-                        <div className="">
+                <div className="caja">
+                    <div className="caja-header">
+                        <div className="caja-header-left">
                             <div className="">
-                                HTML5<br />
+                                <div className="">
+                                    HTML5<br />
                                 Rigoberto
                     </div>
+                            </div>
+                        </div>
+                        <div className="caja-header-right">
+                            <i id="imagen-superior-derecha" className="far fa-address-card"></i>
                         </div>
                     </div>
-                    <div className="caja-header-right">
-                        <i id="imagen-superior-derecha" className="far fa-address-card"></i>
+                    <div className="caja-body">
+                        <img src="https://picsum.photos/id/354/400/300" alt="" />
+                    </div>
+                    <div className="caja-icons">
+                        <i id="icons-abajo-foto" className="far fa-heart fa-1x"></i>
+                        <i id="icons-abajo-foto" className="far fa-comment  fa-1x"></i>
+                        <i id="icons-abajo-foto" className="far fa-paper-plane fa-1x"></i>
+                        <i id="icons-abajo-foto" className="far fa-bookmark  fa-1x"></i>
+                    </div>
+                    <div className="caja-text">
+                        <p>Liked by <strong>4GeeksAcademy, HTML5. Web</strong> and <strong>100,000 others</strong></p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, repellat. Odit maiores
+                            eligendi harum recusandae, sequi sunt blanditiis similique veritatis, mollitia eius optio
+                            hic. Debitis hic nam repudiandae similique minus!
+            </p>
                     </div>
                 </div>
-                <div className="caja-body">
-                    <img src="https://picsum.photos/id/354/400/300" alt="" />
-                </div>
-                <div className="caja-icons">
-                    <i id="icons-abajo-foto" className="far fa-heart fa-1x"></i>
-                    <i id="icons-abajo-foto" className="far fa-comment  fa-1x"></i>
-                    <i id="icons-abajo-foto" className="far fa-paper-plane fa-1x"></i>
-                    <i id="icons-abajo-foto" className="far fa-bookmark  fa-1x"></i>
-                </div>
-                <div className="caja-text">
-                    <p>Liked by <strong>4GeeksAcademy, HTML5. Web</strong> and <strong>100,000 others</strong></p>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, repellat. Odit maiores
-                        eligendi harum recusandae, sequi sunt blanditiis similique veritatis, mollitia eius optio
-                        hic. Debitis hic nam repudiandae similique minus!
-            </p>
-                </div>
-            </div>
 
-            <div className="caja">
-                <div className="caja-header">
-                    <div className="caja-header-left">
-                        <div className="">
+                <div className="caja">
+                    <div className="caja-header">
+                        <div className="caja-header-left">
                             <div className="">
-                                HTML5<br />
+                                <div className="">
+                                    HTML5<br />
                                 Rigoberto
                     </div>
+                            </div>
+                        </div>
+                        <div className="caja-header-right">
+                            <i id="imagen-superior-derecha" className="far fa-address-card"></i>
                         </div>
                     </div>
-                    <div className="caja-header-right">
-                        <i id="imagen-superior-derecha" className="far fa-address-card"></i>
+                    <div className="caja-body">
+                        <img src="https://picsum.photos/id/90/400/300" alt="" />
+                    </div>
+                    <div className="caja-icons">
+                        <i id="icons-abajo-foto" className="far fa-heart fa-1x"></i>
+                        <i id="icons-abajo-foto" className="far fa-comment  fa-1x"></i>
+                        <i id="icons-abajo-foto" className="far fa-paper-plane fa-1x"></i>
+                        <i id="icons-abajo-foto" className="far fa-bookmark  fa-1x"></i>
+                    </div>
+                    <div className="caja-text">
+                        <p>Liked by <strong>4GeeksAcademy, HTML5. Web</strong> and <strong>100,000 others</strong></p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, repellat. Odit maiores
+                            eligendi harum recusandae, sequi sunt blanditiis similique veritatis, mollitia eius optio
+                            hic. Debitis hic nam repudiandae similique minus!
+            </p>
                     </div>
                 </div>
-                <div className="caja-body">
-                    <img src="https://picsum.photos/id/90/400/300" alt="" />
-                </div>
-                <div className="caja-icons">
-                    <i id="icons-abajo-foto" className="far fa-heart fa-1x"></i>
-                    <i id="icons-abajo-foto" className="far fa-comment  fa-1x"></i>
-                    <i id="icons-abajo-foto" className="far fa-paper-plane fa-1x"></i>
-                    <i id="icons-abajo-foto" className="far fa-bookmark  fa-1x"></i>
-                </div>
-                <div className="caja-text">
-                    <p>Liked by <strong>4GeeksAcademy, HTML5. Web</strong> and <strong>100,000 others</strong></p>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, repellat. Odit maiores
-                        eligendi harum recusandae, sequi sunt blanditiis similique veritatis, mollitia eius optio
-                        hic. Debitis hic nam repudiandae similique minus!
-            </p>
-                </div>
-            </div>
 
-            <div className="caja">
-                <div className="caja-header">
-                    <div className="caja-header-left">
-                        <div className="">
+                <div className="caja">
+                    <div className="caja-header">
+                        <div className="caja-header-left">
                             <div className="">
-                                HTML5<br />
+                                <div className="">
+                                    HTML5<br />
                                 Rigoberto
                     </div>
+                            </div>
+                        </div>
+                        <div className="caja-header-right">
+                            <i id="imagen-superior-derecha" className="far fa-address-card"></i>
                         </div>
                     </div>
-                    <div className="caja-header-right">
-                        <i id="imagen-superior-derecha" className="far fa-address-card"></i>
+                    <div className="caja-body">
+                        <img src="https://picsum.photos/id/46/400/300" alt="" />
                     </div>
-                </div>
-                <div className="caja-body">
-                    <img src="https://picsum.photos/id/46/400/300" alt="" />
-                </div>
-                <div className="caja-icons">
-                    <i id="icons-abajo-foto" className="far fa-heart fa-1x"></i>
-                    <i id="icons-abajo-foto" className="far fa-comment  fa-1x"></i>
-                    <i id="icons-abajo-foto" className="far fa-paper-plane fa-1x"></i>
-                    <i id="icons-abajo-foto" className="far fa-bookmark  fa-1x"></i>
-                </div>
-                <div className="caja-text">
-                    <p>Liked by <strong>4GeeksAcademy, HTML5. Web</strong> and <strong>100,000 others</strong></p>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, repellat. Odit maiores
-                        eligendi harum recusandae, sequi sunt blanditiis similique veritatis, mollitia eius optio
-                        hic. Debitis hic nam repudiandae similique minus!
+                    <div className="caja-icons">
+                        <i id="icons-abajo-foto" className="far fa-heart fa-1x"></i>
+                        <i id="icons-abajo-foto" className="far fa-comment  fa-1x"></i>
+                        <i id="icons-abajo-foto" className="far fa-paper-plane fa-1x"></i>
+                        <i id="icons-abajo-foto" className="far fa-bookmark  fa-1x"></i>
+                    </div>
+                    <div className="caja-text">
+                        <p>Liked by <strong>4GeeksAcademy, HTML5. Web</strong> and <strong>100,000 others</strong></p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, repellat. Odit maiores
+                            eligendi harum recusandae, sequi sunt blanditiis similique veritatis, mollitia eius optio
+                            hic. Debitis hic nam repudiandae similique minus!
             </p>
-                </div>
-            </div>
-            </div>
-
-            <div className="caja">
-                <div className="caja-header">
-                    <div className="caja-header-left">
-                        <div className="">
-                            <div className="">
-                                HTML5<br />
-                                Rigoberto
-                    </div>
-                        </div>
-                    </div>
-                    <div className="caja-header-right">
-                        <i id="imagen-superior-derecha" className="far fa-address-card"></i>
                     </div>
                 </div>
-                <div className="caja-body">
-                    <div className="col-3">
-                    <img src="https://picsum.photos/id/496/400/300" alt="" />
-                </div>
-                <div className="caja-icons">
-                    <i id="icons-abajo-foto" className="far fa-heart fa-1x"></i>
-                    <i id="icons-abajo-foto" className="far fa-comment  fa-1x"></i>
-                    <i id="icons-abajo-foto" className="far fa-paper-plane fa-1x"></i>
-                    <i id="icons-abajo-foto" className="far fa-bookmark  fa-1x"></i>
-                </div>
-                <div className="caja-text">
-                    <p>Liked by <strong>4GeeksAcademy, HTML5. Web</strong> and <strong>100,000 others</strong></p>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, repellat. Odit maiores
-                        eligendi harum recusandae, sequi sunt blanditiis similique veritatis, mollitia eius optio
-                        hic. Debitis hic nam repudiandae similique minus!
-            </p>
-                </div>
-            </div>
             </div>
 
             <div className="caja">
@@ -302,23 +267,58 @@ const InstagramPhotoFeed2 = props => {
                 </div>
                 <div className="caja-body">
                     <div className="col-3">
-                    <img src="https://picsum.photos/id/6/400/300" alt="" />
-                </div>
-                <div className="caja-icons">
-                    <i id="icons-abajo-foto" className="far fa-heart fa-1x"></i>
-                    <i id="icons-abajo-foto" className="far fa-comment  fa-1x"></i>
-                    <i id="icons-abajo-foto" className="far fa-paper-plane fa-1x"></i>
-                    <i id="icons-abajo-foto" className="far fa-bookmark  fa-1x"></i>
-                </div>
-                <div className="caja-text">
-                    <p>Liked by <strong>4GeeksAcademy, HTML5. Web</strong> and <strong>100,000 others</strong></p>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, repellat. Odit maiores
-                        eligendi harum recusandae, sequi sunt blanditiis similique veritatis, mollitia eius optio
-                        hic. Debitis hic nam repudiandae similique minus!
+                        <img src="https://picsum.photos/id/496/400/300" alt="" />
+                    </div>
+                    <div className="caja-icons">
+                        <i id="icons-abajo-foto" className="far fa-heart fa-1x"></i>
+                        <i id="icons-abajo-foto" className="far fa-comment  fa-1x"></i>
+                        <i id="icons-abajo-foto" className="far fa-paper-plane fa-1x"></i>
+                        <i id="icons-abajo-foto" className="far fa-bookmark  fa-1x"></i>
+                    </div>
+                    <div className="caja-text">
+                        <p>Liked by <strong>4GeeksAcademy, HTML5. Web</strong> and <strong>100,000 others</strong></p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, repellat. Odit maiores
+                            eligendi harum recusandae, sequi sunt blanditiis similique veritatis, mollitia eius optio
+                            hic. Debitis hic nam repudiandae similique minus!
             </p>
+                    </div>
                 </div>
             </div>
+
+            <div className="caja">
+                <div className="caja-header">
+                    <div className="caja-header-left">
+                        <div className="">
+                            <div className="">
+                                HTML5<br />
+                                Rigoberto
+                    </div>
+                        </div>
+                    </div>
+                    <div className="caja-header-right">
+                        <i id="imagen-superior-derecha" className="far fa-address-card"></i>
+                    </div>
+                </div>
+                <div className="caja-body">
+                    <div className="col-3">
+                        <img src="https://picsum.photos/id/6/400/300" alt="" />
+                    </div>
+                    <div className="caja-icons">
+                        <i id="icons-abajo-foto" className="far fa-heart fa-1x"></i>
+                        <i id="icons-abajo-foto" className="far fa-comment  fa-1x"></i>
+                        <i id="icons-abajo-foto" className="far fa-paper-plane fa-1x"></i>
+                        <i id="icons-abajo-foto" className="far fa-bookmark  fa-1x"></i>
+                    </div>
+                    <div className="caja-text">
+                        <p>Liked by <strong>4GeeksAcademy, HTML5. Web</strong> and <strong>100,000 others</strong></p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, repellat. Odit maiores
+                            eligendi harum recusandae, sequi sunt blanditiis similique veritatis, mollitia eius optio
+                            hic. Debitis hic nam repudiandae similique minus!
+            </p>
+                    </div>
+                </div>
             </div>
 
 

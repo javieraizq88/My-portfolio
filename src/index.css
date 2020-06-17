@@ -203,7 +203,7 @@ margin-top: 128px;
   background-size: cover;
   background-color: black !important;
   margin-top: 200px;
-  height: 522px;
+  padding-bottom: 58px;
 }
 
 #imagen-home-starwars{
@@ -257,4 +257,11 @@ background: rgb(202, 202, 202);
 #card-film{
   background-color: rgb(74, 78, 78);
   color: white;
+}
+
+#container-starwars{
+  background: url(https://www.pixel4k.com/wp-content/uploads/2018/09/stars-galaxy-milky-way-starry-sky-night-sky-4k_1536016962.jpg) no-repeat center fixed !important;
+  background-size: cover;
+  background-color: black;
+  margin-top: 200px;
 }

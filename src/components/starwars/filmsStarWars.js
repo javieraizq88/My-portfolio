@@ -5,12 +5,10 @@ import { Link } from "react-router-dom";
 
 const FilmsStarWars = props => {
     const { store, actions } = useContext(Context);
-    const { people } = store;
 
-    console.log(people)
     return (
         <>
-            <div id="container-home-starwars">
+            <div id="container-starwars">
                 <Titulo />
 
                 {/* Navbar */}
@@ -43,7 +41,47 @@ const FilmsStarWars = props => {
 
 
 
-                <h1>Films</h1>
+                <div className="row">
+                    <div className="row">
+                        {
+                            !!store.films &&
+                            store.films.results.length > 0 ?
+                                store.films.results.map((film, i) => {
+                                    const img = film.title.split(" ").join("-").toLowerCase() + ".jpg";
+                                    return (
+
+                                        <div className="card mt-3" id="card-film" key={i} >
+                                            <div className="row no-gutters" >
+                                            <div className="col-md-3 col-xs-3">
+                                            <img src={"/img/films/" + img} className="card-img"  />
+                                            </div>
+                                            <div className="col-md-9 col-xs-9">
+                                                <div className="card-body">
+                                                    <h4 className="card-header text-center">{film.title}</h4>
+                                                    <p className="card-text ml-3 text-justify">
+                                                        <br/>
+                                                    &nbsp; Episode number: {film.episode_id}<br /> 
+                                                    &nbsp; Release date: {film.release_date}<br />
+                                                    &nbsp; Director: {film.director}<br />
+                                                    &nbsp; Producer: {film.producer}<br />
+                                                    &nbsp; Opening crawl: {film.opening_crawl}<br />
+                                                    </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    )
+                                })
+                                : (
+                                    <div className="col-md-12 col-xs-12 text-center">
+                                        <div className="spinner-grow" role="status">
+                                            <span className="sr-only">Loading...</span>
+                                        </div>
+                                    </div>
+                                )
+                        }
+                    </div>
+                </div>
 
             </div>
         </>

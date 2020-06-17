@@ -311,3 +311,33 @@ background: rgb(202, 202, 202);
   justify-content: flex-end;
 }
 
+/* Starships */
+
+#card-starsips{
+  margin-left: 125px;
+margin-bottom: 20px;
+padding-left: 40px;
+padding-top: 20px;
+background-color: rgb(226, 192, 192);
+color: black;
+}
+
+#card-starsips img{
+  margin-top: 30px;
+
+}
+
+/* Vehicles */
+#card-vehicles{
+  margin-left: 125px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 40px;
+  padding-top: 20px;
+  background-color: rgb(243, 243, 243);
+  
+}
+
+#card-vehicles li{
+  padding-left: 40px;
+}

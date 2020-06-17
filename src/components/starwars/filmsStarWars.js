@@ -50,15 +50,15 @@ const FilmsStarWars = props => {
                                     const img = film.title.split(" ").join("-").toLowerCase() + ".jpg";
                                     return (
 
-                                        <div className="card mt-3" id="card-film" key={i} >
+                                        <div className="card" id="card-film" key={i} >
                                             <div className="row no-gutters" >
                                             <div className="col-md-3 col-xs-3">
-                                            <img src={"/img/films/" + img} className="card-img"  />
+                                            <img src={"/img/films/" + img} className="card-img" id="card-img-film" />
                                             </div>
                                             <div className="col-md-9 col-xs-9">
                                                 <div className="card-body">
-                                                    <h4 className="card-header text-center">{film.title}</h4>
-                                                    <p className="card-text ml-3 text-justify">
+                                                    <h4 className="card-header text-center" id="titulo-card-film">{film.title}</h4>
+                                                    <p className="card-text ml-3 text-justify" id="text-card-film">
                                                         <br/>
                                                     &nbsp; Episode number: {film.episode_id}<br /> 
                                                     &nbsp; Release date: {film.release_date}<br />

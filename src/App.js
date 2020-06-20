@@ -47,7 +47,7 @@ const App = props => {
                 <Route exact path="/projects/starwars/starships" component={StarshipsStarWars} />
                 <Route exact path="/projects/starwars/species" component={SpeciesStarWars} />
                 <Route exact path="/projects/starwars/vehicles" component={VehiclesStarWars} />
-                <Route exact path="/projects/starwars/people/character" component={CharacterStarWars} />
+                <Route exact path="/projects/starwars/people/:character" component={CharacterStarWars} />
                 <Route exact path="/projects/starwars/planets/planet" component={PlanetStarWars} />
                 <Route exact path="/projects/starwars/starships/starship" component={StarshipStarWars} />
                 <Route exact path="/projects/starwars/species/specie" component={SpecieStarWars} />

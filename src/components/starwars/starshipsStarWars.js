@@ -53,7 +53,7 @@ const StarshipsStarWars = props => {
                                                     <h3 className="card-title text-center text-white" id="titulo-starships">{starship.name}</h3>
                                                 </div>
                                                 <img src={"/img/Starships/" + img} className="card-img" alt="..." />
-                                                <p><Link to={"/starships/" + starship.name} className="mt-2 btn btn-danger ">More...</Link></p>
+                                                <p><Link to={"/projects/starwars/starships/" + starship.name} className="mt-2 btn btn-danger ">More...</Link></p>
                                             </div>
                                         )
                                     })

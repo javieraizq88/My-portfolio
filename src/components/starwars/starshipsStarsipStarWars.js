@@ -11,7 +11,7 @@ const StarshipStarWars = props => {
 
     return (
         <>
-            <div id="container-starwars">
+            <div className="" id="container-starwars">
                 <Titulo />
 
                 {/* Navbar */}

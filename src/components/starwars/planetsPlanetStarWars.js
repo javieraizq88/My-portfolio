@@ -1,11 +1,13 @@
 import React, { useContext } from "react";
 import { Context } from "../../store/appContext";
 import Titulo from "./tituloStarWars";
-import { Link } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 
 const PlanetStarWars = props => {
     const { store, actions } = useContext(Context);
     const { people } = store;
+    const nombrePlaneta = props.match.params.planet;
+    const history = useHistory();
 
     return (
         <>
@@ -40,24 +42,42 @@ const PlanetStarWars = props => {
                     </div>
                 </nav>
 
+
+
                 <div className="container">
                     <div className="row">
                         <div className="row">
                             {
                                 !!store.planets ?
                                     store.planets.results.map((planet, i) => {
-                                        const img = planet.name.split(" ").join("-").toLowerCase() + ".jpg";
-                                        return (
-                                            <div className="card mt-3 p-1 mx-3 bg-dark" key={i} id="card-general">
-                                                <div className="">
-                                                    <img src={"img/planets/" + img} className="card-img-top" alt="..." />
-                                                    <div className="card-body">
-                                                        <h5 className="card-title">{planet.name}</h5>
-                                                        <p><Link to={"/projects/starwars/planets/:planet" + planet.name} className=" btn btn-danger">More...</Link></p>
+                                        if (JSON.stringify(planet.name) === JSON.stringify(nombrePlaneta)) {
+                                            const img = planet.name.split(" ").join("-").toLowerCase() + ".jpg";
+                                            //para linkear la imagen de cada character, hay q cambiar "img/" por URL
+                                            //el boton vuelve a people por eso no tiene el "/" final
+                                            return (
+                                                <div className="card mt-3 mb-3" key={i} id="card-planets" >
+                                                    <div className="row no-gutters">
+                                                        <div className="col-md-4">
+                                                            <img src={"/img/planets/" + img} className="card-img" alt="..." />
+                                                        </div>
+                                                        <div className="col-md-8">
+                                                            <div className="card-body">
+                                                                <h5 className="card-title">{planet.name}</h5>
+                                                                <p className="card-text">Climate: {planet.climate}</p>
+                                                                <p className="card-text">Diameter: {planet.diameter}</p>
+                                                                <p className="card-text">Gravity: {planet.gravity}</p>
+                                                                <p className="card-text">Orbital Period: {planet.orbital_period}</p>
+                                                                <p className="card-text">Population: {planet.population}</p>
+                                                                <p className="card-text">Rotation period: {planet.rotation_period}</p>
+                                                                <p className="card-text">Surface water: {planet.surface_water}</p>
+                                                                <p className="card-text">Terrain: {planet.terrain}</p>
+                                                                <button className="btn btn-primary" onClick={() => history.goBack()}>Back to Planets</button>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                        )
+                                            )
+                                        }
                                     })
                                     : (
                                         <div className="col-md-12 text-center">
@@ -70,43 +90,8 @@ const PlanetStarWars = props => {
                         </div>
                     </div>
                 </div>
-
-                <div className="row">
-                    <div className="col-md-12 d-flex justify-content-between">
-                        {
-                            !!store.planets &&
-                                store.planets.previous !== null ?
-                                (
-                                    <button className="btn btn-primary btn-md"
-                                        onClick={() => actions.getPlanets(store.planets.previous)}>
-                                        Previous
-                                    </button>
-                                ) : (
-                                    <button className="btn btn-primary btn-md disabled"
-                                        onClick={() => actions.getPlanets(store.planets.previous)}>
-                                        Previous
-                                    </button>
-                                )
-                        }
-                        {
-                            !!store.planets &&
-                                store.planets.next !== null ?
-                                (
-                                    <button className="btn btn-primary btn-md"
-                                        onClick={() => actions.getPlanets(store.planets.next)}>
-                                        Next
-                                    </button>
-                                ) : (
-                                    <button className="btn btn-primary btn-md disabled"
-                                        onClick={() => actions.getPlanets(store.planets.next)}>
-                                        Next
-                                    </button>
-                                )
-                        }
-
-                    </div>
-                </div>
-
+            
+            
             </div>
         </>
     )

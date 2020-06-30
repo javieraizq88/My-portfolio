@@ -1,11 +1,13 @@
 import React, { useContext } from "react";
 import { Context } from "../../store/appContext";
 import Titulo from "./tituloStarWars";
-import { Link } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 
 const PlanetsStarWars = props => {
     const { store, actions } = useContext(Context);
     const { planets } = store;
+    const nombrePlaneta = props.match.params.planet;
+    const history = useHistory();
 
     return (
         <>
@@ -36,77 +38,78 @@ const PlanetsStarWars = props => {
                                 <Link className="nav-link border-left" to="/projects/starwars/planets">Planets</Link>
                             </li>
                         </ul>
-                    <Link type="button" className="btn btn-success" to="/projects" id="back-to-jim">Back to JIM</Link>
+                        <Link type="button" className="btn btn-success" to="/projects" id="back-to-jim">Back to JIM</Link>
                     </div>
                 </nav>
 
 
                 <div className="container">
-                <div className="row">
                     <div className="row">
-                        {
-                            !!store.planets ?
-                                store.planets.results.map((planet, i) => {
-                                    const img = planet.name.split(" ").join("-").toLowerCase() + ".jpg";
-                                    return (
-                                        <div className="card mt-3 p-1 mx-3 bg-dark" key={i} id="card-planets">
-                                            <div className="">
-                                                <img src={"/img/planets/" + img} className="card-img-top" alt="..." />
-                                                <div className="card-body">
-                                                    <h5 className="card-title">{planet.name}</h5>
-                                                    <p><Link to={"/planets/" + planet.name} className=" btn btn-danger">More...</Link></p>
+                        <div className="row">
+                            {
+                                !!store.planets ?
+                                    store.planets.results.map((planet, i) => {
+                                        const img = planet.name.split(" ").join("-").toLowerCase() + ".jpg";
+                                        return (
+                                            <div className="card mt-3 p-1 mx-3 bg-dark" key={i} id="card-general">
+                                                <div className="">
+                                                    <img src={"/img/planets/" + img} className="card-img-top" alt="..." />
+                                                    <div className="card-body">
+                                                        <h5 className="card-title">{planet.name}</h5>
+                                                        <p><Link to={"/projects/starwars/planets/:planet" + planet.name} className=" btn btn-danger">More...</Link></p>
+                                                    </div>
                                                 </div>
+                                            </div>
+                                        )
+                                    })
+                                    : (
+                                        <div className="col-md-12 text-center">
+                                            <div className="spinner-grow" role="status">
+                                                <span className="sr-only">Loading...</span>
                                             </div>
                                         </div>
                                     )
-                                })
-                                : (
-                                    <div className="col-md-12 text-center">
-                                        <div className="spinner-grow" role="status">
-                                            <span className="sr-only">Loading...</span>
-                                        </div>
-                                    </div>
-                                )
-                        }
+                            }
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div className="row">
-                <div className="col-md-12 d-flex justify-content-between">
-                    {
-                        !!store.planets &&
-                        store.planets.previous !== null ?
-                            (
-                                <button className="btn btn-primary btn-md"
-                                    onClick={() => actions.getPlanets(store.planets.previous)}>
-                                    Previous
-                                </button>
-                            ) :( 
-                                <button className="btn btn-primary btn-md disabled"
-                                    onClick={() => actions.getPlanets(store.planets.previous)}>
-                                    Previous
-                                </button>
-                            )
-                    }
-                    {
-                        !!store.planets &&
-                        store.planets.next !== null ?
-                            (
-                                <button className="btn btn-primary btn-md"
-                                    onClick={() => actions.getPlanets(store.planets.next)}>
-                                    Next
-                                </button>
-                            ) :( 
-                                <button className="btn btn-primary btn-md disabled"
-                                    onClick={() => actions.getPlanets(store.planets.next)}>
-                                    Next
-                                </button>
-                            )
-                    }
+                <div className="row">
+                    <div className="col-md-12 d-flex justify-content-between">
+                        {
+                            !!store.planets &&
+                                store.planets.previous !== null ?
+                                (
+                                    <button className="btn btn-primary btn-md"
+                                        onClick={() => actions.getPlanets(store.planets.previous)}>
+                                        Previous
+                                    </button>
+                                ) : (
+                                    <button className="btn btn-primary btn-md disabled"
+                                        onClick={() => actions.getPlanets(store.planets.previous)}>
+                                        Previous
+                                    </button>
+                                )
+                        }
+                        {
+                            !!store.planets &&
+                                store.planets.next !== null ?
+                                (
+                                    <button className="btn btn-primary btn-md"
+                                        onClick={() => actions.getPlanets(store.planets.next)}>
+                                        Next
+                                    </button>
+                                ) : (
+                                    <button className="btn btn-primary btn-md disabled"
+                                        onClick={() => actions.getPlanets(store.planets.next)}>
+                                        Next
+                                    </button>
+                                )
+                        }
 
+                    </div>
                 </div>
-            </div>
+
 
             </div>
         </>

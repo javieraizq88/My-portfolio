@@ -39,7 +39,7 @@ const StarshipsStarWars = props => {
                     </div>
                 </nav>
 
-                <div className="container" id="container-starships">
+                <div className="container"  id="container-starship">
                     <div className="row">
                         <div className="row">
                             {
@@ -48,9 +48,12 @@ const StarshipsStarWars = props => {
                                     store.starships.results.map((starship, i) => {
                                         const img = starship.name.split(" ").join("-").toLowerCase() + ".jpg";
                                         return (
-                                            <div className="card mt-3 p-2 mx-3 ml-5 mr-5 mb-3 bg-dark" key={i} id="card-general-starships">
+                                            <div className="card mt-3 p-2 mx-3 ml-5 mr-5 mb-3 bg-dark" key={i} id="card-general">
                                                 <div className="card-header ">
-                                                    <h3 className="card-title text-center text-white" id="titulo-starships">{starship.name}</h3>
+                                                    <h3
+                                                        className="card-title text-center text-white"
+                                                        id="titulo-starships">{starship.name}
+                                                    </h3>
                                                 </div>
                                                 <img src={"/img/Starships/" + img} className="card-img" alt="..." />
                                                 <p><Link to={"/projects/starwars/starships/" + starship.name} className="mt-2 btn btn-danger ">More...</Link></p>

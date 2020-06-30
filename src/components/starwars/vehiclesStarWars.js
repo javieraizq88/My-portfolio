@@ -41,25 +41,25 @@ const VehiclesStarWars = props => {
                 </nav>
 
                 <div className="row" >
-                        <div className="card col-md-10" id="card-vehicles">
-                            {
-                                !!store.vehicles ?
-                                    store.vehicles.results.map((vehicle, i) => {
-                                        const img = vehicle.name.replace("/", "-").split(" ").join("-").toLowerCase() + ".jpg";
-                                        return (
-                                            <ul key={i} >
-                                                <li><h5 className=" card-title"><Link to={"/vehicles/" + vehicle.name}>{vehicle.name}</Link></h5></li>
-                                            </ul>
-                                        )
-                                    })
-                                    : (
-                                        <div className="col-md-12 col-xs-12 text-center">
-                                            <div className="spinner-grow" role="status">
-                                                <span className="sr-only">Loading...</span>
-                                            </div>
-                                        </div>
+                    <div className="card col-md-10" id="card-vehicles">
+                        {
+                            !!store.vehicles ?
+                                store.vehicles.results.map((vehicle, i) => {
+                                    const img = vehicle.name.replace("/", "-").split(" ").join("-").toLowerCase() + ".jpg";
+                                    return (
+                                        <ul key={i} >
+                                            <li><h5 className=" card-title"><Link to={"/projects/starwars/vehicles/" + vehicle.name}>{vehicle.name}</Link></h5></li>
+                                        </ul>
                                     )
-                            }
+                                })
+                                : (
+                                    <div className="col-md-12 col-xs-12 text-center">
+                                        <div className="spinner-grow" role="status">
+                                            <span className="sr-only">Loading...</span>
+                                        </div>
+                                    </div>
+                                )
+                        }
                     </div>
                 </div>
 

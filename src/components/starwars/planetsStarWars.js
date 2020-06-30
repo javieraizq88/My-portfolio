@@ -1,13 +1,11 @@
 import React, { useContext } from "react";
 import { Context } from "../../store/appContext";
 import Titulo from "./tituloStarWars";
-import { Link, useHistory } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const PlanetsStarWars = props => {
     const { store, actions } = useContext(Context);
     const { planets } = store;
-    const nombrePlaneta = props.match.params.planet;
-    const history = useHistory();
 
     return (
         <>
@@ -51,12 +49,12 @@ const PlanetsStarWars = props => {
                                     store.planets.results.map((planet, i) => {
                                         const img = planet.name.split(" ").join("-").toLowerCase() + ".jpg";
                                         return (
-                                            <div className="card mt-3 p-1 mx-3 bg-dark" key={i} id="card-general">
+                                            <div className="card mt-3 p-1 mx-3 bg-dark" key={i} id="card-planets">
                                                 <div className="">
                                                     <img src={"/img/planets/" + img} className="card-img-top" alt="..." />
                                                     <div className="card-body">
                                                         <h5 className="card-title">{planet.name}</h5>
-                                                        <p><Link to={"/projects/starwars/planets/:planet" + planet.name} className=" btn btn-danger">More...</Link></p>
+                                                        <p><Link to={"/planets/" + planet.name} className=" btn btn-danger">More...</Link></p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -109,7 +107,6 @@ const PlanetsStarWars = props => {
 
                     </div>
                 </div>
-
 
             </div>
         </>

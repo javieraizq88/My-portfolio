@@ -5,7 +5,7 @@ import { Link, useHistory } from "react-router-dom";
 
 const PlanetStarWars = props => {
     const { store, actions } = useContext(Context);
-    const { people } = store;
+    const { planets } = store;
     const nombrePlaneta = props.match.params.planet;
     const history = useHistory();
 
@@ -42,8 +42,6 @@ const PlanetStarWars = props => {
                     </div>
                 </nav>
 
-
-
                 <div className="container">
                     <div className="row">
                         <div className="row">
@@ -57,12 +55,12 @@ const PlanetStarWars = props => {
                                             return (
                                                 <div className="card mt-3 mb-3" key={i} id="card-planets" >
                                                     <div className="row no-gutters">
-                                                        <div className="col-md-4">
+                                                        <div className="col-md-4 col-xs-4">
                                                             <img src={"/img/planets/" + img} className="card-img" alt="..." />
                                                         </div>
-                                                        <div className="col-md-8">
+                                                        <div className="col-md-5 col-xs-5 ">
                                                             <div className="card-body">
-                                                                <h5 className="card-title">{planet.name}</h5>
+                                                                <h5 className="card-title ml-3">{planet.name}</h5>
                                                                 <p className="card-text">Climate: {planet.climate}</p>
                                                                 <p className="card-text">Diameter: {planet.diameter}</p>
                                                                 <p className="card-text">Gravity: {planet.gravity}</p>
@@ -90,8 +88,7 @@ const PlanetStarWars = props => {
                         </div>
                     </div>
                 </div>
-            
-            
+
             </div>
         </>
     )

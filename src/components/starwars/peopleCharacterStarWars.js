@@ -13,7 +13,7 @@ const CharacterStarWars = props => {
     console.log(people)
     return (
         <>
-            <div id="container-home-starwars">
+            <div id="container-starwars-indiv">
                 <Titulo />
 
                 {/* Navbar */}

@@ -53,7 +53,7 @@ const StarshipStarWars = props => {
 
                                             const img = starship.name.split(" ").join("-").toLowerCase() + ".jpg";
                                             return (
-                                                <div className="card mt-5" key={i} >
+                                                <div className="card mt-5" id="card-starship" key={i} >
                                                     <div className="row no-gutters">
                                                         <div className="col-md-4 col-xs-4">
                                                             <img src={"/img/starships/" + img} className="card-img-top mt-5 ml-2"  />

@@ -1,6 +1,6 @@
 
 Para crear React.js
-    1) npm create-react-app my-portfolio
+    1) npx create-react-app my-portfolio
     2) cd my-portfolio
     3) npm run build
     4) npm i jquery@3.4.1 popper.js bootstrap react-router-dom @fortawesome/fontawesome-free@5.1.0-9 --save

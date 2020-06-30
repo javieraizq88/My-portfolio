@@ -1,4 +1,4 @@
-import React, { useContext }  from "react";
+import React, { useContext } from "react";
 import { Context } from "../../store/appContext";
 import Titulo from "./tituloStarWars";
 import { Link } from "react-router-dom";
@@ -10,36 +10,36 @@ const PeopleStarWars = props => {
     console.log(people)
     return (
         <>
-        <div id="container-home-starwars">
-        <Titulo/>
+            <div id="container-home-starwars">
+                <Titulo />
 
-        {/* Navbar */}
-        <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top " id="navbar-starwars">
-            <Link className="navbar-brand" to="/projects/starwars">Star Wars</Link>
-                <div className="collapse navbar-collapse " id="navbarNav">
-                    <ul className="navbar-nav mr-auto border-right" id="navbar-item">
-                        <li className="nav-item active">
-                            <Link className="nav-link border-left" to="/projects/starwars/people">People</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link border-left" to="/projects/starwars/films">Films</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link border-left" to="/projects/starwars/starships">Starships</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link border-left" to="/projects/starwars/vehicles">Vehicles</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link border-left" to="/projects/starwars/species">Species</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link border-left" to="/projects/starwars/planets">Planets</Link>
-                        </li>
-                    </ul>
-                    <Link type="button" className="btn btn-success" to="/projects" id="back-to-jim">Back to JIM</Link>
-                </div>
-            </nav>
+                {/* Navbar */}
+                <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top " id="navbar-starwars">
+                    <Link className="navbar-brand" to="/projects/starwars">Star Wars</Link>
+                    <div className="collapse navbar-collapse " id="navbarNav">
+                        <ul className="navbar-nav mr-auto border-right" id="navbar-item">
+                            <li className="nav-item active">
+                                <Link className="nav-link border-left" to="/projects/starwars/people">People</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link border-left" to="/projects/starwars/films">Films</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link border-left" to="/projects/starwars/starships">Starships</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link border-left" to="/projects/starwars/vehicles">Vehicles</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link border-left" to="/projects/starwars/species">Species</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link border-left" to="/projects/starwars/planets">Planets</Link>
+                            </li>
+                        </ul>
+                        <Link type="button" className="btn btn-success" to="/projects" id="back-to-jim">Back to JIM</Link>
+                    </div>
+                </nav>
 
                 <div className="row" >
                     <div className="row" id="contenido-general">
@@ -69,45 +69,45 @@ const PeopleStarWars = props => {
                                 )
                         }
                     </div>
-            </div>
-
-
-{/* botones */}
-            <div className="row">
-                <div className="col-md-12 col-xs-12 d-flex justify-content-between">
-                    {
-                        !!store.people &&
-                            store.people.previous !== null ?
-                            (
-                                <button className="btn btn-primary btn-md" 
-                                    onClick={() => actions.getPeople(store.people.previous)}>
-                                    Previous
-                                </button>
-                            ) : (
-                                <button className="btn btn-primary btn-md disabled"
-                                    onClick={() => actions.getPeople(store.people.previous)}>
-                                    Previous
-                                </button>
-                            )
-                    }
-                    {
-                        !!store.people &&
-                            store.people.next !== null ?
-                            (
-                                <button className="btn btn-primary btn-md"
-                                    onClick={() => actions.getPeople(store.people.next)}>
-                                    Next
-                                </button>
-                            ) : (
-                                <button className="btn btn-primary btn-md disabled"
-                                    onClick={() => actions.getPeople(store.people.next)}>
-                                    Next
-                                </button>
-                            )
-                    }
-
                 </div>
-            </div>
+
+
+                {/* botones */}
+                <div className="row">
+                    <div className="col-md-12 col-xs-12 d-flex justify-content-between">
+                        {
+                            !!store.people &&
+                                store.people.previous !== null ?
+                                (
+                                    <button className="btn btn-primary btn-md"
+                                        onClick={() => actions.getPeople(store.people.previous)}>
+                                        Previous
+                                    </button>
+                                ) : (
+                                    <button className="btn btn-primary btn-md disabled"
+                                        onClick={() => actions.getPeople(store.people.previous)}>
+                                        Previous
+                                    </button>
+                                )
+                        }
+                        {
+                            !!store.people &&
+                                store.people.next !== null ?
+                                (
+                                    <button className="btn btn-primary btn-md"
+                                        onClick={() => actions.getPeople(store.people.next)}>
+                                        Next
+                                    </button>
+                                ) : (
+                                    <button className="btn btn-primary btn-md disabled"
+                                        onClick={() => actions.getPeople(store.people.next)}>
+                                        Next
+                                    </button>
+                                )
+                        }
+
+                    </div>
+                </div>
 
 
 

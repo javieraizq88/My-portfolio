@@ -56,20 +56,28 @@ const CharacterStarWars = props => {
                                                 <div className="card mt-3 text-white bg-secondary " >
                                                     <div className="row no-gutters">
                                                         <div className="col-md-4 col-xs-4">
-                                                            <img src={"/img/people/" + img} className="card-img-top" alt="..." />
+                                                            <img
+                                                                src={"/img/people/" + img}
+                                                                className="card-img-top"
+                                                                alt="..."
+                                                            />
                                                         </div>
                                                         <div className="col-md-5 col-xs-5 ">
                                                             <div className="card-body ">
                                                                 <h4 className="card-title">{character.name}</h4>
                                                                 <p className="card-text ml-3">
                                                                     &nbsp; Gender : {character.gender} <br />
-                                                            &nbsp; Eye color : {character.eye_color}<br />
-                                                            &nbsp; Hair color : {character.hair_color}<br />
-                                                            &nbsp; Mass : {character.mass}<br />
-                                                            &nbsp; Height : {character.height}<br />
-                                                            &nbsp; Birth year : {character.birth_year}<br />
+                                                                    &nbsp; Eye color : {character.eye_color}<br />
+                                                                    &nbsp; Hair color : {character.hair_color}<br />
+                                                                    &nbsp; Mass : {character.mass}<br />
+                                                                    &nbsp; Height : {character.height}<br />
+                                                                    &nbsp; Birth year : {character.birth_year}<br />
                                                                 </p>
-                                                                <button className="btn btn-primary" onClick={() => history.goBack()}>Back to People</button>
+                                                                <button
+                                                                    className="btn btn-primary"
+                                                                    onClick={() => history.goBack()}>
+                                                                    Back to People
+                                                                </button>
                                                             </div>
                                                         </div>
                                                     </div>

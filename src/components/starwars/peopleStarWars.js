@@ -50,11 +50,21 @@ const PeopleStarWars = props => {
                                     const img = character.name.split(" ").join("-").toLowerCase() + ".jpg";
                                     return (
                                         <div className="card col-md-3 col-xs-3 ml-5 mt-3 p-1 bg-dark" key={i} id="card-general">
-                                            <div className="" id="card-general">
-                                                <img src={"/img/people/" + img} className="card-img-top" alt="..." />
+                                            <div id="card-general">
+                                                <img
+                                                    src={"/img/people/" + img}
+                                                    className="card-img-top"
+                                                    alt="..."
+                                                />
                                                 <div className="card-body">
                                                     <h5 className="card-title">{character.name}</h5>
-                                                    <p><Link to={"/projects/starwars/people/" + character.name} className=" btn btn-danger">More...</Link></p>
+                                                    <p>
+                                                        <Link
+                                                            to={"/projects/starwars/people/" + character.name}
+                                                            className=" btn btn-danger">
+                                                            More...
+                                                        </Link>
+                                                    </p>
                                                 </div>
                                             </div>
                                         </div>

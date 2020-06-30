@@ -49,19 +49,25 @@ const SpeciesStarWars = props => {
                                     store.species.results.map((specie, i) => {
                                         const img = specie.name.split(" ").join("-").toLowerCase() + ".jpg";
                                         return (
-                                            <div className="card col-md-5 mt-3 p-1 mx-3 text-center" key={i} id="card-species">
+                                            <div
+                                                className="card col-md-5 mt-3 p-1 mx-3 text-center"
+                                                key={i}
+                                                id="card-species"
+                                            >
                                                 <div className="row no-grotter">
 
                                                     <h3 className=" col-md-8 card-title">
-                                                        <Link 
-                                                        id="text-card-species"
-                                                         to={"/projects/starwars/species/" + specie.name}>
-                                                             <br />
-                                                             {specie.name}
+                                                        <Link
+                                                            id="text-card-species"
+                                                            to={"/projects/starwars/species/" + specie.name}>
+                                                            <br />
+                                                            {specie.name}
                                                         </Link>
                                                     </h3>
-                                                    <img 
-                                                    src={"/img/species/" + img} className="col-md-4 card-img-top" alt="..." />
+                                                    <img
+                                                        src={"/img/species/" + img}
+                                                        className="col-md-4 card-img-top"
+                                                        alt="..." />
                                                 </div>
                                             </div>
                                         )

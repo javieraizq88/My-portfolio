@@ -10,7 +10,7 @@ const PeopleStarWars = props => {
     console.log(people)
     return (
         <>
-            <div id="container-home-starwars">
+            <div id="container-starwars">
                 <Titulo />
 
                 {/* Navbar */}
@@ -40,17 +40,18 @@ const PeopleStarWars = props => {
                         <Link type="button" className="btn btn-success" to="/projects" id="back-to-jim">Back to JIM</Link>
                     </div>
                 </nav>
-
+              
+                <div className="container">
                 <div className="row" >
-                    <div className="row" id="contenido-general">
+                    <div className="row" >
                         {
                             !!store.people &&
                                 store.people.results.length > 0 ?
                                 store.people.results.map((character, i) => {
                                     const img = character.name.split(" ").join("-").toLowerCase() + ".jpg";
                                     return (
-                                        <div className="card col-md-3 col-xs-3 ml-5 mt-3 p-1 bg-dark" key={i} id="card-general">
-                                            <div id="card-general">
+                                        <div className="card col-md-3 col-xs-3 ml-5 mt-3 p-1 bg-dark" key={i} id="card-general1">
+                                            <div id="card-people">
                                                 <img
                                                     src={"/img/people/" + img}
                                                     className="card-img-top"
@@ -117,6 +118,7 @@ const PeopleStarWars = props => {
                         }
 
                     </div>
+                </div>
                 </div>
 
 

@@ -54,7 +54,7 @@ const PlanetsStarWars = props => {
                                                     <img src={"/img/planets/" + img} className="card-img-top" alt="..." />
                                                     <div className="card-body">
                                                         <h5 className="card-title">{planet.name}</h5>
-                                                        <p><Link to={"/projects/starwars/planets/:planet" + planet.name} className=" btn btn-danger">More...</Link></p>
+                                                        <p><Link to={"/projects/starwars/planets/" + planet.name} className=" btn btn-danger">More...</Link></p>
                                                     </div>
                                                 </div>
                                             </div>

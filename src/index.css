@@ -419,3 +419,22 @@ margin-left: 5px;
   overflow: hidden;
   margin: 0 auto;
 }
+
+
+#card-planet{
+  color: white;
+}
+
+#card-planet img{
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+#card-planet-text{
+  margin-left: 70px;
+} 

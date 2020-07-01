@@ -14,7 +14,6 @@ import StarshipsStarWars from "./components/starwars/starshipsStarWars";
 import VehiclesStarWars from "./components/starwars/vehiclesStarWars";
 import SpeciesStarWars from "./components/starwars/speciesStarWars";
 import CharacterStarWars from "./components/starwars/peopleCharacterStarWars";
-import PlanetStarWars from "./components/starwars/planetsPlanetStarWars";
 import StarshipStarWars from "./components/starwars/starshipsStarsipStarWars";
 import SpecieStarWars from "./components/starwars/speciesSpeciesStarWars";
 import VehicleStarWars from "./components/starwars/vehiclesVehicleStarWars";
@@ -24,6 +23,7 @@ import InstagramPost from "./components/instagram-post/instagram-post";
 import DigitalPostcard from "./components/digital-postcard/digital-postcard";
 import InstagramPhotoFeed from "./components/instagram-photo-feed/instagram-photo-feed";
 import InstagramPhotoFeed2 from "./components/instagram-photo-feed/instagram2";
+import PlanetStarWars from "./components/starwars/planetsPlanetStarWars";
 
 const App = props => {
     return (

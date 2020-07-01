@@ -11,7 +11,7 @@ const PlanetStarWars = props => {
 
     return (
         <>
-            <div id="container-home-starwars">
+            <div id="container-starwars-indiv">
                 <Titulo />
 
                 {/* Navbar */}
@@ -42,6 +42,11 @@ const PlanetStarWars = props => {
                     </div>
                 </nav>
 
+
+
+
+
+
                 <div className="container">
                     <div className="row">
                         <div className="row">
@@ -53,22 +58,24 @@ const PlanetStarWars = props => {
                                             //para linkear la imagen de cada character, hay q cambiar "img/" por URL
                                             //el boton vuelve a people por eso no tiene el "/" final
                                             return (
-                                                <div className="card mt-3 mb-3" key={i} id="card-planets" >
+                                                <div className="card mt-3 mb-3 bg-secondary" key={i} id="card-planet" >
                                                     <div className="row no-gutters">
                                                         <div className="col-md-4 col-xs-4">
                                                             <img src={"/img/planets/" + img} className="card-img" alt="..." />
                                                         </div>
                                                         <div className="col-md-5 col-xs-5 ">
-                                                            <div className="card-body">
+                                                            <div id="card-planet-text" className="card-body">
                                                                 <h5 className="card-title ml-3">{planet.name}</h5>
-                                                                <p className="card-text">Climate: {planet.climate}</p>
-                                                                <p className="card-text">Diameter: {planet.diameter}</p>
-                                                                <p className="card-text">Gravity: {planet.gravity}</p>
-                                                                <p className="card-text">Orbital Period: {planet.orbital_period}</p>
-                                                                <p className="card-text">Population: {planet.population}</p>
-                                                                <p className="card-text">Rotation period: {planet.rotation_period}</p>
-                                                                <p className="card-text">Surface water: {planet.surface_water}</p>
-                                                                <p className="card-text">Terrain: {planet.terrain}</p>
+                                                                <p className="card-text">
+                                                                    Climate: {planet.climate}<br/>
+                                                                    Diameter: {planet.diameter}<br/>
+                                                                    Gravity: {planet.gravity}<br/>
+                                                                    Orbital Period: {planet.orbital_period}<br/>
+                                                                    Population: {planet.population}<br/>
+                                                                    Rotation period: {planet.rotation_period}<br/>
+                                                                    Surface water: {planet.surface_water}<br/>
+                                                                    Terrain: {planet.terrain}<br/>
+                                                                    </p>
                                                                 <button className="btn btn-primary" onClick={() => history.goBack()}>Back to Planets</button>
                                                             </div>
                                                         </div>

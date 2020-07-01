@@ -14,7 +14,7 @@ class TrafiicLight extends React.Component {
     }
 
     cambiarLuz = (e) => {
-        if (e.target.id=="redLight"&&this.state.encendidoRojo===0&&this.state.encendidoAmarillo===0&&this.state.encendidoVerde===0) { 
+        if (e.target.id=="redLight" && this.state.encendidoRojo===0&&this.state.encendidoAmarillo===0&&this.state.encendidoVerde===0) { 
             e.target.classList.remove("alert-danger");
             e.target.classList.add("bg-danger") 
             this.setState({

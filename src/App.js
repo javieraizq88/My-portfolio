@@ -24,7 +24,7 @@ import DigitalPostcard from "./components/digital-postcard/digital-postcard";
 import InstagramPhotoFeed from "./components/instagram-photo-feed/instagram-photo-feed";
 import InstagramPhotoFeed2 from "./components/instagram-photo-feed/instagram2";
 import PlanetStarWars from "./components/starwars/planetsPlanetStarWars";
-import Form1 from "./components/form1/form1";
+import ExcuseGenerator from "./components/excuseGenerator/excuse";
 
 const App = props => {
     return (
@@ -42,7 +42,7 @@ const App = props => {
                 <Route exact path="/projects/digital-postcard" component={DigitalPostcard} />
                 <Route exact path="/projects/instagram-photo-feed" component={InstagramPhotoFeed} />
                 <Route exact path="/projects/instagram-photo-feed2" component={InstagramPhotoFeed2} />
-                <Route exact path="/projects/form1" component={Form1} />
+                <Route exact path="/projects/ExcuseGenerator" component={ExcuseGenerator} />
                 <Route exact path="/projects/starwars/people" component={PeopleStarWars} />
                 <Route exact path="/projects/starwars/films" component={FilmsStarWars} />
                 <Route exact path="/projects/starwars/planets" component={PlanetsStarWars} />

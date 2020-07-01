@@ -122,7 +122,7 @@ const Projects = props => {
                         {/* Instagram photo feed */}
                         <div className="col-md-4 mb-4">
                             <div className="card h-100" id="card-InstagramPost">
-                                <h3 className="card-header" name="TL" id="titulo-card">Instagram Photo Feed</h3>
+                                <h3 className="card-header" name="TL" id="titulo-card">Form 1</h3>
                                 <img className="card-img-top" id="card-img-TL" src="/img/IPF/IPF.jpg" alt="" />
                                 <div className="card-body">
                                     <h5 className="card-text-projects">Tecnology and Lenguages</h5>

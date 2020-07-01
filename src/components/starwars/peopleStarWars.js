@@ -10,7 +10,7 @@ const PeopleStarWars = props => {
     console.log(people)
     return (
         <>
-            <div id="container-starwars">
+            <div id="container-starwars1">
                 <Titulo />
 
                 {/* Navbar */}

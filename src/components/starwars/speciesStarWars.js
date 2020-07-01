@@ -9,7 +9,7 @@ const SpeciesStarWars = props => {
 
     return (
         <>
-            <div id="container-home-starwars">
+            <div id="container-starwars1">
                 <Titulo />
 
                 {/* Navbar */}

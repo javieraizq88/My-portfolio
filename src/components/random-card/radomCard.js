@@ -1,5 +1,6 @@
 import React from "react"
 import './randomCard.css';
+import { Link } from "react-router-dom";
 
 
 const RandomCard = props => {
@@ -23,21 +24,31 @@ const RandomCard = props => {
     }
 
     if (cardColor === "♥" || cardColor === "♦") {
-        return (<div id="random-card">
-            <h1>Random card</h1>
+        return (
+            <div id="random-card">
+                <div id="titulo-randomCard">
+                    <h1>Random card</h1>
+                    <h3>Refresh the page to sort the card</h3>
+                    <Link type="button" className="btn btn-success mb-5" to="/projects" id="back-to-jim-randomCard">Back to JIM</Link>
+                </div>
 
-            <div class="card1">
-                <div id="card-before" className="rojo ">{cardColor}</div>
-                <div class="number">{cardNumb}</div>
-                <div id="card-after" className="rojo ">{cardColor}</div>
+                <div class="card1">
+                    <div id="card-before" className="rojo ">{cardColor}</div>
+                    <div class="number">{cardNumb}</div>
+                    <div id="card-after" className="rojo ">{cardColor}</div>
+                </div>
             </div>
-        </div>)
+        )
     }
 
     return (
         <>
             <div id="random-card">
-                <h1>Random card</h1>
+                <div id="titulo-randomCard">
+                    <h1>Random card</h1>
+                    <h3>Refresh the page to sort the card</h3>
+                    <Link type="button" className="btn btn-success mb-5" to="/projects" id="back-to-jim-randomCard">Back to JIM</Link>
+                </div>
                 <div class="card1">
 
                     <div id="card-before" className="spade ">{cardColor}</div>
@@ -45,6 +56,7 @@ const RandomCard = props => {
                     <div id="card-after" className="spade cubs hearts diamonds">{cardColor}</div>
 
                 </div>
+
             </div>
         </>
 

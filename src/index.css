@@ -390,6 +390,19 @@ text-align: center;
 height: 115px;
 }
 
+
+#card-specie-indiv{
+  background-color: rgb(74, 78, 78);
+  color: white;
+  margin-top: 20px;
+}
+
+#card-specie-indiv img{
+zoom: 3;
+margin-top: 20px;
+margin-left: 5px;
+}
+
 /* Planets */
 
 #card-planets{

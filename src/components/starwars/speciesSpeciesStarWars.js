@@ -11,7 +11,7 @@ const SpecieStarWars = props => {
 
     return (
         <>
-            <div id="container-home-starwars">
+            <div id="container-starwars-indiv">
                 <Titulo />
 
                 {/* Navbar */}
@@ -57,7 +57,7 @@ const SpecieStarWars = props => {
                                                 <div
                                                     className="card mt-3"
                                                     key={i}
-                                                    id="card-film" >
+                                                    id="card-specie-indiv" >
                                                     <div className="row no-gutters">
                                                         <div className="col-md-3 col-xs-3">
                                                             <img

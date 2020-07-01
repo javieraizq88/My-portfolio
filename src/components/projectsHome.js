@@ -133,7 +133,7 @@ const Projects = props => {
                                     </ul>
                                     <br />
                                     <h5> Github Project</h5>
-                                    <p id="link-github">https://github.com/javieraizq88/instagram-photo-feed-con-bootstrap</p>
+                                    <p id="link-github">https://github.com/javieraizq88/CreateAHTMLForm</p>
                                 </div>
                                 <div className="card-footer">
                                     <Link to="/projects/form1" id="boton-ver-proyecto" className="btn btn-primary">Find Out More!</Link>

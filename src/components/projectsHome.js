@@ -119,6 +119,28 @@ const Projects = props => {
                             </div>
                         </div>
 
+                        {/* Random card */}
+                        <div className="col-md-4 mb-4">
+                            <div className="card h-100" id="card-InstagramPost">
+                                <h3 className="card-header" name="TL" id="titulo-card">Random Card</h3>
+                                <img className="card-img-top" id="card-img-TL" src="/img/excuse-generator/EG.jpg" alt="" />
+                                <div className="card-body">
+                                    <h5 className="card-text-projects">Tecnology and Lenguages</h5>
+                                    <ul>
+                                        <lo>
+                                            HTML 5 - CSS 3 - JavaScript - Bootstrap 
+                                        </lo>
+                                    </ul>
+                                    <br />
+                                    <h5> Github Project</h5>
+                                    <p id="link-github">https://github.com/javieraizq88/ExcuseGenerator</p>
+                                </div>
+                                <div className="card-footer">
+                                    <Link to="/projects/ExcuseGenerator" id="boton-ver-proyecto" className="btn btn-primary">Find Out More!</Link>
+                                </div>
+                            </div>
+                        </div>
+
                         {/* Excuse Generator */}
                         <div className="col-md-4 mb-4">
                             <div className="card h-100" id="card-InstagramPost">

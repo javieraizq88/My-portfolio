@@ -119,7 +119,7 @@ const Projects = props => {
                             </div>
                         </div>
 
-                        {/* Instagram photo feed */}
+                        {/* Form 1 */}
                         <div className="col-md-4 mb-4">
                             <div className="card h-100" id="card-InstagramPost">
                                 <h3 className="card-header" name="TL" id="titulo-card">Form 1</h3>
@@ -136,7 +136,7 @@ const Projects = props => {
                                     <p id="link-github">https://github.com/javieraizq88/instagram-photo-feed-con-bootstrap</p>
                                 </div>
                                 <div className="card-footer">
-                                    <Link to="/projects/instagram-photo-feed" id="boton-ver-proyecto" className="btn btn-primary">Find Out More!</Link>
+                                    <Link to="/projects/form1" id="boton-ver-proyecto" className="btn btn-primary">Find Out More!</Link>
                                 </div>
                             </div>
                         </div>

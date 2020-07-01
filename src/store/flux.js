@@ -1,13 +1,6 @@
 const getState = ({ getStore, getAction, setStore }) => {
     return {
         store: {
-            // Form1
-            cardNum: "",
-            cvcNum: "",
-            amountNum: "",
-            firstName: "",
-            lastName: "",
-            postalCode: "",
 
             // Star Wars
             people: null,

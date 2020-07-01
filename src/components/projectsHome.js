@@ -119,24 +119,24 @@ const Projects = props => {
                             </div>
                         </div>
 
-                        {/* Form 1 */}
+                        {/* Excuse Generator */}
                         <div className="col-md-4 mb-4">
                             <div className="card h-100" id="card-InstagramPost">
-                                <h3 className="card-header" name="TL" id="titulo-card">Form 1</h3>
-                                <img className="card-img-top" id="card-img-TL" src="/img/IPF/IPF.jpg" alt="" />
+                                <h3 className="card-header" name="TL" id="titulo-card">Excuse Generator</h3>
+                                <img className="card-img-top" id="card-img-TL" src="/img/excuse-generator/EG.jpg" alt="" />
                                 <div className="card-body">
                                     <h5 className="card-text-projects">Tecnology and Lenguages</h5>
                                     <ul>
                                         <lo>
-                                            HTML 5 - CSS 3 - Bootstrap 
+                                            HTML 5 - CSS 3 - JavaScript - Bootstrap 
                                         </lo>
                                     </ul>
                                     <br />
                                     <h5> Github Project</h5>
-                                    <p id="link-github">https://github.com/javieraizq88/CreateAHTMLForm</p>
+                                    <p id="link-github">https://github.com/javieraizq88/ExcuseGenerator</p>
                                 </div>
                                 <div className="card-footer">
-                                    <Link to="/projects/form1" id="boton-ver-proyecto" className="btn btn-primary">Find Out More!</Link>
+                                    <Link to="/projects/ExcuseGenerator" id="boton-ver-proyecto" className="btn btn-primary">Find Out More!</Link>
                                 </div>
                             </div>
                         </div>

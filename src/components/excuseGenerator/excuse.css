@@ -1,0 +1,21 @@
+#titulo-excuse{
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+#excuse-container{
+    margin-top: 5%;
+    margin-left: 25%;
+    padding: 30px;
+    width: 50%;
+    height: 50%;
+    border: 20px rgb(204, 11, 91) solid;
+}
+
+#back-to-jim-excuse{
+    margin-left: 85%;
+    margin-top: -40%;
+    padding: 12px;
+    font-size: 18px;
+    background-color: rgb(230, 46, 33);
+}

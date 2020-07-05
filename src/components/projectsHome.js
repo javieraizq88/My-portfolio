@@ -48,6 +48,30 @@ const Projects = props => {
                     <hr />
                     <div className="card-group">
 
+                        {/* Battleship */}
+                        <div className="col-md-4 mb-4">
+                            <div className="card h-100" id="card-InstagramPost">
+                                <h3 className="card-header" name="TL" id="titulo-card">Battleship</h3>
+                                <div className="card-img">
+                                    <img className="card-img-top " id="card-img-TL" src="/img/starwars/SW.jpg" alt="" />
+                                </div>
+                                <div className="card-body">
+                                    <h5 className="card-text-projects">Tecnology and Lenguages</h5>
+                                    <ul>
+                                        <lo>
+                                            HTML 5 - CSS 3 - Bootstrap - React.Js -JavaScript
+                                        </lo>
+                                    </ul>
+                                    <h5> Github Project</h5>
+                                    <p id="link-github">https://github.com/javieraizq88/battleship</p>
+                                </div>
+                                <div className="card-footer">
+                                    <Link to="/projects/battleship" id="boton-ver-proyecto" className="btn btn-primary">Find Out More!</Link>
+                                </div>
+                            </div>
+                        </div>
+
+
                         {/* Star Wars */}
                         <div className="col-md-4 mb-4">
                             <div className="card h-100" id="card-InstagramPost">
@@ -158,7 +182,7 @@ const Projects = props => {
                                     <p id="link-github">https://github.com/javieraizq88/RandomCardDealer-generator-</p>
                                 </div>
                                 <div className="card-footer">
-                                    <Link to="/projects/ExcuseGenerator" id="boton-ver-proyecto" className="btn btn-primary">Find Out More!</Link>
+                                    <Link to="/projects/RandomCard" id="boton-ver-proyecto" className="btn btn-primary">Find Out More!</Link>
                                 </div>
                             </div>
                         </div>

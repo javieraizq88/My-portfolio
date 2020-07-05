@@ -26,6 +26,7 @@ import InstagramPhotoFeed2 from "./components/instagram-photo-feed/instagram2";
 import PlanetStarWars from "./components/starwars/planetsPlanetStarWars";
 import ExcuseGenerator from "./components/excuseGenerator/excuse";
 import RandomCard from "./components/random-card/radomCard";
+import Battleship from "./components/battleship/battleship";
 
 const App = props => {
     return (
@@ -36,6 +37,7 @@ const App = props => {
                 <Route exact path="/services" component={Services} />
                 <Route exact path="/projects" component={Projects} />
                 <Route exact path="/contact" component={Contact} />
+                <Route exact path="/projects/battleship" component={Battleship} />
                 <Route exact path="/projects/starwars" component={HomeStarWars} />
                 <Route exact path="/projects/tic-tac-toe" component={TicTac} />
                 <Route exact path="/projects/traffic-light" component={TrafiicLight} />

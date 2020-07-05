@@ -119,10 +119,10 @@ const Projects = props => {
                             </div>
                         </div>
 
-                        {/* Random card */}
+                        {/*  */}
                         <div className="col-md-4 mb-4">
                             <div className="card h-100" id="card-InstagramPost">
-                                <h3 className="card-header" name="TL" id="titulo-card">Random Card</h3>
+                                <h3 className="card-header" name="TL" id="titulo-card"></h3>
                                 <img className="card-img-top" id="card-img-TL" src="/img/random-card/RC.jpg" alt="" />
                                 <div className="card-body">
                                     <h5 className="card-text-projects">Tecnology and Lenguages</h5>
@@ -133,7 +133,7 @@ const Projects = props => {
                                     </ul>
                                     <br />
                                     <h5> Github Project</h5>
-                                    <p id="link-github">https://github.com/javieraizq88/RandomCardDealer-generator-</p>
+                                    <p id="link-github"></p>
                                 </div>
                                 <div className="card-footer">
                                     <Link to="/projects/ExcuseGenerator" id="boton-ver-proyecto" className="btn btn-primary">Find Out More!</Link>

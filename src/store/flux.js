@@ -1,7 +1,11 @@
 const getState = ({ getStore, getAction, setStore }) => {
     return {
         store: {
-
+            // encuesta
+            name: "",
+            age: "",
+            marca: {},
+            respuesta: {},
             // Star Wars
             people: null,
             films: null,

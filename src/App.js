@@ -29,6 +29,8 @@ import RandomCard from "./components/random-card/radomCard";
 import Battleship from "./components/battleship/battleship";
 import Pregunta1Encuesta from "./components/encuesta/pregunta1";
 import Pregunta2Encuesta from "./components/encuesta/pregunta2";
+import HomeEncuesta from "./components/encuesta/homeEnc";
+import Pregunta3Encuesta from "./components/encuesta/pregunta3";
 
 const App = props => {
     return (
@@ -39,8 +41,7 @@ const App = props => {
                 <Route exact path="/services" component={Services} />
                 <Route exact path="/projects" component={Projects} />
                 <Route exact path="/contact" component={Contact} />
-                <Route exact path="/projects/encuesta1" component={Pregunta1Encuesta} />
-                <Route exact path="/projects/encuesta2" component={Pregunta2Encuesta} />
+                <Route exact path="/projects/encuesta" component={HomeEncuesta} />
                 <Route exact path="/projects/battleship" component={Battleship} />
                 <Route exact path="/projects/starwars" component={HomeStarWars} />
                 <Route exact path="/projects/tic-tac-toe" component={TicTac} />
@@ -51,6 +52,9 @@ const App = props => {
                 <Route exact path="/projects/instagram-photo-feed2" component={InstagramPhotoFeed2} />
                 <Route exact path="/projects/ExcuseGenerator" component={ExcuseGenerator} />
                 <Route exact path="/projects/RandomCard" component={RandomCard} />
+                <Route exact path="/projects/encuesta/1" component={Pregunta1Encuesta} />
+                <Route exact path="/projects/encuesta/2" component={Pregunta2Encuesta} />
+                <Route exact path="/projects/encuesta/3" component={Pregunta3Encuesta} />
                 <Route exact path="/projects/starwars/people" component={PeopleStarWars} />
                 <Route exact path="/projects/starwars/films" component={FilmsStarWars} />
                 <Route exact path="/projects/starwars/planets" component={PlanetsStarWars} />

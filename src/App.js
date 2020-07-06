@@ -31,6 +31,8 @@ import Pregunta1Encuesta from "./components/encuesta/pregunta1";
 import Pregunta2Encuesta from "./components/encuesta/pregunta2";
 import HomeEncuesta from "./components/encuesta/homeEnc";
 import Pregunta3Encuesta from "./components/encuesta/pregunta3";
+import Pregunta4Encuesta from "./components/encuesta/pregunta4";
+import FinalizarEncuesta from "./components/encuesta/finalizarEnc";
 
 const App = props => {
     return (
@@ -55,6 +57,8 @@ const App = props => {
                 <Route exact path="/projects/encuesta/1" component={Pregunta1Encuesta} />
                 <Route exact path="/projects/encuesta/2" component={Pregunta2Encuesta} />
                 <Route exact path="/projects/encuesta/3" component={Pregunta3Encuesta} />
+                <Route exact path="/projects/encuesta/4" component={Pregunta4Encuesta} />
+                <Route exact path="/projects/encuesta/fin" component={FinalizarEncuesta} />
                 <Route exact path="/projects/starwars/people" component={PeopleStarWars} />
                 <Route exact path="/projects/starwars/films" component={FilmsStarWars} />
                 <Route exact path="/projects/starwars/planets" component={PlanetsStarWars} />

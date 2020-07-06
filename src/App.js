@@ -27,6 +27,8 @@ import PlanetStarWars from "./components/starwars/planetsPlanetStarWars";
 import ExcuseGenerator from "./components/excuseGenerator/excuse";
 import RandomCard from "./components/random-card/radomCard";
 import Battleship from "./components/battleship/battleship";
+import Pregunta1Encuesta from "./components/encuesta/pregunta1";
+import Pregunta2Encuesta from "./components/encuesta/pregunta2";
 
 const App = props => {
     return (
@@ -37,6 +39,8 @@ const App = props => {
                 <Route exact path="/services" component={Services} />
                 <Route exact path="/projects" component={Projects} />
                 <Route exact path="/contact" component={Contact} />
+                <Route exact path="/projects/encuesta1" component={Pregunta1Encuesta} />
+                <Route exact path="/projects/encuesta2" component={Pregunta2Encuesta} />
                 <Route exact path="/projects/battleship" component={Battleship} />
                 <Route exact path="/projects/starwars" component={HomeStarWars} />
                 <Route exact path="/projects/tic-tac-toe" component={TicTac} />

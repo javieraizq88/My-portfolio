@@ -48,6 +48,31 @@ const Projects = props => {
                     <hr />
                     <div className="card-group">
 
+                        {/* Encuesta */}
+                        <div className="col-md-4 mb-4">
+                            <div className="card h-100" id="card-InstagramPost">
+                                <h3 className="card-header" name="TL" id="titulo-card">Formulario</h3>
+                                <div className="card-img">
+                                    <img className="card-img-top " id="card-img-TL" src="/img/encuesta/E.jpg" alt="" />
+                                </div>
+                                <div className="card-body">
+                                    <h5 className="card-text-projects">Tecnology and Lenguages</h5>
+                                    <ul>
+                                        <lo>
+                                            HTML 5 - CSS 3 - Bootstrap - JQuery - React.Js -JavaScript
+                                        </lo>
+                                    </ul>
+                                    <h5> Github Project</h5>
+                                    <p id="link-github">https://github.com/javieraizq88/formulario-jun-2020</p>
+                                </div>
+                                <div className="card-footer">
+                                    <Link to="/projects/encuesta" id="boton-ver-proyecto" className="btn btn-primary">Find Out More!</Link>
+                                </div>
+                            </div>
+                        </div>
+
+
+
                         {/* Battleship */}
                         <div className="col-md-4 mb-4">
                             <div className="card h-100" id="card-InstagramPost">

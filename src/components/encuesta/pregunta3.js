@@ -1,15 +1,22 @@
-import React from "react"
+import React, { useContext } from "react"
+import { useHistory, Link } from "react-router-dom"
+import { Context } from "../../store/appContext";
+import HeaderEncuesta from "./headerEnc";
+
 
 const Pregunta3Encuesta = props => {
+    const history = useHistory();
+    const { store, actions } = useContext(Context)
+    
     return (
         <> 
-        
-        <div>
+
+<div>
             <div className="card-group ">
                 <div className=" card-body col-md-1 col-xs-1"></div>
                 <div className="card-body col-md-10 col-xs-10"
                     id="container1">
-                    <Header />
+                    <HeaderEncuesta />
                     <div>
                         <h3 id="subtitulo">Pregunta 3 de 4</h3>
 
@@ -111,7 +118,7 @@ const Pregunta3Encuesta = props => {
                                                 </button>
                                                 :
                                                 <Link
-                                                    to="/pregunta4">
+                                                    to="/projects/encuesta/4">
                                                     <button
                                                         id="boton-siguiente-preg3"
                                                         type="button"

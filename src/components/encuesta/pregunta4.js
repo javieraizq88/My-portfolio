@@ -2,13 +2,13 @@ import React, { useContext } from "react"
 import { Context } from "../../store/appContext"
 import { useHistory, Link } from "react-router-dom"
 import HeaderEncuesta from "./headerEnc"
-
+import "./encuesta.css"
 
 const Pregunta4a = ({ marca }) => {
     const { actions } = useContext(Context)
 
     return (
-        
+
         <div className="card-group" id="pregunta3">
             <label
                 className="col-md-5 col-xs-5">
@@ -16,8 +16,8 @@ const Pregunta4a = ({ marca }) => {
             </label>
             {
                 marca === "Nike"
-                //  &&
-                //     marca === "Nike" 
+                    //  &&
+                    //     marca === "Nike" 
                     ?
                     <div id="borde-respuestas" className="col-md-5 col-xs-5">
 
@@ -126,9 +126,9 @@ const Pregunta4a = ({ marca }) => {
 
 
             {
-                marca === "Puma" 
-                // &&
-                //     marca === "Puma" 
+                marca === "Puma"
+                    // &&
+                    //     marca === "Puma" 
                     ?
                     <div id="borde-respuestas" className="col-md-5 col-xs-5">
                         <div id="buena1" className="form-check form-check-inline" >
@@ -182,79 +182,80 @@ const Pregunta4a = ({ marca }) => {
     )
 }
 
-
-const Pregunta4Encuesta = props => { 
+const Pregunta4Encuesta = props => {
     const history = useHistory();
-    const { store } = useContext(Context)
+    const { store } = useContext(Context);
     const obj = store.marca;
     const map = Object.keys(obj);
 
     return (
-        <div>
-            <div className="card-group ">
-                <div className=" card-body col-md-1 col-xs-1"></div>
-                <div className="card-body col-md-10 col-xs-10"
-                    id="container1">
-                    <HeaderEncuesta />
-                    <div>
-                        <h3 id="subtitulo">Pregunta 4 de 4</h3>
+        <>
+            <div>
+                <div className="card-group ">
+                    <div className=" card-body col-md-1 col-xs-1"></div>
+                    <div className="card-body col-md-10 col-xs-10"
+                        id="container1">
+                        <HeaderEncuesta />
+                        <div>
+                            <h3 id="subtitulo">Pregunta 4 de 4</h3>
 
-                        <div className="container">
-                            <div className="row">
-                                <div className="col">
-                                    <form id="loginForm">
-                                        {
-                                            map.map((marca, i) => {
-                                                return (
-                                                    <Pregunta4a marca={marca} key={i} />
-                                                )
-                                            })
-                                        }
-                                    </form> {/* fin del formulario */}
+                            <div className="container">
+                                <div className="row">
+                                    <div className="col">
+                                        <form id="loginForm">
+                                            {
+                                                map.map((marca, i) => {
+                                                    return (
+                                                        <Pregunta4a marca={marca} key={i} />
+                                                    )
+                                                })
+                                            }
+                                        </form> {/* fin del formulario */}
 
-                                    {/* botones */}
-                                    <div
-                                        className=""
-                                        id="botones">
-                                        <button
-                                            id="boton-volver-preg3"
-                                            type="button"
-                                            onClick={() => history.goBack()}
-                                            className="btn btn-success float-left">
-                                            Volver
+                                        {/* botones */}
+                                        <div
+                                            className=""
+                                            id="botones">
+                                            <button
+                                                id="boton-volver-preg3"
+                                                type="button"
+                                                onClick={() => history.goBack()}
+                                                className="btn btn-success float-left">
+                                                Volver
                                     </button>
 
-                                        {/* validacion de elegir 1 opción */}
-                                        {
-                                            Object.keys(store.marca).length === Object.keys(store.respuesta).length ?
-                                                <Link
-                                                    to="/finalizar">
+                                            {/* validacion de elegir 1 opción */}
+                                            {
+                                                Object.keys(store.marca).length === Object.keys(store.respuesta).length ?
+                                                    <Link
+                                                        to="/projects/encuesta/fin">
+                                                        <button
+                                                            id="boton-finalizar"
+                                                            type="button"
+                                                            className="btn btn-success">
+                                                            Finalizar
+                                                </button>
+                                                    </Link>
+                                                    :
                                                     <button
                                                         id="boton-finalizar"
                                                         type="button"
-                                                        className="btn btn-success">
+                                                        className="btn btn-success disabled">
                                                         Finalizar
                                                 </button>
-                                                </Link>
-                                                :
-                                                <button
-                                                    id="boton-finalizar"
-                                                    type="button"
-                                                    className="btn btn-success disabled">
-                                                    Finalizar
-                                                </button>
 
-                                        }
-                                    </div> {/* fin de botones */}
+                                            }
+                                        </div> {/* fin de botones */}
 
-                                </div>{/* fin col */}
-                            </div>{/* fin row */}
-                        </div>{/* fin container */}
-                    </div>{/* fin contenido pregunta 3 */}
+                                    </div>{/* fin col */}
+                                </div>{/* fin row */}
+                            </div>{/* fin container */}
+                        </div>{/* fin contenido pregunta 3 */}
+                    </div>
                 </div>
             </div>
-        </div>
 
+        </>
     )
 }
 

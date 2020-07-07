@@ -1,6 +1,13 @@
-import React from "react"
+import React, { useContext } from "react"
+import HeaderEncuesta from "./headerEnc"
+import "./encuesta.css"
+import { useHistory, Link } from "react-router-dom"
+import { Context } from "../../store/appContext"
 
 const Pregunta2Encuesta = props => {
+    const history = useHistory();
+    const { store, actions } = useContext(Context)
+
     return (
         <> 
         
@@ -9,7 +16,7 @@ const Pregunta2Encuesta = props => {
                 <div className=" card-body col-md-1 col-xs-1"></div>
                 <div className="card-body col-md-10 col-xs-10"
                     id="container1">
-                    <Header />
+                    <HeaderEncuesta />
                     <div>
                         <h3 id="subtitulo">Pregunta 2 de 4</h3>
 
@@ -54,7 +61,7 @@ const Pregunta2Encuesta = props => {
                                             store.age &&
                                                 store.age ?
                                                 <Link
-                                                    to="/pregunta3">
+                                                    to="/projects/encuesta/3">
                                                     <button
                                                         id="boton-siguiente"
                                                         type="button"
@@ -80,6 +87,7 @@ const Pregunta2Encuesta = props => {
                 </div>
             </div>
         </div>
+
 
         </>
     )

@@ -1,21 +1,24 @@
 import React from "react"
+import HeaderEncuesta from "./headerEnc"
+import { Link } from "react-router-dom"
 
 const HomeEncuesta = props => {
     return (
         <> 
-          <div >
+        
+        <div >
             <div className="card-group ">
                 <div className=" card-body col-md-1 col-xs-1"></div>
                 <div className="card-body col-md-10 col-xs-10"
                     id="container1">
-                    <Header />
+                    <HeaderEncuesta />
                     <h2
                         id="subtitulo-home">
                         Para inicar la encuesta, haz click en el siguiente botón
                         </h2>
                     <Link
                         id="boton-home"
-                        to="/pregunta1">
+                        to="/projects/encuesta/1">
                         <button
                             type="button"
                             className="btn btn-success">

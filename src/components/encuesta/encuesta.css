@@ -1,5 +1,6 @@
-body {
-    background: rgb(241, 193, 165) !important;
+#fondo-encuesta{
+    background-color: gray;
+    height: 722px;
 }
 
 #container1{
@@ -18,10 +19,11 @@ body {
   margin-left: 150px; 
  }
 
-#logo-cadem{
+#logo-JIM{
     width: 15%;
     height: 10%;
     margin-left: 40px;
+    background-image: image("logo.jpg");
   }
 
 /* home */

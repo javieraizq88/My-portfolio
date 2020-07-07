@@ -12,7 +12,7 @@ const FinalizarEncuesta = props => {
 
     return (
         <>
-            <div >
+            <div id="fondo-encuesta" >
                 <div className="card-group ">
                     <div className=" card-body col-md-1 col-xs-1"></div>
                     <div className="card-body col-md-10 col-xs-10"
@@ -24,7 +24,7 @@ const FinalizarEncuesta = props => {
                 </h2>
                         <Link
                             id="boton-volver-home"
-                            to="/">
+                            to="/projects/encuesta">
                             <button
                                 type="button"
                                 className="btn btn-success">
@@ -34,6 +34,7 @@ const FinalizarEncuesta = props => {
 
                     </div>
                 </div>
+
             </div>
         </>
     )

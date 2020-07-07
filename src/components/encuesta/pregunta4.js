@@ -190,7 +190,7 @@ const Pregunta4Encuesta = props => {
 
     return (
         <>
-            <div>
+            <div id="fondo-encuesta">
                 <div className="card-group ">
                     <div className=" card-body col-md-1 col-xs-1"></div>
                     <div className="card-body col-md-10 col-xs-10"

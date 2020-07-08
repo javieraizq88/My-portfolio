@@ -55,13 +55,14 @@ const Projects = props => {
                                 <div className="card-img">
                                     <img className="card-img-top " id="card-img-TL" src="/img/encuesta/E.jpg" alt="" />
                                 </div>
-                                <div className="card-body">
+                                <div id="projects-card-body" className="card-body">
                                     <h5 className="card-text-projects">Tecnology and Lenguages</h5>
                                     <ul>
                                         <lo>
                                             HTML 5 - CSS 3 - Bootstrap - JQuery - React.Js -JavaScript
                                         </lo>
                                     </ul>
+                                    <p className="card-text text-white"> a</p>
                                     <h5> Github Project</h5>
                                     <p id="link-github">https://github.com/javieraizq88/formulario-jun-2020</p>
                                 </div>
@@ -70,8 +71,6 @@ const Projects = props => {
                                 </div>
                             </div>
                         </div>
-
-
 
                         {/* Battleship */}
                         <div className="col-md-4 mb-4">
@@ -84,9 +83,10 @@ const Projects = props => {
                                     <h5 className="card-text-projects">Tecnology and Lenguages</h5>
                                     <ul>
                                         <lo>
-                                            HTML 5 - CSS 3 - Bootstrap - React.Js -JavaScript
+                                            HTML 5 - CSS 3 - Bootstrap - JQuery - React.Js -JavaScript
                                         </lo>
                                     </ul>
+                                    <p className="card-text text-white"> a</p>
                                     <h5> Github Project</h5>
                                     <p id="link-github">https://github.com/javieraizq88/battleship</p>
                                 </div>
@@ -95,7 +95,6 @@ const Projects = props => {
                                 </div>
                             </div>
                         </div>
-
 
                         {/* Star Wars */}
                         <div className="col-md-4 mb-4">
@@ -108,7 +107,7 @@ const Projects = props => {
                                     <h5 className="card-text-projects">Tecnology and Lenguages</h5>
                                     <ul>
                                         <lo>
-                                            HTML 5 - CSS 3 - Bootstrap - React.Js -JavaScript - Responsive
+                                            HTML 5 - CSS 3 - Bootstrap - JQuery - React.Js -JavaScript - Responsive
                                         </lo>
                                     </ul>
                                     <p className="card-text">(Use Fire Fox to open this projects please)</p>
@@ -121,7 +120,6 @@ const Projects = props => {
                             </div>
                         </div>
 
-
                         {/* Tic Tac Toe */}
                         <div className="col-md-4 mb-4">
                             <div className="card h-100" id="card-InstagramPost">
@@ -133,10 +131,10 @@ const Projects = props => {
                                     <h5 className="card-text-projects">Tecnology and Lenguages</h5>
                                     <ul>
                                         <lo>
-                                            HTML 5 - CSS 3 - Bootstrap - React.Js -JavaScript
+                                            HTML 5 - CSS 3 - Bootstrap - JQuery - React.Js -JavaScript
                                         </lo>
                                     </ul>
-                                    <br />
+                                    <p className="card-text text-white"> a</p>
                                     <h5> Github Project</h5>
                                     <p id="link-github">https://github.com/javieraizq88/ticTacToeWithReact</p>
                                 </div>
@@ -155,37 +153,15 @@ const Projects = props => {
                                     <h5 className="card-text-projects">Tecnology and Lenguages</h5>
                                     <ul>
                                         <lo>
-                                            HTML 5 - CSS 3 - Bootstrap - React.Js -JavaScript
+                                            HTML 5 - CSS 3 - Bootstrap - JQuery - React.Js -JavaScript
                                         </lo>
                                     </ul>
-                                    <br />
+                                    <p className="card-text text-white"> a</p>
                                     <h5> Github Project</h5>
                                     <p id="link-github">https://github.com/javieraizq88/TrafficLightWithReact</p>
                                 </div>
                                 <div className="card-footer">
                                     <Link to="/projects/traffic-light" id="boton-ver-proyecto" className="btn btn-primary">Find Out More!</Link>
-                                </div>
-                            </div>
-                        </div>
-
-                        {/*  */}
-                        <div className="col-md-4 mb-4">
-                            <div className="card h-100" id="card-InstagramPost">
-                                <h3 className="card-header" name="TL" id="titulo-card"></h3>
-                                <img className="card-img-top" id="card-img-TL" src="/img/random-card/RC.jpg" alt="" />
-                                <div className="card-body">
-                                    <h5 className="card-text-projects">Tecnology and Lenguages</h5>
-                                    <ul>
-                                        <lo>
-                                            HTML 5 - CSS 3 - JavaScript - Bootstrap 
-                                        </lo>
-                                    </ul>
-                                    <br />
-                                    <h5> Github Project</h5>
-                                    <p id="link-github"></p>
-                                </div>
-                                <div className="card-footer">
-                                    <Link to="/projects/ExcuseGenerator" id="boton-ver-proyecto" className="btn btn-primary">Find Out More!</Link>
                                 </div>
                             </div>
                         </div>
@@ -199,10 +175,10 @@ const Projects = props => {
                                     <h5 className="card-text-projects">Tecnology and Lenguages</h5>
                                     <ul>
                                         <lo>
-                                            HTML 5 - CSS 3 - JavaScript - Bootstrap 
+                                            HTML 5 - CSS 3 - JavaScript - Bootstrap - JQuery
                                         </lo>
                                     </ul>
-                                    <br />
+                                    <p className="card-text text-white"> a</p>
                                     <h5> Github Project</h5>
                                     <p id="link-github">https://github.com/javieraizq88/RandomCardDealer-generator-</p>
                                 </div>
@@ -221,10 +197,10 @@ const Projects = props => {
                                     <h5 className="card-text-projects">Tecnology and Lenguages</h5>
                                     <ul>
                                         <lo>
-                                            HTML 5 - CSS 3 - JavaScript - Bootstrap 
+                                            HTML 5 - CSS 3 - JavaScript - Bootstrap - JQuery
                                         </lo>
                                     </ul>
-                                    <br />
+                                    <p className="card-text text-white"> a</p>
                                     <h5> Github Project</h5>
                                     <p id="link-github">https://github.com/javieraizq88/ExcuseGenerator</p>
                                 </div>
@@ -234,8 +210,8 @@ const Projects = props => {
                             </div>
                         </div>
 
-                          {/* Instagram photo feed */}
-                          <div className="col-md-4 mb-4">
+                        {/* Instagram photo feed */}
+                        <div className="col-md-4 mb-4">
                             <div className="card h-100" id="card-InstagramPost">
                                 <h3 className="card-header" name="TL" id="titulo-card">Instagram Photo Feed</h3>
                                 <img className="card-img-top" id="card-img-TL" src="/img/IPF/IPF.jpg" alt="" />
@@ -243,12 +219,13 @@ const Projects = props => {
                                     <h5 className="card-text-projects">Tecnology and Lenguages</h5>
                                     <ul>
                                         <lo>
-                                            HTML 5 - CSS 3 - Bootstrap 
+                                            HTML 5 - CSS 3 - Bootstrap - JQuery
                                         </lo>
                                     </ul>
                                     <br />
+                                    <p className="card-text text-white"> a</p>
                                     <h5> Github Project</h5>
-                                    <p id="link-github">https://github.com/javieraizq88/instagram-photo-feed-con-bootstrap</p>
+                                    <p id="link-github">https://github.com/javieraizq88/instagram-photo-feed-con-Bootstrap - JQuery</p>
                                 </div>
                                 <div className="card-footer">
                                     <Link to="/projects/instagram-photo-feed" id="boton-ver-proyecto" className="btn btn-primary">Find Out More!</Link>
@@ -268,8 +245,9 @@ const Projects = props => {
                                             HTML 5 - CSS 3
                                         </lo>
                                     </ul>
-                                    <br />
+                                    <p className="card-text text-white"> a</p>
                                     <h5> Github Project</h5>
+                                    <br />
                                     <p id="link-github">https://github.com/javieraizq88/InstagramPost</p>
                                 </div>
                                 <div className="card-footer">
@@ -290,6 +268,7 @@ const Projects = props => {
                                             HTML 5 - CSS 3
                                         </lo>
                                     </ul>
+                                    <p className="card-text text-white"> a</p>
                                     <br />
                                     <h5> Github Project</h5>
                                     <p id="link-github">https://github.com/javieraizq88/digital-postcard</p>

@@ -134,6 +134,7 @@ color: #bbb;
   background: rgb(241, 231, 231);
   width: 100.97%;
 }
+
 #titulo-projects{
 margin-top: 30px;
 }
@@ -141,6 +142,10 @@ margin-top: 30px;
 #titulo-card{
   text-align: center;
   margin-top: 22px;
+}
+
+#card-InstagramPost .card-body{
+  height: 240px;
 }
 
 #card-InstagramPost{

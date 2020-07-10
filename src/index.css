@@ -139,6 +139,20 @@ color: #bbb;
 #servicies{
   background: rgb(241, 231, 231);
   width: 100.9%;
+  padding-bottom: 1%;
+}
+
+#card-servicios .card-header {
+  background-color: rgb(247, 196, 234);
+}
+
+#card-servicios .card-body {
+  background-color: rgb(255, 241, 253);
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  padding-left: 40px;
+  padding-bottom: 40px;
 }
 
 /* Projects */

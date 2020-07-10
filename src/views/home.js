@@ -21,12 +21,12 @@ const Home = props => {
                             <li className="nav-item active">
                                 <Link className="nav-link" to="/">Home<span className="sr-only">(current)</span></Link>
                             </li>
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                                 <Link className="nav-link" to="/about">About</Link>
-                            </li>
-                            <li className="nav-item">
+                            </li> */}
+                            {/* <li className="nav-item">
                                 <Link className="nav-link" to="/services">Services</Link>
-                            </li>
+                            </li> */}
                             <li className="nav-item">
                                 <Link className="nav-link" to="/projects">Projects</Link>
                             </li>

@@ -8,42 +8,20 @@ const Contact = props => {
         <>
 
             {/* Navbar */}
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-                <div className="container">
-                    <img src={logo} id="logo" alt="JIM Logo" />
 
-                    {/* <a className="navbar-brand" href="#">JIM</a>*/}
-                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
-                    <div className="collapse navbar-collapse" id="navbarResponsive">
-                        <ul className="navbar-nav ml-auto">
-                            <li className="nav-item ">
-                                <Link className="nav-link" to="/">Home<span className="sr-only">(current)</span></Link>
-                            </li>
-                            <li className="nav-item active">
-                                <Link className="nav-link" to="/about">About</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link className="nav-link" to="/services">Services</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link className="nav-link" to="/projects">Projects</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link className="nav-link" to="/contact">Contact</Link>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
 
-<br/>
-<br/>
-<br/>
+            <br />
+            <br />
+            <br />
 
-<h1 className="">Contact</h1>
+            <h1 className="ml-5 mt-3">Contact</h1>
 
+            <address className="ml-5 mt-4">
+                <p className="ml-3" id="p-Home"><strong>Javiera Izquierdo Martino</strong></p>
+                <p className="ml-3" title="Phone" id="p-Home">Phone: (+56) 99 345 8208</p>
+                <p className="ml-3" title="Email" id="p-Home">Email:<a href="mailto:javieraizquierdo7@gmail.com">  javieraizquierdo7@gmail.com</a></p>
+                <br />
+            </address>
 
         </>
     )

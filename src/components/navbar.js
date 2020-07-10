@@ -35,9 +35,9 @@ const Navbar = props => {
                         <li className="nav-item">
                             <Link className="nav-link" to="/projects">Projectos</Link>
                         </li>
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <Link className="nav-link" to="/contact">Contacto</Link>
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
             </nav>

@@ -7,8 +7,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -25,6 +23,10 @@ nav a{
   padding: 0 32px;
   transition: 0.4s;
   font-size: 20px;
+}
+
+nav li{
+  padding-left: 20px;
 }
 
 nav a:hover{
@@ -154,6 +156,61 @@ color: #bbb;
   padding-left: 40px;
   padding-bottom: 40px;
 }
+
+
+/* constact  */
+#contact{
+  background: rgb(241, 231, 231);
+  width: 100.9%;
+  padding-bottom: 26%;
+}
+
+/* CV */
+
+#CV{
+  background: rgb(241, 231, 231);
+}
+
+#titulo-CV{
+  text-align: center;
+}
+
+#contacto-CV{
+  text-align: center;
+}
+
+#resumen-CV,
+#antecAc-CV,
+#proyectos-CV{
+  text-align: justify;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+#fecha{
+  margin-right: 15px;
+}
+#fecha1{
+  margin-right: 23px;
+}
+
+#descripcion-proyecto-CV{
+  margin-left: 14.7%;
+  text-align: justify;
+}
+
+
+#tecn-CV{
+  border: solid black;
+  text-align: center;
+  margin-right: 60px;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
 
 /* Projects */
 
@@ -433,7 +490,6 @@ text-align: center;
 height: 115px;
 }
 
-
 #card-specie-indiv{
   background-color: rgb(74, 78, 78);
   color: white;
@@ -462,7 +518,6 @@ margin-left: 5px;
   overflow: hidden;
   margin: 0 auto;
 }
-
 
 #card-planet{
   color: white;

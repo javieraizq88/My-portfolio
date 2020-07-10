@@ -28,12 +28,17 @@ const Home = props => {
                     <a className="btn btn-primary btn-lg" href="#">Call to Action &raquo;</a>
                 </div>
                 <div className="col-md-4 col-xs-4 ml-5 mt-5 mb-5">
-                    <h1 >Contact</h1>
+                    <h1 >Contacto</h1>
                     <hr />
                     <address>
                         <p className="ml-3" id="p-Home"><strong>Javiera Izquierdo Martino</strong></p>
-                        <p className="ml-3" title="Phone" id="p-Home">Phone: (+56) 99 345 8208</p>
-                        <p className="ml-3" title="Email" id="p-Home">Email:<a href="mailto:javieraizquierdo7@gmail.com">  javieraizquierdo7@gmail.com</a></p>
+                        <h5 className="ml-3"> <i class="fas fa-envelope ml-5"></i>   javieraizquierdo7@gmail.com</h5>
+                        <h5 className="ml-3">  <i class="fas fa-phone-square ml-5 "></i> + 56 9 9345 8208</h5>
+                        <h5 className="ml-3"> <i class="fab fa-github ml-5 mr-2"></i> javieraizq88</h5>
+                        <h5 className="ml-3"><i class="fab fa-linkedin ml-5 mr-2"></i> Javiera Izquierdo</h5>
+                        
+                   
+                    
                         <br />
                     </address>
                 </div>

@@ -16,7 +16,7 @@ const Projects = props => {
             <div className="row" id="project">
                 <div className="col-md-1"></div>
                 <div id="titulo-projects" className="col-md-10 col-xs-10 mr-2 mb-4">
-                    <h1>Projects</h1>
+                    <h1>Projectos</h1>
                     <hr />
                     <div className="card-group">
 
@@ -28,7 +28,7 @@ const Projects = props => {
                                     <img className="card-img-top " id="card-img-TL" src="/img/encuesta/E.jpg" alt="" />
                                 </div>
                                 <div id="projects-card-body" className="card-body">
-                                    <h5 className="card-text-projects">Tecnology and Lenguages</h5>
+                                    <h5 className="card-text-projects">Tecnologías y Lenguajes</h5>
                                     <ul>
                                         <lo>
                                             HTML 5 - CSS 3 - Bootstrap - JQuery - React.Js -JavaScript
@@ -52,7 +52,7 @@ const Projects = props => {
                                     <img className="card-img-top " id="card-img-TL" src="/img/starwars/SW.jpg" alt="" />
                                 </div>
                                 <div className="card-body">
-                                    <h5 className="card-text-projects">Tecnology and Lenguages</h5>
+                                    <h5 className="card-text-projects">Tecnologías y Lenguajes</h5>
                                     <ul>
                                         <lo>
                                             HTML 5 - CSS 3 - Bootstrap - JQuery - React.Js -JavaScript
@@ -76,7 +76,7 @@ const Projects = props => {
                                     <img className="card-img-top " id="card-img-TL" src="/img/starwars/SW.jpg" alt="" />
                                 </div>
                                 <div className="card-body">
-                                    <h5 className="card-text-projects">Tecnology and Lenguages</h5>
+                                    <h5 className="card-text-projects">Tecnologías y Lenguajes</h5>
                                     <ul>
                                         <lo>
                                             HTML 5 - CSS 3 - Bootstrap - JQuery - React.Js -JavaScript - Responsive
@@ -100,7 +100,7 @@ const Projects = props => {
                                     <img className="card-img-top " id="card-img-TL" src="/img/tic-tac-toe/gato.jpg" alt="" />
                                 </div>
                                 <div className="card-body">
-                                    <h5 className="card-text-projects">Tecnology and Lenguages</h5>
+                                    <h5 className="card-text-projects">Tecnologías y Lenguajes</h5>
                                     <ul>
                                         <lo>
                                             HTML 5 - CSS 3 - Bootstrap - JQuery - React.Js -JavaScript
@@ -122,7 +122,7 @@ const Projects = props => {
                                 <h3 className="card-header" name="TL" id="titulo-card">Traffic Light</h3>
                                 <img className="card-img-top" id="card-img-TL" src="/img/traffic-light/TL-imagen.jpg" alt="" />
                                 <div className="card-body">
-                                    <h5 className="card-text-projects">Tecnology and Lenguages</h5>
+                                    <h5 className="card-text-projects">Tecnologías y Lenguajes</h5>
                                     <ul>
                                         <lo>
                                             HTML 5 - CSS 3 - Bootstrap - JQuery - React.Js -JavaScript
@@ -144,7 +144,7 @@ const Projects = props => {
                                 <h3 className="card-header" name="TL" id="titulo-card">Simple Counter</h3>
                                 <img className="card-img-top" id="card-img-TL" src="/img/traffic-light/TL-imagen.jpg" alt="" />
                                 <div className="card-body">
-                                    <h5 className="card-text-projects">Tecnology and Lenguages</h5>
+                                    <h5 className="card-text-projects">Tecnologías y Lenguajes</h5>
                                     <ul>
                                         <lo>
                                             HTML 5 - CSS 3 - Bootstrap - JQuery - React.Js -JavaScript
@@ -167,7 +167,7 @@ const Projects = props => {
                                 <h3 className="card-header" name="TL" id="titulo-card">Random Card</h3>
                                 <img className="card-img-top" id="card-img-TL" src="/img/random-card/RC.jpg" alt="" />
                                 <div className="card-body">
-                                    <h5 className="card-text-projects">Tecnology and Lenguages</h5>
+                                    <h5 className="card-text-projects">Tecnologías y Lenguajes</h5>
                                     <ul>
                                         <lo>
                                             HTML 5 - CSS 3 - JavaScript - Bootstrap - JQuery
@@ -189,7 +189,7 @@ const Projects = props => {
                                 <h3 className="card-header" name="TL" id="titulo-card">Excuse Generator</h3>
                                 <img className="card-img-top" id="card-img-TL" src="/img/excuse-generator/EG.jpg" alt="" />
                                 <div className="card-body">
-                                    <h5 className="card-text-projects">Tecnology and Lenguages</h5>
+                                    <h5 className="card-text-projects">Tecnologías y Lenguajes</h5>
                                     <ul>
                                         <lo>
                                             HTML 5 - CSS 3 - JavaScript - Bootstrap - JQuery
@@ -211,7 +211,7 @@ const Projects = props => {
                                 <h3 className="card-header" name="TL" id="titulo-card">Instagram Photo Feed</h3>
                                 <img className="card-img-top" id="card-img-TL" src="/img/IPF/IPF.jpg" alt="" />
                                 <div className="card-body">
-                                    <h5 className="card-text-projects">Tecnology and Lenguages</h5>
+                                    <h5 className="card-text-projects">Tecnologías y Lenguajes</h5>
                                     <ul>
                                         <lo>
                                             HTML 5 - CSS 3 - Bootstrap - JQuery
@@ -234,7 +234,7 @@ const Projects = props => {
                                 <h3 className="card-header" name="IP" id="titulo-card">Instagram Post</h3>
                                 <img className="card-img-top" id="card-img-TL" src="/img/instagram-post/IP.jpg" alt="" />
                                 <div className="card-body">
-                                    <h5 className="card-text-projects">Tecnology and Lenguages</h5>
+                                    <h5 className="card-text-projects">Tecnologías y Lenguajes</h5>
                                     <ul>
                                         <lo>
                                             HTML 5 - CSS 3
@@ -257,7 +257,7 @@ const Projects = props => {
                                 <h3 className="card-header" name="IP" id="titulo-card">Digital Postcard</h3>
                                 <img className="card-img-top" id="card-img-TL" src="/img/digital-postcard/DP.jpg" alt="" />
                                 <div className="card-body">
-                                    <h5 className="card-text-projects">Tecnology and Lenguages</h5>
+                                    <h5 className="card-text-projects">Tecnologías y Lenguajes</h5>
                                     <ul>
                                         <lo>
                                             HTML 5 - CSS 3

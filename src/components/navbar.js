@@ -27,16 +27,16 @@ const Navbar = props => {
                             <Link className="nav-link" to="/">Home<span className="sr-only">(current)</span></Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/about">About</Link>
+                            <Link className="nav-link" to="/cv">CV</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/services">Services</Link>
+                            <Link className="nav-link" to="/services">Servicios</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/projects">Projects</Link>
+                            <Link className="nav-link" to="/projects">Projectos</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/contact">Contact</Link>
+                            <Link className="nav-link" to="/contact">Contacto</Link>
                         </li>
                     </ul>
                 </div>

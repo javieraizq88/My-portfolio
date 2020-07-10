@@ -6,43 +6,51 @@ import logo from "../img/logo.jpg";
 const Services = props => {
     return (
         <>
-
             {/* Navbar */}
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-                <div className="container">
-                    <img src={logo} id="logo" alt="JIM Logo" />
+            <br />
+            <br />
 
-                    {/* <a className="navbar-brand" href="#">JIM</a>*/}
-                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
-                    <div className="collapse navbar-collapse" id="navbarResponsive">
-                        <ul className="navbar-nav ml-auto">
-                            <li className="nav-item ">
-                                <Link className="nav-link" to="/">Home<span className="sr-only">(current)</span></Link>
-                            </li>
-                            <li className="nav-item ">
-                                <Link className="nav-link" to="/about">About</Link>
-                            </li>
-                            <li className="nav-item active">
-                                <Link className="nav-link" to="/services">Services</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link className="nav-link" to="/projects">Projects</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link className="nav-link" to="/contact">Contact</Link>
-                            </li>
-                        </ul>
+            <div className="row" id="servicies">
+                <div className="col-md-1"></div>
+                <div id="titulo-projects" className="col-md-10 col-xs-10 mr-2 mb-4">
+                    <h1>Servicios</h1>
+                    <hr />
+
+                    {/* Digital Postcard */}
+                    <div className="col-md-10 ml-5 mb-4">
+                        <div className="card h-100" id="card-InstagramPost">
+                            <h2 className="card-header" name="IP" id="titulo-card">Desarrollo de páginas web</h2>
+                            <div className="card-body">
+                                <h3 className="card-text-projects">Tecnologías y lenguajes</h3>
+                                <br />
+                                <h5 className="ml-5">
+                                    <strong> FRONT END:</strong> HTML 5 - CSS 3 - Bootstrap - JQuery - React.Js -JavaScript
+                                </h5>
+                                <br />
+                                <h5 className="ml-5">
+                                    <strong> BACK END:</strong> Python
+                                </h5>
+
+                                <br />
+                                <h5 className="ml-5">
+                                    <strong> BASE DE DATOS:</strong> SQLite
+                                </h5>
+                            </div>
+
+                        </div>
                     </div>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
                 </div>
-            </nav>
 
-<br/>
-<br/>
-<br/>
+            </div>
 
-<h1>Services</h1>
 
 
 

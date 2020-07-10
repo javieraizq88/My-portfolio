@@ -31,6 +31,12 @@ nav a:hover{
 background: rgb(47, 141, 24);
 }
 
+/* Home */
+#home{
+  padding-left: 18px;
+  width: 99.07%;
+}
+
 /* Banner */
 
 #banner{
@@ -127,6 +133,13 @@ footer #social-media-footer ul li:hover a .fa-github{
 color: #bbb;
 }
 
+
+/* Servicios */
+
+#servicies{
+  background: rgb(241, 231, 231);
+  width: 100.9%;
+}
 
 /* Projects */
 

@@ -1,6 +1,7 @@
 const getState = ({ getStore, getAction, setStore }) => {
     return {
         store: {
+a: 0,
             // encuesta
             name: "",
             age: "",
@@ -16,6 +17,9 @@ const getState = ({ getStore, getAction, setStore }) => {
         },
 
         actions: {
+
+            // Simple Counter
+
 
             handleChange: e => {
                 setStore({

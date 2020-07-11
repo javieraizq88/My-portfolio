@@ -25,7 +25,7 @@ const CV = props => {
                     <hr />
                     <h5>Nutricionista de la Universidad Mayor y Desarrolladora web Full-Stack de 4Geeks Academy, Soy proactiva, responsable y comprometida, empática, trabajo bien en equipo, resiliente, creativa y honesta. Actualmente quiero continuar con mi aprendizaje y demostrar mis habilidades en el área de desarrollo web usando mis conocimientos y habilidades adquiridas tanto en programación como en el área de la salud. </h5>
                 </div>
-
+                <br />
                 <br />
                 <br />
 
@@ -38,6 +38,7 @@ const CV = props => {
 
                 <br />
                 <br />
+                <br />
 
                 <div id="proyectos-CV">
                     <h3>PROYECTOS</h3>
@@ -45,8 +46,7 @@ const CV = props => {
                     <h5> <span id="fecha">04/2020 – 05/2020 </span> <strong>Fit Good</strong>
                         <br />
                         <div id="descripcion-proyecto-CV">Trabajo final del curso de Desarrollador de Software Full Stack Junior. Diseño, desarrollo e implementación de la aplicación web desde su inicio usando para el Front-End HTML5, CSS3, Webpack, JS y React.Js, para el Back-End se utilizó Python y Flask y se hizo una REST API que permite crear planes de clientes para ser evaluado y contactado por nutricionista y personal trainer </div>
-                        <br />
-                        <div id="descripcion-proyecto-CV"> <strong>Battleship game</strong>, Tecnologías: HTML, CSS, JS </div>
+                        <div  id="descripcion-proyecto-CV"> <strong>Battleship game</strong>, Tecnologías: HTML, CSS, JS </div>
                         <div id="descripcion-proyecto-CV"> <strong>Contact List</strong>, Tecnologías: HTML, CSS, JS, React.Js y React Router </div>
                         <div id="descripcion-proyecto-CV"> <strong>Star Wars web page</strong>, Tecnologías: HTML, CSS, JS, React.Js, React Router </div>
                     </h5>
@@ -59,8 +59,8 @@ const CV = props => {
                 <div id="proyectos-CV">
                     <h3>TECNOLOGIAS Y LENGUAJES</h3>
                     <hr />
-                    <br/>
-                    <h5> <span id="tecn-CV"> HTML </span>
+                    <h5 id="t">
+                        <span id="tecn-CV"> HTML </span>
                         <span id="tecn-CV"> CSS </span>
                         <span id="tecn-CV"> JavaScript </span>
                         <span id="tecn-CV"> Bootstrap </span>
@@ -68,8 +68,8 @@ const CV = props => {
                         <span id="tecn-CV"> Python </span>
                         <span id="tecn-CV"> React.Js </span>
                     </h5>
-                    <br/>
-                    <h5>
+                    <br />
+                    <h5 id="t1">
                         <span id="tecn-CV"> Base de datos </span>
                         <span id="tecn-CV"> API-Rest </span>
                         <span id="tecn-CV"> Webpack </span>
@@ -80,8 +80,31 @@ const CV = props => {
 
                 <br />
                 <br />
+                <br />
 
+                <div id="proyectos-CV">
+                    <h3>IDIOMAS</h3>
+                    <hr />
+                    <h5>
+                        <div > <strong>Inglés</strong> (Intermedio)</div>
+                    </h5>
+                </div>
 
+                <br />
+                <br />
+
+                <div id="antecAc-CV">
+                    <h3>EXPERIENCIA PROFESIONAL</h3>
+                    <hr />
+                    <h5> <span id="fecha1">11/2019 – 05/2020 </span> <strong>Qualisur</strong>, Coordinadora de ventas</h5>
+                    <h5> <span id="fecha1">08/2015 – 06/2018 </span> <strong>Instituto El Cedro</strong>, Nutricionista</h5>
+                    <h5> <span id="fecha1">08/2015 – 06/2018 </span> <strong>Clínica Renacer</strong>, Nutricionista</h5>
+                    <h5> <span id="fecha1">12/2014 – 02/2015 </span> <strong>Hospital Lucio Córova</strong>, Nutricionista</h5>
+                </div>
+
+                 
+ 
+ 
             </div>
         </>
     )

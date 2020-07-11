@@ -197,11 +197,12 @@ color: #bbb;
 #descripcion-proyecto-CV{
   margin-left: 14.7%;
   text-align: justify;
+  padding-bottom: 10px;
 }
 
 
 #tecn-CV{
-  border: solid black;
+  border: solid rgb(94, 90, 90);
   text-align: center;
   margin-right: 60px;
   margin-top: 20px;
@@ -211,6 +212,13 @@ color: #bbb;
   padding-top: 5px;
 }
 
+#t{
+  margin-left: 5%;
+}
+
+#t1{
+  margin-left: 15%;
+}
 
 /* Projects */
 

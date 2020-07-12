@@ -1,12 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from "../img/logo.jpg";
+import Navbar from './navbar';
 
 
 const Services = props => {
     return (
         <>
             {/* Navbar */}
+<Navbar />
+
             <br />
             <br />
 

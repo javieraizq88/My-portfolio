@@ -1,9 +1,49 @@
 import React from "react"
 import { Link } from "react-router-dom"
+import logo from "../img/logo.jpg";
+import Navbar from "./navbar"
 
 const CV = props => {
     return (
         <>
+
+            <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <img className="ml-5" src={logo} id="logo" alt="JIM Logo" />
+
+                <button
+                    className="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
+                </button>
+                <div
+                    className="collapse navbar-collapse mr-5"
+                    id="navbarNavDropdown">
+                    <ul className="navbar-nav ml-auto">
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/">Home<span className="sr-only">(current)</span></Link>
+                        </li>
+                        <li className="nav-item active">
+                            <Link className="nav-link" to="/cv">CV</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/services">Servicios</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/projects">Projectos</Link>
+                        </li>
+                        {/* <li className="nav-item">
+                            <Link className="nav-link" to="/contact">Contacto</Link>
+                        </li> */}
+                    </ul>
+                </div>
+            </nav>
+
+
             <br />
             <br />
             <br />
@@ -46,7 +86,7 @@ const CV = props => {
                     <h5> <span id="fecha">04/2020 – 05/2020 </span> <strong>Fit Good</strong>
                         <br />
                         <div id="descripcion-proyecto-CV">Trabajo final del curso de Desarrollador de Software Full Stack Junior. Diseño, desarrollo e implementación de la aplicación web desde su inicio usando para el Front-End HTML5, CSS3, Webpack, JS y React.Js, para el Back-End se utilizó Python y Flask y se hizo una REST API que permite crear planes de clientes para ser evaluado y contactado por nutricionista y personal trainer </div>
-                        <div  id="descripcion-proyecto-CV"> <strong>Battleship game</strong>, Tecnologías: HTML, CSS, JS </div>
+                        <div id="descripcion-proyecto-CV"> <strong>Battleship game</strong>, Tecnologías: HTML, CSS, JS </div>
                         <div id="descripcion-proyecto-CV"> <strong>Contact List</strong>, Tecnologías: HTML, CSS, JS, React.Js y React Router </div>
                         <div id="descripcion-proyecto-CV"> <strong>Star Wars web page</strong>, Tecnologías: HTML, CSS, JS, React.Js, React Router </div>
                     </h5>
@@ -102,9 +142,9 @@ const CV = props => {
                     <h5> <span id="fecha1">12/2014 – 02/2015 </span> <strong>Hospital Lucio Córova</strong>, Nutricionista</h5>
                 </div>
 
-                 
- 
- 
+
+
+
             </div>
         </>
     )

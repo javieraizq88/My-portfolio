@@ -39,7 +39,7 @@ import CV from "./components/CV";
 const App = props => {
     return (
         <BrowserRouter>
-        <Navbar />
+        {/* <Navbar /> */}
             <Switch>
                 <Route exact path="/" component={Home} />
                 <Route exact path="/cv" component={CV} />

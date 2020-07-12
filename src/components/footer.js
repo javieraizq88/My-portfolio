@@ -11,22 +11,16 @@ const Footer = props => {
                             <p>
                                 <ul>
                                     <li>
-                                        <a className="active" to="#">Home</a>
+                                        <Link className="active" to="/">Home</Link>
                                     </li>
                                     <li>
-                                        <a to="#">About</a>
+                                        <Link to="/cv">CV</Link>
                                     </li>
                                     <li>
-                                        <a href="#">Privacy Policy</a>
+                                        <Link to="/services">Servicios</Link>
                                     </li>
                                     <li>
-                                        <a to="#">Blogs</a>
-                                    </li>
-                                    <li>
-                                        <a to="#">Projects</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Contact</a>
+                                        <Link to="/projects">Projectos</Link>
                                     </li>
                                 </ul>
                             </p>
@@ -37,17 +31,12 @@ const Footer = props => {
                             <div id="social-media-footer">
                                 <ul>
                                     <li>
-                                        <a href="#">
-                                            <i className="fab fa-facebook"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
+                                        <a href="https://www.linkedin.com/in/javiera-izquierdo-b9173697/">
                                             <i className="fab fa-linkedin"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <a href="https://github.com/javieraizq88">
                                             <i className="fab fa-github"></i>
                                         </a>
                                     </li>

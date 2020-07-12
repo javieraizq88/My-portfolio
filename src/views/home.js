@@ -71,9 +71,6 @@ const Home = props => {
                         <h5 className="ml-3">  <i class="fas fa-phone-square ml-5 "></i> + 56 9 9345 8208</h5>
                         <h5 className="ml-3"> <i class="fab fa-github ml-5 mr-2"></i> javieraizq88</h5>
                         <h5 className="ml-3"><i class="fab fa-linkedin ml-5 mr-2"></i> Javiera Izquierdo</h5>
-                        
-                   
-                    
                         <br />
                     </address>
                 </div>
@@ -83,7 +80,7 @@ const Home = props => {
             <div className="row">
                 <div className="col-md-1"></div>
                 <div className="col-md-10 col-xs-10 mr-2 mt-5 mb-5">
-                    <h1>Projects</h1>
+                    <h1>Proyectos</h1>
                     <hr />
                     <div className="card-group">
                         <div class="col-md-4 mb-5">

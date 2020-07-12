@@ -83,18 +83,29 @@ const Home = props => {
                     <h1>Proyectos</h1>
                     <hr />
                     <div className="card-group">
-                        <div class="col-md-4 mb-5">
-                            <div class="card h-100">
-                                <img class="card-img-top" src="http://placehold.it/300x200" alt="" />
-                                <div class="card-body">
-                                    <h4 class="card-title">Project 1</h4>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus.</p>
+                    <div className="col-md-4 mb-4">
+                            <div className="card h-100" id="card-InstagramPost">
+                                <h3 className="card-header" name="TL" id="titulo-card">Star Wars</h3>
+                                <div className="card-img">
+                                    <img className="card-img-top " id="card-img-TL" src="/img/starwars/SW.jpg" alt="" />
                                 </div>
-                                <div class="card-footer">
-                                    <a href="#" class="btn btn-primary">Find Out More!</a>
+                                <div className="card-body">
+                                    <h5 className="card-text-projects">Tecnologías y Lenguajes</h5>
+                                    <ul>
+                                        <lo>
+                                            HTML 5 - CSS 3 - Bootstrap - JQuery - React.Js -JavaScript - Responsive
+                                        </lo>
+                                    </ul>
+                                    <p className="card-text">(Use Fire Fox to open this projects please)</p>
+                                    <h5> Github Project</h5>
+                                    <p id="link-github">https://github.com/javieraizq88/TrafficLightWithReact</p>
+                                </div>
+                                <div className="card-footer">
+                                    <Link to="/projects/starwars" id="boton-ver-proyecto" className="btn btn-primary">Find Out More!</Link>
                                 </div>
                             </div>
                         </div>
+                        
                         <div class="col-md-4 mb-5">
                             <div class="card h-100">
                                 <img class="card-img-top" src="http://placehold.it/300x200" alt="" />

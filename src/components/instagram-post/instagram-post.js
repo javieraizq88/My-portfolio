@@ -9,7 +9,7 @@ const InstagramPost = props => {
         <div id="instagram-post">
             <Link type="button" className="btn btn-success" to="/projects" id="back-to-jim-IP">Back to JIM</Link>
             <h1 id="titulo-instagram-post">a</h1>
-            
+
             <div className="caja">
                 <div className="caja-header">
                     <div className="caja-header-left">
@@ -17,7 +17,7 @@ const InstagramPost = props => {
                             <div className="">
                                 HTML5<br />
                                 Rigoberto
-                    </div>
+                            </div>
                         </div>
                     </div>
                     <div className="caja-header-right">

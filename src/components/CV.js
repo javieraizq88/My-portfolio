@@ -30,13 +30,13 @@ const CV = props => {
                         <li className="nav-item active">
                             <Link className="nav-link" to="/cv">CV</Link>
                         </li>
-                        <li className="nav-item">
+                      {/*   <li className="nav-item">
                             <Link className="nav-link" to="/services">Servicios</Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link" to="/projects">Projectos</Link>
                         </li>
-                        {/* <li className="nav-item">
+                        <li className="nav-item">
                             <Link className="nav-link" to="/contact">Contacto</Link>
                         </li> */}
                     </ul>
@@ -54,8 +54,8 @@ const CV = props => {
                     <p className="ml-3" id="p-Home">
                         <i class="fas fa-envelope mr-2"></i>   javieraizquierdo7@gmail.com
                         <i class="fas fa-phone-square ml-5 "></i> + 56 9 9345 8208
-                        <i class="fab fa-github ml-5 mr-2"></i> javieraizq88
-                        <i class="fab fa-linkedin ml-5 mr-2"></i> Javiera Izquierdo
+                       <a href="https://github.com/javieraizq88"> <i class="fab fa-github ml-5 mr-2"></i> javieraizq88 </a>
+                      <a href="https://www.linkedin.com/in/javiera-izquierdo-martino-b9173697/">  <i class="fab fa-linkedin ml-5 mr-2"></i> Javiera Izquierdo</a>
                     </p>
                 </div>
                 <br />
@@ -100,20 +100,24 @@ const CV = props => {
                     <h3>TECNOLOGIAS Y LENGUAJES</h3>
                     <hr />
                     <h5 id="t">
-                        <span id="tecn-CV"> HTML </span>
-                        <span id="tecn-CV"> CSS </span>
-                        <span id="tecn-CV"> JavaScript </span>
-                        <span id="tecn-CV"> Bootstrap </span>
-                        <span id="tecn-CV"> JQuery </span>
-                        <span id="tecn-CV"> Python </span>
-                        <span id="tecn-CV"> React.Js </span>
+                        <span  id="tecn-CV"> HTML </span>
+                        <span  id="tecn-CV"> CSS </span>
+                        <span  id="tecn-CV"> JavaScript </span>
+                        <span  id="tecn-CV"> Bootstrap </span>
+                        <span   id="tecn-CV"> JQuery </span>
+                        <span  id="tecn-CV"> Python </span>
                     </h5>
                     <br />
-                    <h5 id="t1">
+                    <h5 id="t">
+                        <span  id="tecn-CV"> React.Js </span>
+                        <span  id="tecn-CV"> API Rest </span>
                         <span id="tecn-CV"> Base de datos </span>
                         <span id="tecn-CV"> API-Rest </span>
                         <span id="tecn-CV"> Webpack </span>
-                        <span id="tecn-CV"> Git </span>
+                    </h5>
+                    <br />
+                    <h5 id="t">
+                        <span id="tecn-CV"> Git / GitHub </span>
                         <span id="tecn-CV"> Flask </span>
                     </h5>
                 </div>

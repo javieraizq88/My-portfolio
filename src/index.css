@@ -39,6 +39,11 @@ background: rgb(47, 141, 24);
   width: 99.07%;
 }
 
+#container-contacto{
+  background-color: beige;
+  border: solid 1px;
+}
+
 /* Banner */
 
 #banner{
@@ -205,6 +210,7 @@ color: #bbb;
   text-align: center;
   margin-right: 60px;
   margin-top: 20px;
+  margin-bottom: 20px;
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 5px;
@@ -213,17 +219,15 @@ color: #bbb;
 
 #t{
   margin-left: 5%;
+  padding: 2%;
 }
 
-#t1{
-  margin-left: 15%;
-}
 
 /* Projects */
 
 #project{
+  margin-top: -50px;
   background: rgb(241, 231, 231);
-  width: 100.97%;
 }
 
 #titulo-projects{
@@ -543,3 +547,25 @@ margin-left: 5px;
 #card-planet-text{
   margin-left: 70px;
 } 
+
+@media (max-width: 1028px) {
+  #tecn-CV{
+    border: none;
+    text-align: center;
+    margin-right: 120px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 1px;
+  }
+  #t{
+    margin-left: 0;
+    padding: 0;
+  }
+  
+  #t1{
+    margin-left: 0;
+  }
+  
+
+}

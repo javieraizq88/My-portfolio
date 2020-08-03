@@ -8,8 +8,8 @@ const Projects = props => {
     return (
         <>
 
-            {/* Navbar */}
-            <Navbar />
+            {/* Navbar 
+            <Navbar /> */}
 
             <br />
             <br />
@@ -45,7 +45,7 @@ const Projects = props => {
                         </div>
 
                         {/* Star Wars */}
-                        <div className="col-md-4  col-xs-6 mb-4">
+                        <div className=" col-md-4 col-sm-6 col-xs-6 mb-4">
                             <div className="card h-100" id="card-InstagramPost">
                                 <h3 className="card-header" name="TL" id="titulo-card">Star Wars</h3>
                                 <div className="card-img">
@@ -68,7 +68,7 @@ const Projects = props => {
                         </div>
 
                         {/* Tic Tac Toe */}
-                        <div className="col-md-4 mb-4">
+                        <div  className="col-md-4 col-sm-6 col-xs-6 mb-4">
                             <div className="card h-100" id="card-InstagramPost">
                                 <h3 className="card-header" name="TL" id="titulo-card">Tic-Tac Toe</h3>
                                 <div className="card-img">
@@ -91,7 +91,7 @@ const Projects = props => {
                         </div>
 
                         {/* Traffic Light */}
-                        <div className="col-md-4 mb-4">
+                        <div className="col-md-4 col-sm-6 col-xs-6 mb-4">
                             <div className="card h-100" id="card-InstagramPost">
                                 <h3 className="card-header" name="TL" id="titulo-card">Traffic Light</h3>
                                 <img className="card-img-top" id="card-img-TL" src="/img/traffic-light/TL-imagen.jpg" alt="" />
@@ -112,7 +112,7 @@ const Projects = props => {
                         </div>
 
                         {/* Random card */}
-                        <div className="col-md-4 mb-4">
+                        <div className="  col-md-4 col-sm-6 col-xs-6 mb-4">
                             <div className="card h-100" id="card-InstagramPost">
                                 <h3 className="card-header" name="TL" id="titulo-card">Random Card</h3>
                                 <img className="card-img-top" id="card-img-TL" src="/img/random-card/RC.jpg" alt="" />
@@ -135,7 +135,7 @@ const Projects = props => {
                         </div>
 
                         {/* Excuse Generator */}
-                        <div className="col-md-4 mb-4">
+                        <div className=" col-md-4 col-sm-6 col-xs-6 mb-4">
                             <div className="card h-100" id="card-InstagramPost">
                                 <h3 className="card-header" name="TL" id="titulo-card">Excuse Generator</h3>
                                 <img className="card-img-top" id="card-img-TL" src="/img/excuse-generator/EG.jpg" alt="" />
@@ -158,7 +158,7 @@ const Projects = props => {
                         </div>
 
                         {/* Instagram photo feed */}
-                        <div className="col-md-4 mb-4">
+                        <div  className=" col-md-4 col-sm-6 col-xs-6 mb-4">
                             <div className="card h-100" id="card-InstagramPost">
                                 <h3 className="card-header" name="TL" id="titulo-card">Instagram Photo Feed</h3>
                                 <img className="card-img-top" id="card-img-TL" src="/img/IPF/IPF.jpg" alt="" />
@@ -182,7 +182,7 @@ const Projects = props => {
                         </div>
 
                         {/* Instagram Post */}
-                        <div className="col-md-4 mb-4">
+                        <div className=" col-md-4 col-sm-6 col-xs-6 mb-4">
                             <div className="card h-100" id="card-InstagramPost">
                                 <h3 className="card-header" name="IP" id="titulo-card">Instagram Post</h3>
                                 <img className="card-img-top" id="card-img-TL" src="/img/instagram-post/IP.jpg" alt="" />
@@ -206,7 +206,7 @@ const Projects = props => {
                         </div>
 
                         {/* Digital Postcard */}
-                        <div className="col-md-4 mb-4">
+                        <div className=" col-md-4 col-sm-6 col-xs-6 mb-4">
                             <div className="card h-100" id="card-InstagramPost">
                                 <h3 className="card-header" name="IP" id="titulo-card">Digital Postcard</h3>
                                 <img className="card-img-top" id="card-img-TL" src="/img/digital-postcard/DP.jpg" alt="" />

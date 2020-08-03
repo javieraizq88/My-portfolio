@@ -566,6 +566,10 @@ margin-left: 5px;
   #t1{
     margin-left: 0;
   }
-  
+}
 
+@media (max-width: 770px) {
+#card-InstagramPost{
+    width: 200px ;
+}
 }

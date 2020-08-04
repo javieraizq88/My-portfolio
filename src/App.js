@@ -35,6 +35,7 @@ import FinalizarEncuesta from "./components/encuesta/finalizarEnc";
 import Navbar from "./components/navbar";
 import CV from "./components/CV";
 import ListaToDo from "./components/todo-list/todolist";
+import Counter from "./components/simple-counter/simpleCounter";
 
 const App = props => {
     return (
@@ -58,6 +59,7 @@ const App = props => {
                 <Route exact path="/projects/instagram-photo-feed2" component={InstagramPhotoFeed2} />
                 <Route exact path="/projects/ExcuseGenerator" component={ExcuseGenerator} />
                 <Route exact path="/projects/RandomCard" component={RandomCard} />
+                <Route exact path="/projects/simplecounter" component={Counter} />
                 <Route exact path="/projects/encuesta/1" component={Pregunta1Encuesta} />
                 <Route exact path="/projects/encuesta/2" component={Pregunta2Encuesta} />
                 <Route exact path="/projects/encuesta/3" component={Pregunta3Encuesta} />

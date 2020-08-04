@@ -21,6 +21,29 @@ const Projects = props => {
                     <hr />
                     <div className="card-deck">
 
+                        {/* Star Wars */}
+                        <div className=" col-md-4 col-sm-6 col-xs-6 mb-4">
+                            <div className="card h-100" id="card-InstagramPost">
+                                <h3 className="card-header" name="TL" id="titulo-card">Star Wars</h3>
+                                <div className="card-img">
+                                    <img className="card-img-top " id="card-img-TL" src="/img/starwars/SW.jpg" alt="" />
+                                </div>
+                                <div className="card-body">
+                                    <h5 className="card-text-projects">Tecnologías y Lenguajes</h5>
+                                    <ul>
+                                        <lo>
+                                            HTML 5 - CSS 3 - Bootstrap - JQuery - React.Js -JavaScript - Responsive
+                                        </lo>
+                                    </ul>
+                                    <p className="card-text">(Use Fire Fox to open this projects please)</p>
+                                    <a href="https://github.com/javieraizq88/TrafficLightWithReact">  <h5> Proyecto en Github</h5></a>
+                                </div>
+                                <div className="card-footer">
+                                    <Link to="/projects/starwars" id="boton-ver-proyecto" className="btn btn-primary">VER MAS</Link>
+                                </div>
+                            </div>
+                        </div>
+
                         {/* Ahorcado */}
                         <div className="col-md-4 col-sm-6 col-xs-6 mb-4">
                             <div className="card h-100" id="card-InstagramPost">
@@ -80,33 +103,9 @@ const Projects = props => {
                                         </lo>
                                     </ul>
                                     <p className="card-text text-white"> a</p>
-                                    <a href="https://github.com/javieraizq88/Ahorcardo-angular">   <h5> Proyecto en Github</h5></a>
+                                    <a href="https://github.com/javieraizq88/battleship">   <h5> Proyecto en Github</h5></a>
                                 </div>
 
-                            </div>
-                        </div>
-
-
-                        {/* Star Wars */}
-                        <div className=" col-md-4 col-sm-6 col-xs-6 mb-4">
-                            <div className="card h-100" id="card-InstagramPost">
-                                <h3 className="card-header" name="TL" id="titulo-card">Star Wars</h3>
-                                <div className="card-img">
-                                    <img className="card-img-top " id="card-img-TL" src="/img/starwars/SW.jpg" alt="" />
-                                </div>
-                                <div className="card-body">
-                                    <h5 className="card-text-projects">Tecnologías y Lenguajes</h5>
-                                    <ul>
-                                        <lo>
-                                            HTML 5 - CSS 3 - Bootstrap - JQuery - React.Js -JavaScript - Responsive
-                                        </lo>
-                                    </ul>
-                                    <p className="card-text">(Use Fire Fox to open this projects please)</p>
-                                    <a href="https://github.com/javieraizq88/TrafficLightWithReact">  <h5> Proyecto en Github</h5></a>
-                                </div>
-                                <div className="card-footer">
-                                    <Link to="/projects/starwars" id="boton-ver-proyecto" className="btn btn-primary">VER MAS</Link>
-                                </div>
                             </div>
                         </div>
 
@@ -132,6 +131,29 @@ const Projects = props => {
                                 </div>
                             </div>
                         </div>
+
+                        {/* Bubble sort */}
+                        <div className="col-md-4 col-sm-6 col-xs-6 mb-4">
+                            <div className="card h-100" id="card-InstagramPost">
+                                <h3 className="card-header" name="TL" id="titulo-card">Bubble sort</h3>
+                                <div className="card-img">
+                                    <img className="card-img-top " id="card-img-TL" src="/img/Bubble-sort.jpg" alt="" />
+                                </div>
+                                <div id="projects-card-body" className="card-body">
+                                    <h5 className="card-text-projects">Tecnologías y Lenguajes</h5>
+                                    <ul>
+                                        <lo>
+                                            HTML 5 - CSS 3 - JavaScript - Git
+                                        </lo>
+                                    </ul>
+                                    <p className="card-text text-white"> a</p>
+                                    <a href="https://github.com/javieraizq88/SortingCardsWithBubble">   <h5> Proyecto en Github</h5></a>
+                                </div>
+
+                            </div>
+                        </div>
+
+
 
                         {/* Traffic Light */}
                         <div className="col-md-4 col-sm-6 col-xs-6 mb-4">

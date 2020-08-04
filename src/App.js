@@ -35,6 +35,7 @@ import FinalizarEncuesta from "./components/encuesta/finalizarEnc";
 import SimpleCounter from "./components/simple-counter/simpleCounter";
 import Navbar from "./components/navbar";
 import CV from "./components/CV";
+import ListaToDo from "./components/todo-list/todolist";
 
 const App = props => {
     return (
@@ -47,6 +48,7 @@ const App = props => {
                 <Route exact path="/projects" component={Projects} />
                 <Route exact path="/contact" component={Contact} />
                 <Route exact path="/projects/encuesta" component={HomeEncuesta} />
+                <Route exact path="/projects/todolist" component={ListaToDo} />
                 <Route exact path="/projects/battleship" component={Battleship} />
                 <Route exact path="/projects/starwars" component={HomeStarWars} />
                 <Route exact path="/projects/tic-tac-toe" component={TicTac} />

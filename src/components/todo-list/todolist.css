@@ -1,0 +1,15 @@
+
+
+#TodoList{
+    margin-top: 50px;
+    margin-left: 250px;
+}
+#TodoList .card-todo {
+    border: solid;
+
+}
+  
+#eliminarTarea{
+    margin-top: -23px;
+    padding-right: 15px;
+}

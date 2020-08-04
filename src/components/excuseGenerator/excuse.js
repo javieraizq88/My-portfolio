@@ -27,7 +27,7 @@ const ExcuseGenerator = props => {
 
             </div>
 
-            <Link type="button" className="btn btn-success mb-5" to="/projects" id="back-to-jim-excuse">Back to JIM</Link>
+            <Link type="button" className="btn btn-success mb-5" to="/" id="back-to-jim-excuse">Back to JIM</Link>
 
         </>
     )

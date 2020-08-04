@@ -322,7 +322,7 @@ const InstagramPhotoFeed2 = props => {
             </div>
 
 
-            <Link type="button" className="btn btn-success mb-5" to="/projects" id="back-to-jim-IPF">Back to JIM</Link>
+            <Link type="button" className="btn btn-success mb-5" to="/" id="back-to-jim-IPF">Back to JIM</Link>
 
         </div>
     )

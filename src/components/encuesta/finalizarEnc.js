@@ -24,7 +24,7 @@ const FinalizarEncuesta = props => {
                 </h2>
                         <Link
                             id="boton-volver-home"
-                            to="/projects">
+                            to="/">
                             <button
                                 type="button"
                                 className="btn btn-success">

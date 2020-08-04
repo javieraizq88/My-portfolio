@@ -97,7 +97,7 @@ const InstagramPhotoFeed = props => {
                     </div>
                 </div>
             </div>
-            <Link type="button" className="btn btn-success" to="/projects" id="back-to-jim-IPF">Back to JIM</Link>
+            <Link type="button" className="btn btn-success" to="/" id="back-to-jim-IPF">Back to JIM</Link>
 
         </div>
     )

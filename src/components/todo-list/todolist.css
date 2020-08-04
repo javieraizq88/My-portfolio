@@ -1,15 +1,19 @@
 
-
 #TodoList{
     margin-top: 50px;
-    margin-left: 250px;
+    margin-left: 600px;
 }
+
 #TodoList .card-todo {
     border: solid;
-
 }
   
 #eliminarTarea{
     margin-top: -23px;
     padding-right: 15px;
+}
+
+#back-to-jim-Todo{
+    margin-left: -300px;
+    margin-top: -60px;
 }

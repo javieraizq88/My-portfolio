@@ -7,7 +7,7 @@ const InstagramPost = props => {
     return (
 
         <div id="instagram-post">
-            <Link type="button" className="btn btn-success" to="/projects" id="back-to-jim-IP">Back to JIM</Link>
+            <Link type="button" className="btn btn-success" to="/" id="back-to-jim-IP">Back to JIM</Link>
             <h1 id="titulo-instagram-post">a</h1>
 
             <div className="caja">

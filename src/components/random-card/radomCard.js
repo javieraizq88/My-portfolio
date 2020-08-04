@@ -31,7 +31,7 @@ const RandomCard = props => {
                     <Link
                         type="button"
                         className="btn btn-success mb-5"
-                        to="/projects"
+                        to="/"
                         id="back-to-jim-randomCard">
                         Back to JIM
                     </Link>

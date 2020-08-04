@@ -123,11 +123,32 @@ class TicTac extends React.Component {
     render() {
         return (
             <div id="gato">
-                <h1 id="parte-arriba"> Tic Tac Toe <Link type="button" className="btn btn-success" to="/projects" id="back-to-jim-TL">Back to JIM</Link></h1>
+                <h1 id="parte-arriba">
+                    Tic Tac Toe
+                     <Link
+                        type="button"
+                        className="btn btn-success"
+                        to="/"
+                        id="back-to-jim-TL">
+                        Back to JIM
+                    </Link>
+                </h1>
                 <div className="container text-center p-5" id="styleTop">
-                    <div className={this.state.visual === 1 ? this.state.visible : this.state.invisible}><Board select={this.goForm} handleInput={this.handleInput} /></div>
-                    <div className={this.state.visual === 2 ? this.state.visible : this.state.invisible}><Form player={this.state.symbol} symbol={this.state.symbol} desiccion={this.desiccion} /></div>
-                    <div className={this.state.visual === 3 ? this.state.visible : this.state.invisible}><Winner playero={this.state.winner} /></div>
+                    <div className={this.state.visual === 1 ? this.state.visible : this.state.invisible}>
+                        <Board
+                            select={this.goForm}
+                            handleInput={this.handleInput} />
+                    </div>
+                    <div className={this.state.visual === 2 ? this.state.visible : this.state.invisible}
+                    ><Form
+                            player={this.state.symbol}
+                            symbol={this.state.symbol}
+                            desiccion={this.desiccion} />
+                    </div>
+                    <div className={this.state.visual === 3 ? this.state.visible : this.state.invisible}>
+                        <Winner
+                            playero={this.state.winner} />
+                    </div>
                 </div>
             </div>
         )

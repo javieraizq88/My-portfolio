@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const DigitalPostcard = props => {
     return (
         <div id="digital-postcard">
-            <Link type="button" className="btn btn-success" to="/projects" id="back-to-jim-IP">Back to JIM</Link>
+            <Link type="button" className="btn btn-success" to="/" id="back-to-jim-IP">Back to JIM</Link>
             <div className="main-content">
                 <form className="postcard" action="http://formspree.lo/info@breatheco.de" >
                     <div className="postcard-header">

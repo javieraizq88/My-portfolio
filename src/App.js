@@ -32,7 +32,6 @@ import HomeEncuesta from "./components/encuesta/homeEnc";
 import Pregunta3Encuesta from "./components/encuesta/pregunta3";
 import Pregunta4Encuesta from "./components/encuesta/pregunta4";
 import FinalizarEncuesta from "./components/encuesta/finalizarEnc";
-import SimpleCounter from "./components/simple-counter/simpleCounter";
 import Navbar from "./components/navbar";
 import CV from "./components/CV";
 import ListaToDo from "./components/todo-list/todolist";
@@ -59,7 +58,6 @@ const App = props => {
                 <Route exact path="/projects/instagram-photo-feed2" component={InstagramPhotoFeed2} />
                 <Route exact path="/projects/ExcuseGenerator" component={ExcuseGenerator} />
                 <Route exact path="/projects/RandomCard" component={RandomCard} />
-                <Route exact path="/projects/simplecounter" component={SimpleCounter} />
                 <Route exact path="/projects/encuesta/1" component={Pregunta1Encuesta} />
                 <Route exact path="/projects/encuesta/2" component={Pregunta2Encuesta} />
                 <Route exact path="/projects/encuesta/3" component={Pregunta3Encuesta} />

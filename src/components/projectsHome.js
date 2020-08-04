@@ -153,6 +153,29 @@ const Projects = props => {
                             </div>
                         </div>
 
+                        {/* To do List */}
+                        <div className="col-md-4 col-sm-6 col-xs-6 mb-4">
+                            <div className="card h-100" id="card-InstagramPost">
+                                <h3 className="card-header" name="TL" id="titulo-card">Lista de tareas</h3>
+                                <div className="card-img">
+                                    <img className="card-img-top " id="card-img-TL" src="/img/TodoList.jpg" alt="" />
+                                </div>
+                                <div id="projects-card-body" className="card-body">
+                                    <h5 className="card-text-projects">Tecnologías y Lenguajes</h5>
+                                    <ul>
+                                        <lo>
+                                            HTML 5 - CSS 3 -React.js - Bootstrap - JQuery - JavaScript - Git
+                                        </lo>
+                                    </ul>
+                                    <p className="card-text text-white"> a</p>
+                                    <a href="https://github.com/javieraizq88/ToDoListConReact">   <h5> Proyecto en Github</h5></a>
+                                </div>
+                                <div className="card-footer">
+                                    <Link to="/projects/todolist" id="boton-ver-proyecto" className="btn btn-primary">VER MAS</Link>
+                                </div>
+                            </div>
+                        </div>
+
 
 
                         {/* Traffic Light */}

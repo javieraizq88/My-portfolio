@@ -4,7 +4,9 @@ function Winner(props) {
 
   return (
     <>
-      <h3 style={{ color: 'white' }}>The winner is: {props.playero}</h3>
+      <h3 className="titulo-blanco">
+        The winner is: {props.playero}
+      </h3>
     </>
   )
 }

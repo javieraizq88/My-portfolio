@@ -57,14 +57,9 @@
   #styleInsideButton{
     font-size: 40px;
   }
-
-
-  code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-      monospace;
-  }
   
-  .buttons:hover{
+  .buttons:hover,
+  .titulo-blanco{
     color: white;
   }
   
@@ -81,35 +76,27 @@
     text-align: center;
   }
   
-  .div1{
+  .div1,
+  .div6{
     border-bottom: 1px solid #696662;
   }
-  .div2{
+  .div2,
+  .div3 {
     border-left: 1px solid #696662;
     border-bottom: 1px solid #696662;
   }
-  .div3{
-    border-left: 1px solid #696662;
-    border-bottom: 1px solid #696662
-  }
-  .div4{
-    border-right: 1px solid #696662;
-    border-bottom: 1px solid #696662
-  }
+
+  .div4,
   .div5{
     border-right: 1px solid #696662;
     border-bottom: 1px solid #696662
   }
-  .div6{
-    border-bottom: 1px solid #696662
-  }
-  .div7{
-    border-right: 1px solid #696662;
-  }
+
+  .div7,
   .div8{
     border-right: 1px solid #696662;
   }
-  
+
   #input1,
   #input2{
     margin-top: 10px;
@@ -118,3 +105,5 @@
     padding: 3px;
     margin: 15px;
   }
+
+

@@ -42,14 +42,14 @@ class TicTac extends React.Component {
         let div8 = document.getElementById("div8").textContent;
         let div9 = document.getElementById("div9").textContent;
 
-        if (div1 === "X" && div5 === "X" && div9 === "X" ||
-            div3 === "X" && div5 === "X" && div7 === "X" ||
-            div1 === "X" && div4 === "X" && div7 === "X" ||
-            div2 === "X" && div5 === "X" && div8 === "X" ||
-            div3 === "X" && div6 === "X" && div9 === "X" ||
-            div1 === "X" && div2 === "X" && div3 === "X" ||
-            div4 === "X" && div5 === "X" && div6 === "X" ||
-            div7 === "X" && div8 === "X" && div9 === "X") {
+        if ((div1 === "X" && div5 === "X" && div9 === "X") ||
+            (div3 === "X" && div5 === "X" && div7 === "X" )||
+            (div1 === "X" && div4 === "X" && div7 === "X" )||
+            (div2 === "X" && div5 === "X" && div8 === "X") ||
+            (div3 === "X" && div6 === "X" && div9 === "X" )||
+            (div1 === "X" && div2 === "X" && div3 === "X") ||
+           ( div4 === "X" && div5 === "X" && div6 === "X") ||
+            (div7 === "X" && div8 === "X" && div9 === "X")) {
 
             if (this.state.playerdesicion1 === "X") {
                 this.setState({ winner: this.state.player1 })

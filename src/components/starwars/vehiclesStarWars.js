@@ -105,7 +105,6 @@ const VehiclesStarWars = props => {
                 </div>
 
 
-
             </div>
         </>
     )

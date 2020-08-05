@@ -70,7 +70,7 @@ const Home = props => {
                             <h5 className="ml-3">
                                 <a href="https://www.linkedin.com/in/javiera-izquierdo-martino-b9173697/">
                                     <i class="fab fa-linkedin ml-5 mr-2"></i>
-                                Javiera Izquierdo
+                                    Javiera Izquierdo
                                 </a>
                             </h5>
                             <br />

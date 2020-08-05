@@ -9,8 +9,14 @@ const InstagramPhotoFeed = props => {
                 <i className="fab fa-instagram p-2"></i>
                 <br />
                 <h1 className="navbar-brand p-2">Instagram</h1>
-                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button
+                    className="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
 
@@ -92,12 +98,21 @@ const InstagramPhotoFeed = props => {
                 </div>
             </div>
 
-            <div className="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            <div
+                className="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="exampleModalLabel"
                 aria-hidden="true">
                 <div className="modal-dialog" role="document">
                     <div className="modal-content">
                         <div className="modal-header">
-                            <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+                            <button
+                                type="button"
+                                className="close"
+                                data-dismiss="modal"
+                                aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
@@ -106,7 +121,12 @@ const InstagramPhotoFeed = props => {
                             <i className="fas fa-map-marker-smile"></i>
                         </div>
                         <div className="modal-footer">
-                            <button type="button" className="btn btn-light" data-dismiss="modal">Cancel</button>
+                            <button
+                                type="button"
+                                className="btn btn-light"
+                                data-dismiss="modal">
+                                Cancel
+                            </button>
                             <button type="button" className="btn btn-success">Publish</button>
                         </div>
                     </div>

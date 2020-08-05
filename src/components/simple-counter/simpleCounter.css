@@ -1,5 +1,4 @@
 #simpleCounter{
-    background-color: green;
     padding-top: 100px;
     height: 722px;
 }
@@ -14,7 +13,6 @@
     text-align: center;
     border: solid 1px;
     font-size: 20px;
-
 }
 
 .minuts,
@@ -33,4 +31,15 @@
 .tiempo,
 .tiempo2{
     border-top: none;
+}
+
+.container-2{
+    height: 60px;
+}
+
+
+.reloj1,
+.tiempo,
+.tiempo2{
+    padding-top: 15px;
 }

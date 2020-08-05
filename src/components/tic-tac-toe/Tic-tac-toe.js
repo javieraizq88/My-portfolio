@@ -61,14 +61,14 @@ class TicTac extends React.Component {
                 console.log("the winner is player 2")
             }
 
-        } else if (div1 === "0" && div5 === "0" && div9 === "0" ||
-            div3 === "0" && div5 === "0" && div7 === "0" ||
-            div1 === "0" && div4 === "0" && div7 === "0" ||
-            div2 === "0" && div5 === "0" && div8 === "0" ||
-            div3 === "0" && div6 === "0" && div9 === "0" ||
-            div1 === "0" && div2 === "0" && div3 === "0" ||
-            div4 === "0" && div5 === "0" && div6 === "0" ||
-            div7 === "0" && div8 === "0" && div9 === "0") {
+        } else if ((div1 === "0" && div5 === "0" && div9 === "0") ||
+            (div3 === "0" && div5 === "0" && div7 === "0") ||
+            (div1 === "0" && div4 === "0" && div7 === "0" )||
+            (div2 === "0" && div5 === "0" && div8 === "0" )||
+            (div3 === "0" && div6 === "0" && div9 === "0" )||
+            (div1 === "0" && div2 === "0" && div3 === "0") ||
+            (div4 === "0" && div5 === "0" && div6 === "0" )||
+            (div7 === "0" && div8 === "0" && div9 === "0" )) {
 
             if (this.state.playerdesicion1 === "0") {
                 this.setState({ winner: this.state.player1 })

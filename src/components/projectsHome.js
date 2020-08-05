@@ -1,7 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from "../img/logo.jpg";
-import Navbar from './navbar';
 
 
 const Projects = props => {
@@ -131,7 +129,6 @@ const Projects = props => {
                                 </div>
                             </div>
                         </div>
-
 
                         {/* Tic Tac Toe */}
                         <div  className="col-md-4 col-sm-6 col-xs-6 mb-4">

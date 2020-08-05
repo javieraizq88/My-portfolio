@@ -32,7 +32,6 @@ import HomeEncuesta from "./components/encuesta/homeEnc";
 import Pregunta3Encuesta from "./components/encuesta/pregunta3";
 import Pregunta4Encuesta from "./components/encuesta/pregunta4";
 import FinalizarEncuesta from "./components/encuesta/finalizarEnc";
-import Navbar from "./components/navbar";
 import CV from "./components/CV";
 import ListaToDo from "./components/todo-list/todolist";
 import Counter from "./components/simple-counter/simpleCounter";

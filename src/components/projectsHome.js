@@ -124,7 +124,7 @@ const Projects = props => {
                                         </lo>
                                     </ul>
                                     <p className="card-text text-white"> a</p>
-                                    <a href="https://github.com/javieraizq88/ticTacToeWithReact"> <h5> Proyecto en Github</h5></a>
+                                    <a href="https://github.com/javieraizq88/SimpleCounterWithReact"> <h5> Proyecto en Github</h5></a>
                                 </div>
                                 <div className="card-footer">
                                     <Link to="/projects/simplecounter" id="boton-ver-proyecto" className="btn btn-primary">VER MAS</Link>

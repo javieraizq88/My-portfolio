@@ -45,10 +45,15 @@ const VehiclesStarWars = props => {
                         {
                             !!store.vehicles ?
                                 store.vehicles.results.map((vehicle, i) => {
-                                    const img = vehicle.name.replace("/", "-").split(" ").join("-").toLowerCase() + ".jpg";
                                     return (
                                         <ul key={i} >
-                                            <li><h5 className=" card-title"><Link to={"/projects/starwars/vehicles/" + vehicle.name}>{vehicle.name}</Link></h5></li>
+                                            <li>
+                                                <h5 className=" card-title">
+                                                    <Link to={"/projects/starwars/vehicles/" + vehicle.name}>
+                                                        {vehicle.name}
+                                                    </Link>
+                                                </h5>
+                                            </li>
                                         </ul>
                                     )
                                 })

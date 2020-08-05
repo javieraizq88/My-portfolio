@@ -18,18 +18,27 @@ const InstagramPhotoFeed = props => {
                     <ul className="navbar-nav mr-auto"></ul>
                     <form className="form-inline my-2 my-lg-0">
                         <ul className="navbar-nav mr-auto">
-                            <button className="btn btn-success" type="submit" data-toggle="modal" data-target="#exampleModal">Create a new
-            post</button>
+                            <button
+                                className="btn btn-success"
+                                type="submit"
+                                data-toggle="modal"
+                                data-target="#exampleModal">
+                                Create a new post
+                            </button>
 
                             <div id="dropdown" className="btn-group dropleft">
-                                <button type="button" className="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                                <button
+                                    type="button"
+                                    className="btn btn-secondary dropdown-toggle"
+                                    data-toggle="dropdown"
+                                    aria-haspopup="true"
                                     aria-expanded="false">
                                     <i className="fas fa-cog"></i>
                                 </button>
                                 <div className="dropdown-menu">
-                                    <a className="dropdown-item" href="#">Action</a>
-                                    <a className="dropdown-item" href="#">Another action</a>
-                                    <a className="dropdown-item" href="#">Something else here</a>
+                                    <a className="dropdown-item" href="...">Action</a>
+                                    <a className="dropdown-item" href="...">Another action</a>
+                                    <a className="dropdown-item" href="...">Something else here</a>
                                 </div>
                             </div>
                         </ul>
@@ -40,10 +49,16 @@ const InstagramPhotoFeed = props => {
             <div className="col-IPF">
                 <ul className="nav justify-content-center nav-pills">
                     <li className="nav-item p-2">
-                        <Link className="nav-link active fas fa-list-ul" to="/projects/instagram-photo-feed"></Link> 
+                        <Link
+                            className="nav-link active fas fa-list-ul"
+                            to="/projects/instagram-photo-feed">
+                        </Link>
                     </li>
                     <li className="nav-item p-2">
-                        <Link className="nav-link fas fa-square" to="/projects/instagram-photo-feed2" ></Link> 
+                        <Link
+                            className="nav-link fas fa-square"
+                            to="/projects/instagram-photo-feed2" >
+                        </Link>
                     </li>
                 </ul>
             </div>
@@ -51,28 +66,28 @@ const InstagramPhotoFeed = props => {
             <div className="conatiner">
                 <div className="row">
                     <div className="col-3">
-                        <img id="imagen-IPF" src="https://picsum.photos/id/34/300/200" />
+                        <img id="imagen-IPF" alt="" src="https://picsum.photos/id/34/300/200" />
                     </div>
                     <div className="col-3">
-                        <img id="imagen-IPF" src="https://picsum.photos/id/3/300/200" />
+                        <img id="imagen-IPF" alt="" src="https://picsum.photos/id/3/300/200" />
                     </div>
                     <div className="col-3">
-                        <img id="imagen-IPF" src="https://picsum.photos/id/304/300/200" />
+                        <img id="imagen-IPF" alt="" src="https://picsum.photos/id/304/300/200" />
                     </div>
                     <div className="col-3">
-                        <img id="imagen-IPF" src="https://picsum.photos/id/354/300/200" />
+                        <img id="imagen-IPF" alt="" src="https://picsum.photos/id/354/300/200" />
                     </div>
                     <div className="col-3">
-                        <img id="imagen-IPF" src="https://picsum.photos/id/90/300/200" />
+                        <img id="imagen-IPF" alt="" src="https://picsum.photos/id/90/300/200" />
                     </div>
                     <div className="col-3">
-                        <img id="imagen-IPF" src="https://picsum.photos/id/46/300/200" />
+                        <img id="imagen-IPF" alt="" src="https://picsum.photos/id/46/300/200" />
                     </div>
                     <div className="col-3">
-                        <img id="imagen-IPF" src="https://picsum.photos/id/496/300/200" />
+                        <img id="imagen-IPF" alt="" src="https://picsum.photos/id/496/300/200" />
                     </div>
                     <div className="col-3">
-                        <img id="imagen-IPF" src="https://picsum.photos/id/6/300/200" />
+                        <img id="imagen-IPF" alt="" src="https://picsum.photos/id/6/300/200" />
                     </div>
                 </div>
             </div>

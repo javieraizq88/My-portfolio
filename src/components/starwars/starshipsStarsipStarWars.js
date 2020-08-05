@@ -4,8 +4,7 @@ import Titulo from "./tituloStarWars";
 import { Link, useHistory } from "react-router-dom";
 
 const StarshipStarWars = props => {
-    const { store, actions } = useContext(Context);
-    const { starships } = store;
+    const { store } = useContext(Context);
     const nombreStarship = props.match.params.starship;
     const history = useHistory();
 

@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 
 const SpeciesStarWars = props => {
     const { store, actions } = useContext(Context);
-    const { species } = store;
 
     return (
         <>

@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 
 const PlanetsStarWars = props => {
     const { store, actions } = useContext(Context);
-    const { planets } = store;
 
     return (
         <>

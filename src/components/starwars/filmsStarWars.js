@@ -4,7 +4,7 @@ import Titulo from "./tituloStarWars";
 import { Link } from "react-router-dom";
 
 const FilmsStarWars = props => {
-    const { store, actions } = useContext(Context);
+    const { store } = useContext(Context);
 
     return (
         <>
@@ -53,7 +53,7 @@ const FilmsStarWars = props => {
                                             <div className="card " id="card-film" key={i} >
                                                 <div className="row no-gutters" >
                                                     <div className="col-md-3 col-xs-3">
-                                                        <img src={"/img/films/" + img} className="card-img" id="card-img-film" />
+                                                        <img src={"/img/films/" + img} className="card-img" id="card-img-film" alt=""/>
                                                     </div>
                                                     <div className="col-md-9 col-xs-9">
                                                         <div className="card-body">

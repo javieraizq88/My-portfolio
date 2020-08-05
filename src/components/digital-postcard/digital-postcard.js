@@ -9,7 +9,7 @@ const DigitalPostcard = props => {
             <div className="main-content">
                 <form className="postcard" action="http://formspree.lo/info@breatheco.de" >
                     <div className="postcard-header">
-                        <img src="http://assets.breatheco.de/apis/img/icon/4geeks.png" />
+                        <img src="http://assets.breatheco.de/apis/img/icon/4geeks.png" alt="" />
                         <h1>My postcard</h1>
                     </div>
                     <div className="postcard-body">

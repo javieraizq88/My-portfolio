@@ -4,7 +4,7 @@ import HeaderEncuesta from "./headerEnc"
 import { Link } from "react-router-dom"
 
 const FinalizarEncuesta = props => {
-    const { store, actions } = useContext(Context)
+    const { store } = useContext(Context)
 
     console.log("nombre: " + store.name)
     console.log("edad: " + store.age)

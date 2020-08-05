@@ -41,11 +41,6 @@ const PlanetStarWars = props => {
                     </div>
                 </nav>
 
-
-
-
-
-
                 <div className="container">
                     <div className="row">
                         <div className="row">

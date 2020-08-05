@@ -55,19 +55,24 @@ const StarshipStarWars = props => {
                                                 <div className="card mt-5" id="card-starship" key={i} >
                                                     <div className="row no-gutters">
                                                         <div className="col-md-4 col-xs-4">
-                                                            <img src={"/img/starships/" + img} className="card-img-top mt-5 ml-2"  />
+                                                            <img
+                                                                src={"/img/starships/" + img}
+                                                                className="card-img-top mt-5 ml-2"
+                                                                alt="" />
                                                         </div>
                                                         <div className="col-md-5 col-xs-5 ">
                                                             <div className="card-body">
-                                                                <h4 className="ml-1 card-title">{starship.name}</h4> <br />
+                                                                <h4 className="ml-1 card-title">{starship.name}</h4>
+                                                                <br />
                                                                 <p className="card-text ml-3">
-                                                                    &nbsp; Cargo capacity: {starship.cargo_capacity}<br />
-                                                    &nbsp; Consumables: {starship.consumables}<br />
-                                                    &nbsp; Cost in credits: {starship.cost_in_credits}<br />
-                                                    &nbsp; Crew: {starship.crew}<br />
-                                                    &nbsp; Model: {starship.model}<br />
-                                                    &nbsp; Passengers: {starship.passengers}<br />
-                                                    &nbsp; Manufacturer: {starship.manufacturer}<br />
+                                                                    &nbsp; Cargo capacity: {starship.cargo_capacity}
+                                                                    <b />
+                                                                    &nbsp; Consumables: {starship.consumables}<br />
+                                                                    &nbsp; Cost in credits: {starship.cost_in_credits}<br />
+                                                                    &nbsp; Crew: {starship.crew}<br />
+                                                                    &nbsp; Model: {starship.model}<br />
+                                                                    &nbsp; Passengers: {starship.passengers}<br />
+                                                                    &nbsp; Manufacturer: {starship.manufacturer}<br />
                                                                 </p>
                                                                 <br />
                                                                 <button className="btn btn-primary" onClick={() => history.goBack()}>Back to starships</button>
@@ -90,7 +95,7 @@ const StarshipStarWars = props => {
                     </div>
                 </div>
 
-<div className="mb-5"></div>
+                <div className="mb-5"></div>
 
             </div>
 

@@ -55,22 +55,29 @@ const PlanetStarWars = props => {
                                                 <div className="card mt-3 mb-3 bg-secondary" key={i} id="card-planet" >
                                                     <div className="row no-gutters">
                                                         <div className="col-md-4 col-xs-4">
-                                                            <img src={"/img/planets/" + img} className="card-img" alt="..." />
+                                                            <img
+                                                                src={"/img/planets/" + img}
+                                                                className="card-img"
+                                                                alt="..." />
                                                         </div>
                                                         <div className="col-md-5 col-xs-5 ">
                                                             <div id="card-planet-text" className="card-body">
                                                                 <h5 className="card-title ml-3">{planet.name}</h5>
                                                                 <p className="card-text">
-                                                                    Climate: {planet.climate}<br/>
-                                                                    Diameter: {planet.diameter}<br/>
-                                                                    Gravity: {planet.gravity}<br/>
-                                                                    Orbital Period: {planet.orbital_period}<br/>
-                                                                    Population: {planet.population}<br/>
-                                                                    Rotation period: {planet.rotation_period}<br/>
-                                                                    Surface water: {planet.surface_water}<br/>
-                                                                    Terrain: {planet.terrain}<br/>
-                                                                    </p>
-                                                                <button className="btn btn-primary" onClick={() => history.goBack()}>Back to Planets</button>
+                                                                    Climate: {planet.climate}<br />
+                                                                    Diameter: {planet.diameter}<br />
+                                                                    Gravity: {planet.gravity}<br />
+                                                                    Orbital Period: {planet.orbital_period}<br />
+                                                                    Population: {planet.population}<br />
+                                                                    Rotation period: {planet.rotation_period}<br />
+                                                                    Surface water: {planet.surface_water}<br />
+                                                                    Terrain: {planet.terrain}<br />
+                                                                </p>
+                                                                <button
+                                                                    className="btn btn-primary"
+                                                                    onClick={() => history.goBack()}>
+                                                                    Back to Planets
+                                                                </button>
                                                             </div>
                                                         </div>
                                                     </div>

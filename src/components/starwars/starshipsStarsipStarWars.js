@@ -75,7 +75,11 @@ const StarshipStarWars = props => {
                                                                     &nbsp; Manufacturer: {starship.manufacturer}<br />
                                                                 </p>
                                                                 <br />
-                                                                <button className="btn btn-primary" onClick={() => history.goBack()}>Back to starships</button>
+                                                                <button
+                                                                    className="btn btn-primary"
+                                                                    onClick={() => history.goBack()}>
+                                                                    Back to starships
+                                                                </button>
                                                             </div>
                                                         </div>
                                                     </div>

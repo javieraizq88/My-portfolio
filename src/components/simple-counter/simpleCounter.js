@@ -27,12 +27,24 @@ class Counter extends Component {
             <div id="simpleCounter">
                 <div className="container">
                     <div className="row container justify-content-center" >
-                        <div className="col  reloj"><i className="far fa-clock"></i></div>
-                        <div className="col bg-primary minuts"><strong> x 10.000 segundos </strong> </div>
-                        <div className="col bg-secondary  minuts"><strong>x 1.000 segundos </strong></div>
-                        <div className="col bg-danger minuts"><strong>x 100 segundos </strong></div>
-                        <div className="col bg-warning minuts"><strong>x 10 segundos</strong></div>
-                        <div className="col bg-success seconds"><strong>x 1 segundo</strong></div>
+                        <div className="col  reloj">
+                            <i className="far fa-clock"></i>
+                        </div>
+                        <div className="col bg-primary minuts">
+                            <strong> x 10.000 segundos </strong>
+                        </div>
+                        <div className="col bg-secondary minuts">
+                            <strong>x 1.000 segundos </strong>
+                        </div>
+                        <div className="col bg-danger minuts">
+                            <strong>x 100 segundos </strong>
+                        </div>
+                        <div className="col bg-warning minuts">
+                            <strong>x 10 segundos</strong>
+                        </div>
+                        <div className="col bg-success seconds">
+                            <strong>x 1 segundo</strong>
+                        </div>
                     </div>
                     <div className="container-2 row container justify-content-center" >
                         <div className="col reloj1"><strong>Tiempo</strong></div>
@@ -43,8 +55,14 @@ class Counter extends Component {
                         <div className="col tiempo2">{this.state.a % 60}</div>
                     </div>
                 </div>
-                <br/>
-            <Link type="button" className="btn btn-success" to="/" id="back-to-jim-IP">Back to JIM</Link>
+                <br />
+                <Link
+                    type="button"
+                    className="btn btn-success"
+                    to="/"
+                    id="back-to-jim-IP">
+                    Back to JIM
+                </Link>
 
             </div>
         )

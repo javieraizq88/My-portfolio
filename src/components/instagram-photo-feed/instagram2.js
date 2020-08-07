@@ -9,8 +9,14 @@ const InstagramPhotoFeed2 = props => {
                 <i className="fab fa-instagram p-2"></i>
                 <br />
                 <h1 className="navbar-brand p-2">Instagram</h1>
-                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button
+                    className="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
 
@@ -18,18 +24,27 @@ const InstagramPhotoFeed2 = props => {
                     <ul className="navbar-nav mr-auto"></ul>
                     <form className="form-inline my-2 my-lg-0">
                         <ul className="navbar-nav mr-auto">
-                            <button className="btn btn-success" type="submit" data-toggle="modal" data-target="#exampleModal">Create a new
-            post</button>
+                            <button
+                                className="btn btn-success"
+                                type="submit"
+                                data-toggle="modal"
+                                data-target="#exampleModal">
+                                Create a new post
+                            </button>
 
                             <div id="dropdown" className="btn-group dropleft">
-                                <button type="button" className="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                                <button
+                                    type="button"
+                                    className="btn btn-secondary dropdown-toggle"
+                                    data-toggle="dropdown"
+                                    aria-haspopup="true"
                                     aria-expanded="false">
                                     <i className="fas fa-cog"></i>
                                 </button>
                                 <div className="dropdown-menu">
-                                    <a className="dropdown-item" href="#">Action</a>
-                                    <a className="dropdown-item" href="#">Another action</a>
-                                    <a className="dropdown-item" href="#">Something else here</a>
+                                    <a className="dropdown-item" href="...">Action</a>
+                                    <a className="dropdown-item" href="...">Another action</a>
+                                    <a className="dropdown-item" href="...">Something else here</a>
                                 </div>
                             </div>
                         </ul>
@@ -56,8 +71,8 @@ const InstagramPhotoFeed2 = props => {
                             <div className="">
                                 <div className="">
                                     HTML5<br />
-                                Rigoberto
-                    </div>
+                                    Rigoberto
+                                </div>
                             </div>
                         </div>
                         <div className="caja-header-right">
@@ -79,7 +94,7 @@ const InstagramPhotoFeed2 = props => {
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, repellat. Odit maiores
                             eligendi harum recusandae, sequi sunt blanditiis similique veritatis, mollitia eius optio
                             hic. Debitis hic nam repudiandae similique minus!
-            </p>
+                        </p>
                     </div>
                 </div>
 
@@ -89,8 +104,8 @@ const InstagramPhotoFeed2 = props => {
                             <div className="">
                                 <div className="">
                                     HTML5<br />
-                                Rigoberto
-                    </div>
+                                    Rigoberto
+                                </div>
                             </div>
                         </div>
                         <div className="caja-header-right">
@@ -112,11 +127,9 @@ const InstagramPhotoFeed2 = props => {
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, repellat. Odit maiores
                             eligendi harum recusandae, sequi sunt blanditiis similique veritatis, mollitia eius optio
                             hic. Debitis hic nam repudiandae similique minus!
-            </p>
+                        </p>
                     </div>
                 </div>
-
-
 
                 <div className="caja">
                     <div className="caja-header">
@@ -124,8 +137,8 @@ const InstagramPhotoFeed2 = props => {
                             <div className="">
                                 <div className="">
                                     HTML5<br />
-                                Rigoberto
-                    </div>
+                                    Rigoberto
+                                </div>
                             </div>
                         </div>
                         <div className="caja-header-right">
@@ -147,7 +160,7 @@ const InstagramPhotoFeed2 = props => {
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, repellat. Odit maiores
                             eligendi harum recusandae, sequi sunt blanditiis similique veritatis, mollitia eius optio
                             hic. Debitis hic nam repudiandae similique minus!
-            </p>
+                        </p>
                     </div>
                 </div>
 
@@ -157,8 +170,8 @@ const InstagramPhotoFeed2 = props => {
                             <div className="">
                                 <div className="">
                                     HTML5<br />
-                                Rigoberto
-                    </div>
+                                    Rigoberto
+                                </div>
                             </div>
                         </div>
                         <div className="caja-header-right">
@@ -180,7 +193,7 @@ const InstagramPhotoFeed2 = props => {
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, repellat. Odit maiores
                             eligendi harum recusandae, sequi sunt blanditiis similique veritatis, mollitia eius optio
                             hic. Debitis hic nam repudiandae similique minus!
-            </p>
+                        </p>
                     </div>
                 </div>
 
@@ -190,8 +203,8 @@ const InstagramPhotoFeed2 = props => {
                             <div className="">
                                 <div className="">
                                     HTML5<br />
-                                Rigoberto
-                    </div>
+                                    Rigoberto
+                                </div>
                             </div>
                         </div>
                         <div className="caja-header-right">
@@ -213,7 +226,7 @@ const InstagramPhotoFeed2 = props => {
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, repellat. Odit maiores
                             eligendi harum recusandae, sequi sunt blanditiis similique veritatis, mollitia eius optio
                             hic. Debitis hic nam repudiandae similique minus!
-            </p>
+                        </p>
                     </div>
                 </div>
 
@@ -224,7 +237,7 @@ const InstagramPhotoFeed2 = props => {
                                 <div className="">
                                     HTML5<br />
                                 Rigoberto
-                    </div>
+                                </div>
                             </div>
                         </div>
                         <div className="caja-header-right">
@@ -322,7 +335,13 @@ const InstagramPhotoFeed2 = props => {
             </div>
 
 
-            <Link type="button" className="btn btn-success mb-5" to="/" id="back-to-jim-IPF">Back to JIM</Link>
+            <Link
+                type="button"
+                className="btn btn-success mb-5"
+                to="/"
+                id="back-to-jim-IPF"
+            >Back to JIM
+            </Link>
 
         </div>
     )

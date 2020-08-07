@@ -1,6 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import logo from "../img/logo.jpg";
 
 
 const Contact = props => {

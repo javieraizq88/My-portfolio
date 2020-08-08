@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import ReactDOM from 'react-dom';
 import "./simpleCounter.css";
 import { Link } from "react-router-dom";
 

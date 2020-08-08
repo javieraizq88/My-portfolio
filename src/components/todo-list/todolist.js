@@ -11,7 +11,7 @@ class ListaToDo extends Component {
     }
 
     agregarTarea(e) {
-        if (e.keyCode == 13 && e.target.value !== '') {
+        if (e.keyCode === 13 && e.target.value !== '') {
             this.setState({
                 tareas: this.state.tareas.concat(e.target.value)
             })

@@ -254,6 +254,15 @@ height: 200px;
   margin-top: 45px;
 }
 
+#imagen{
+  margin-left: 19px;
+  margin-top: 33px;
+}
+
+#card-home{
+  margin-left: 8%;
+}
+
 /* STAR WARS */
 
 .titulo-starwars{

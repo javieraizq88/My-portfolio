@@ -17,9 +17,9 @@ const Projects = props => {
                 <div id="titulo-projects" className="col-md-10 col-xs-10 mr-2 mb-4">
                     <h1>Proyectos</h1>
                     <hr />
-                    <div className="card-deck" >
-                        <div className="col-md-1"></div>
-                        <div className="col-md-10 card mb-3" >
+
+                        {/* Star Wars */}
+                        <div className="col-md-10 card mb-3" id="card-home" >
                             <div className="row no-gutters">
                                 <div className="col-md-4">
                                     <img src="/img/starwars/SW.jpg" id="imagen1" className="card-img" alt="..." />
@@ -36,74 +36,83 @@ const Projects = props => {
                                         </p>
                                         <p className="card-text">(Use Fire Fox to open this projects please)</p>
                                         <div className="mr-5 ml-5 justify-content-between d-flex" >
-                                            <a href="https://github.com/javieraizq88/TrafficLightWithReact">
+                                            <a href="https://github.com/javieraizq88/starWars">
                                                 <h5> Proyecto en Github</h5>
                                             </a>
                                             <span id="link-boton">
                                                 <Link to="/projects/starwars" id="boton-ver-proyecto" className="btn btn-primary">VER MAS</Link>
                                             </span>
-
                                         </div>
-
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                   
+                        {/* Ahorcado */}
+                        <div className="col-md-10 card mb-3" id="card-home" >
+                            <div className="row no-gutters">
+                                <div className="col-md-4">
+                                    <img src="/img/ahorcado.jpg" id="imagen" className="card-img" alt="..." />
+                                </div>
+                                <div className=" col-md-8">
+                                    <div className="ml-3 card-body">
+                                        <h4 className="card-header text-center">Jugar ahorcado</h4>
+                                        <br />
+                                        <h5 className="card-text">
+                                            Tecnologías y Lenguajes:
+                                        </h5>
+                                        <p className="card-text">
+                                            HTML 5 - CSS 3 - Angular - Typescript
+                                        </p>
+                                        <div className="mr-5 ml-5 justify-content-between d-flex" >
+                                            <a href="https://github.com/javieraizq88/Ahorcardo-angular">
+                                                <h5> Proyecto en Github</h5>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                   
+                        {/* Encuesta */}
+                        <div className="col-md-10 card mb-3" id="card-home" >
+                            <div className="row no-gutters">
+                                <div className="col-md-4">
+                                    <img src="/img/encuesta/E.jpg" id="imagen" className="card-img" alt="..." />
+                                </div>
+                                <div className=" col-md-8">
+                                    <div className="ml-3 card-body">
+                                        <h4 className="card-header text-center">Formulario con validación</h4>
+                                        <br />
+                                        <h5 className="card-text">
+                                            Tecnologías y Lenguajes:
+                                        </h5>
+                                        <p className="card-text">
+                                            HTML 5 - CSS 3 - JavaScript - Bootstrap - JQuery - React.Js 
+                                        </p>
+                                        <div className="mr-5 ml-5 justify-content-between d-flex" >
+                                            <a href="https://github.com/javieraizq88/formulario-jun-2020">
+                                                <h5> Proyecto en Github</h5>
+                                            </a>
+                                            <span id="link-boton">
+                                                <Link to="/projects/starwars" id="boton-ver-proyecto" className="btn btn-primary">VER MAS</Link>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+         
 
 
                     <div className="card-deck">
-
-                        {/* Star Wars */}
-                        <div className=" col-md-4 col-sm-6 col-xs-6 mb-4">
-                            <div className="card h-100" id="card-InstagramPost">
-                                <h3 className="card-header" name="TL" id="titulo-card">Star Wars</h3>
-                                <div className="card-img">
-                                    <img className="card-img-top " id="card-img-TL" src="/img/starwars/SW.jpg" alt="" />
-                                </div>
-                                <div className="card-body">
-                                    <h5 className="card-text-projects">Tecnologías y Lenguajes</h5>
-                                    <ul>
-                                        <lo>
-                                            HTML 5 - CSS 3 - Bootstrap - JQuery - React.Js - API Rest - JavaScript - Responsive
-                                        </lo>
-                                    </ul>
-                                    <p className="card-text">(Use Fire Fox to open this projects please)</p>
-                                    <a href="https://github.com/javieraizq88/TrafficLightWithReact">  <h5> Proyecto en Github</h5></a>
-                                </div>
-                                <div className="card-footer">
-                                    <Link to="/projects/starwars" id="boton-ver-proyecto" className="btn btn-primary">VER MAS</Link>
-                                </div>
-                            </div>
-                        </div>
-
-                        {/* Ahorcado */}
-                        <div className="col-md-4 col-sm-6 col-xs-6 mb-4">
-                            <div className="card h-100" id="card-InstagramPost">
-                                <h3 className="card-header" name="TL" id="titulo-card">Jugar ahorcado</h3>
-                                <div className="card-img">
-                                    <img className="card-img-top " id="card-img-TL" src="/img/ahorcado.jpg" alt="" />
-                                </div>
-                                <div id="projects-card-body" className="card-body">
-                                    <h5 className="card-text-projects">Tecnologías y Lenguajes</h5>
-                                    <ul>
-                                        <lo>
-                                            HTML 5 - CSS 3 - Angular - Typescript
-                                        </lo>
-                                    </ul>
-                                    <p className="card-text text-white"> a</p>
-                                    <a href="https://github.com/javieraizq88/Ahorcardo-angular">   <h5> Proyecto en Github</h5></a>
-                                </div>
-
-                            </div>
-                        </div>
 
                         {/* Encuesta */}
                         <div className="col-md-4 col-sm-6 col-xs-6 mb-4">
                             <div className="card h-100" id="card-InstagramPost">
                                 <h3 className="card-header" name="TL" id="titulo-card">Formulario</h3>
                                 <div className="card-img">
-                                    <img className="card-img-top " id="card-img-TL" src="/img/encuesta/E.jpg" alt="" />
+                                    <img className="card-img-top " id="card-img-TL" src="/" alt="" />
                                 </div>
                                 <div id="projects-card-body" className="card-body">
                                     <h5 className="card-text-projects">Tecnologías y Lenguajes</h5>

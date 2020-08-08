@@ -15,8 +15,43 @@ const Projects = props => {
             <div className="row" id="project">
                 <div className="col-md-1"></div>
                 <div id="titulo-projects" className="col-md-10 col-xs-10 mr-2 mb-4">
-                    <h1>Estos son algunos de mis proyectos</h1>
+                    <h1>Proyectos</h1>
                     <hr />
+                    <div className="card-deck" >
+                        <div className="col-md-1"></div>
+                        <div className="col-md-10 card mb-3" >
+                            <div className="row no-gutters">
+                                <div className="col-md-4">
+                                    <img src="/img/starwars/SW.jpg" id="imagen1" className="card-img" alt="..." />
+                                </div>
+                                <div className=" col-md-8">
+                                    <div className="ml-3 card-body">
+                                        <h4 className="card-header text-center">Star Wars</h4>
+                                        <br />
+                                        <h5 className="card-text">
+                                            Tecnologías y Lenguajes:
+                                        </h5>
+                                        <p className="card-text">
+                                            HTML 5 - CSS 3 - JavaScript - Bootstrap - JQuery - React.Js - API Rest - Responsive
+                                        </p>
+                                        <p className="card-text">(Use Fire Fox to open this projects please)</p>
+                                        <div className="mr-5 ml-5 justify-content-between d-flex" >
+                                            <a href="https://github.com/javieraizq88/TrafficLightWithReact">
+                                                <h5> Proyecto en Github</h5>
+                                            </a>
+                                            <span id="link-boton">
+                                                <Link to="/projects/starwars" id="boton-ver-proyecto" className="btn btn-primary">VER MAS</Link>
+                                            </span>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
                     <div className="card-deck">
 
                         {/* Star Wars */}
@@ -108,7 +143,7 @@ const Projects = props => {
                         </div>
 
                         {/* Simple Counter */}
-                        <div  className="col-md-4 col-sm-6 col-xs-6 mb-4">
+                        <div className="col-md-4 col-sm-6 col-xs-6 mb-4">
                             <div className="card h-100" id="card-InstagramPost">
                                 <h3 className="card-header" name="TL" id="titulo-card">Contador simple</h3>
                                 <div className="card-img">
@@ -131,7 +166,7 @@ const Projects = props => {
                         </div>
 
                         {/* Tic Tac Toe */}
-                        <div  className="col-md-4 col-sm-6 col-xs-6 mb-4">
+                        <div className="col-md-4 col-sm-6 col-xs-6 mb-4">
                             <div className="card h-100" id="card-InstagramPost">
                                 <h3 className="card-header" name="TL" id="titulo-card">Tic-Tac Toe</h3>
                                 <div className="card-img">
@@ -265,7 +300,7 @@ const Projects = props => {
                         </div>
 
                         {/* Instagram photo feed */}
-                        <div  className=" col-md-4 col-sm-6 col-xs-6 mb-4">
+                        <div className=" col-md-4 col-sm-6 col-xs-6 mb-4">
                             <div className="card h-100" id="card-InstagramPost">
                                 <h3 className="card-header" name="TL" id="titulo-card">Instagram Photo Feed</h3>
                                 <img className="card-img-top" id="card-img-TL" src="/img/IPF/IPF.jpg" alt="" />

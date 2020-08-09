@@ -18,369 +18,404 @@ const Projects = props => {
                     <h1>Proyectos</h1>
                     <hr />
 
-                        {/* Star Wars */}
-                        <div className="col-md-10 card mb-3" id="card-home" >
-                            <div className="row no-gutters">
-                                <div className="col-md-4">
-                                    <img src="/img/starwars/SW.jpg" id="imagen1" className="card-img" alt="..." />
-                                </div>
-                                <div className=" col-md-8">
-                                    <div className="ml-3 card-body">
-                                        <h4 className="card-header text-center">Star Wars</h4>
-                                        <br />
-                                        <h5 className="card-text">
-                                            Tecnologías y Lenguajes:
+                    {/* Star Wars */}
+                    <div className="col-md-10 card mb-3" id="card-home" >
+                        <div className="row no-gutters">
+                            <div className="col-md-4">
+                                <img src="/img/starwars/SW.jpg" id="imagen1" className="card-img" alt="..." />
+                            </div>
+                            <div className=" col-md-8">
+                                <div className="ml-3 card-body">
+                                    <h4 className="card-header text-center">Star Wars</h4>
+                                    <br />
+                                    <h5 className="card-text">
+                                        Tecnologías y Lenguajes:
                                         </h5>
-                                        <p className="card-text">
-                                            HTML 5 - CSS 3 - JavaScript - Bootstrap - JQuery - React.Js - API Rest - Responsive
+                                    <p className="card-text">
+                                        HTML 5 - CSS 3 - JavaScript - Bootstrap - JQuery - React.Js - API Rest - Responsive
                                         </p>
-                                        <p className="card-text">(Use Fire Fox to open this projects please)</p>
-                                        <div className="mr-5 ml-5 justify-content-between d-flex" >
-                                            <a href="https://github.com/javieraizq88/starWars">
-                                                <h5> Proyecto en Github</h5>
-                                            </a>
-                                            <span id="link-boton">
-                                                <Link to="/projects/starwars" id="boton-ver-proyecto" className="btn btn-primary">VER MAS</Link>
-                                            </span>
-                                        </div>
+                                    <p className="card-text">(Use Fire Fox to open this projects please)</p>
+                                    <div className="mr-5 ml-5 justify-content-between d-flex" >
+                                        <a href="https://github.com/javieraizq88/starWars">
+                                            <h5> Proyecto en Github</h5>
+                                        </a>
+                                        <span id="link-boton">
+                                            <Link to="/projects/starwars" id="boton-ver-proyecto" className="btn btn-primary">VER MAS</Link>
+                                        </span>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                   
-                        {/* Ahorcado */}
-                        <div className="col-md-10 card mb-3" id="card-home" >
-                            <div className="row no-gutters">
-                                <div className="col-md-4">
-                                    <img src="/img/ahorcado.jpg" id="imagen" className="card-img" alt="..." />
-                                </div>
-                                <div className=" col-md-8">
-                                    <div className="ml-3 card-body">
-                                        <h4 className="card-header text-center">Jugar ahorcado</h4>
-                                        <br />
-                                        <h5 className="card-text">
-                                            Tecnologías y Lenguajes:
-                                        </h5>
-                                        <p className="card-text">
-                                            HTML 5 - CSS 3 - Angular - Typescript
-                                        </p>
-                                        <div className="mr-5 ml-5 justify-content-between d-flex" >
-                                            <a href="https://github.com/javieraizq88/Ahorcardo-angular">
-                                                <h5> Proyecto en Github</h5>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                   
-                        {/* Encuesta */}
-                        <div className="col-md-10 card mb-3" id="card-home" >
-                            <div className="row no-gutters">
-                                <div className="col-md-4">
-                                    <img src="/img/encuesta/E.jpg" id="imagen" className="card-img" alt="..." />
-                                </div>
-                                <div className=" col-md-8">
-                                    <div className="ml-3 card-body">
-                                        <h4 className="card-header text-center">Formulario con validación</h4>
-                                        <br />
-                                        <h5 className="card-text">
-                                            Tecnologías y Lenguajes:
-                                        </h5>
-                                        <p className="card-text">
-                                            HTML 5 - CSS 3 - JavaScript - Bootstrap - JQuery - React.Js 
-                                        </p>
-                                        <div className="mr-5 ml-5 justify-content-between d-flex" >
-                                            <a href="https://github.com/javieraizq88/formulario-jun-2020">
-                                                <h5> Proyecto en Github</h5>
-                                            </a>
-                                            <span id="link-boton">
-                                                <Link to="/projects/starwars" id="boton-ver-proyecto" className="btn btn-primary">VER MAS</Link>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-         
-
-
-                    <div className="card-deck">
-
-                        {/* Encuesta */}
-                        <div className="col-md-4 col-sm-6 col-xs-6 mb-4">
-                            <div className="card h-100" id="card-InstagramPost">
-                                <h3 className="card-header" name="TL" id="titulo-card">Formulario</h3>
-                                <div className="card-img">
-                                    <img className="card-img-top " id="card-img-TL" src="/" alt="" />
-                                </div>
-                                <div id="projects-card-body" className="card-body">
-                                    <h5 className="card-text-projects">Tecnologías y Lenguajes</h5>
-                                    <ul>
-                                        <lo>
-                                            HTML 5 - CSS 3 - Bootstrap - JQuery - React.Js -JavaScript
-                                        </lo>
-                                    </ul>
-                                    <p className="card-text text-white"> a</p>
-                                    <a href="https://github.com/javieraizq88/formulario-jun-2020">   <h5> Proyecto en Github</h5></a>
-                                </div>
-                                <div className="card-footer">
-                                    <Link to="/projects/encuesta" id="boton-ver-proyecto" className="btn btn-primary">VER MAS</Link>
-                                </div>
-                            </div>
-                        </div>
-
-                        {/* battleship */}
-                        <div className="col-md-4 col-sm-6 col-xs-6 mb-4">
-                            <div className="card h-100" id="card-InstagramPost">
-                                <h3 className="card-header" name="TL" id="titulo-card">Battleship</h3>
-                                <div className="card-img">
-                                    <img className="card-img-top " id="card-img-TL" src="/img/battleship.jpg" alt="" />
-                                </div>
-                                <div id="projects-card-body" className="card-body">
-                                    <h5 className="card-text-projects">Tecnologías y Lenguajes</h5>
-                                    <ul>
-                                        <lo>
-                                            HTML 5 - CSS 3 - JavaScript
-                                        </lo>
-                                    </ul>
-                                    <p className="card-text text-white"> a</p>
-                                    <a href="https://github.com/javieraizq88/battleship">   <h5> Proyecto en Github</h5></a>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        {/* Simple Counter */}
-                        <div className="col-md-4 col-sm-6 col-xs-6 mb-4">
-                            <div className="card h-100" id="card-InstagramPost">
-                                <h3 className="card-header" name="TL" id="titulo-card">Contador simple</h3>
-                                <div className="card-img">
-                                    <img className="card-img-top " id="card-img-TL" src="/img/simpleCounter.jpg" alt="" />
-                                </div>
-                                <div className="card-body">
-                                    <h5 className="card-text-projects">Tecnologías y Lenguajes</h5>
-                                    <ul>
-                                        <lo>
-                                            HTML 5 - CSS 3 - Bootstrap - JQuery - React.Js -JavaScript
-                                        </lo>
-                                    </ul>
-                                    <p className="card-text text-white"> a</p>
-                                    <a href="https://github.com/javieraizq88/SimpleCounterWithReact"> <h5> Proyecto en Github</h5></a>
-                                </div>
-                                <div className="card-footer">
-                                    <Link to="/projects/simplecounter" id="boton-ver-proyecto" className="btn btn-primary">VER MAS</Link>
-                                </div>
-                            </div>
-                        </div>
-
-                        {/* Tic Tac Toe */}
-                        <div className="col-md-4 col-sm-6 col-xs-6 mb-4">
-                            <div className="card h-100" id="card-InstagramPost">
-                                <h3 className="card-header" name="TL" id="titulo-card">Tic-Tac Toe</h3>
-                                <div className="card-img">
-                                    <img className="card-img-top " id="card-img-TL" src="/img/tic-tac-toe/gato.jpg" alt="" />
-                                </div>
-                                <div className="card-body">
-                                    <h5 className="card-text-projects">Tecnologías y Lenguajes</h5>
-                                    <ul>
-                                        <lo>
-                                            HTML 5 - CSS 3 - Bootstrap - JQuery - React.Js -JavaScript
-                                        </lo>
-                                    </ul>
-                                    <p className="card-text text-white"> a</p>
-                                    <a href="https://github.com/javieraizq88/ticTacToeWithReact"> <h5> Proyecto en Github</h5></a>
-                                </div>
-                                <div className="card-footer">
-                                    <Link to="/projects/tic-tac-toe" id="boton-ver-proyecto" className="btn btn-primary">VER MAS</Link>
-                                </div>
-                            </div>
-                        </div>
-
-                        {/* Bubble sort */}
-                        <div className="col-md-4 col-sm-6 col-xs-6 mb-4">
-                            <div className="card h-100" id="card-InstagramPost">
-                                <h3 className="card-header" name="TL" id="titulo-card">Bubble sort</h3>
-                                <div className="card-img">
-                                    <img className="card-img-top " id="card-img-TL" src="/img/Bubble-sort.jpg" alt="" />
-                                </div>
-                                <div id="projects-card-body" className="card-body">
-                                    <h5 className="card-text-projects">Tecnologías y Lenguajes</h5>
-                                    <ul>
-                                        <lo>
-                                            HTML 5 - CSS 3 - JavaScript - Git
-                                        </lo>
-                                    </ul>
-                                    <p className="card-text text-white"> a</p>
-                                    <a href="https://github.com/javieraizq88/SortingCardsWithBubble">   <h5> Proyecto en Github</h5></a>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        {/* To do List */}
-                        <div className="col-md-4 col-sm-6 col-xs-6 mb-4">
-                            <div className="card h-100" id="card-InstagramPost">
-                                <h3 className="card-header" name="TL" id="titulo-card">Lista de tareas</h3>
-                                <div className="card-img">
-                                    <img className="card-img-top " id="card-img-TL" src="/img/TodoList.jpg" alt="" />
-                                </div>
-                                <div id="projects-card-body" className="card-body">
-                                    <h5 className="card-text-projects">Tecnologías y Lenguajes</h5>
-                                    <ul>
-                                        <lo>
-                                            HTML 5 - CSS 3 - React.js - Bootstrap - JQuery - JavaScript - Git
-                                        </lo>
-                                    </ul>
-                                    <p className="card-text text-white"> a</p>
-                                    <a href="https://github.com/javieraizq88/ToDoListConReact">   <h5> Proyecto en Github</h5></a>
-                                </div>
-                                <div className="card-footer">
-                                    <Link to="/projects/todolist" id="boton-ver-proyecto" className="btn btn-primary">VER MAS</Link>
-                                </div>
-                            </div>
-                        </div>
-
-                        {/* Traffic Light */}
-                        <div className="col-md-4 col-sm-6 col-xs-6 mb-4">
-                            <div className="card h-100" id="card-InstagramPost">
-                                <h3 className="card-header" name="TL" id="titulo-card">Traffic Light</h3>
-                                <img className="card-img-top" id="card-img-TL" src="/img/traffic-light/TL-imagen.jpg" alt="" />
-                                <div className="card-body">
-                                    <h5 className="card-text-projects">Tecnologías y Lenguajes</h5>
-                                    <ul>
-                                        <lo>
-                                            HTML 5 - CSS 3 - Bootstrap - JQuery - React.Js -JavaScript
-                                        </lo>
-                                    </ul>
-                                    <p className="card-text text-white"> a</p>
-                                    <a href="https://github.com/javieraizq88/TrafficLightWithReact"> <h5> Proyecto en Github</h5> </a>
-                                </div>
-                                <div className="card-footer">
-                                    <Link to="/projects/traffic-light" id="boton-ver-proyecto" className="btn btn-primary">VER MAS</Link>
-                                </div>
-                            </div>
-                        </div>
-
-                        {/* Random card */}
-                        <div className="  col-md-4 col-sm-6 col-xs-6 mb-4">
-                            <div className="card h-100" id="card-InstagramPost">
-                                <h3 className="card-header" name="TL" id="titulo-card">Random Card</h3>
-                                <img className="card-img-top" id="card-img-TL" src="/img/random-card/RC.jpg" alt="" />
-                                <div className="card-body">
-                                    <h5 className="card-text-projects">Tecnologías y Lenguajes</h5>
-                                    <ul>
-                                        <lo>
-                                            HTML 5 - CSS 3 - JavaScript - Bootstrap - JQuery
-                                        </lo>
-                                    </ul>
-                                    <p className="card-text text-white"> a</p>
-                                    <a href="https://github.com/javieraizq88/RandomCardDealer-generator-">
-                                        <h5> Proyecto en Github</h5>
-                                    </a>
-                                </div>
-                                <div className="card-footer">
-                                    <Link to="/projects/RandomCard" id="boton-ver-proyecto" className="btn btn-primary">VER MAS</Link>
-                                </div>
-                            </div>
-                        </div>
-
-                        {/* Excuse Generator */}
-                        <div className=" col-md-4 col-sm-6 col-xs-6 mb-4">
-                            <div className="card h-100" id="card-InstagramPost">
-                                <h3 className="card-header" name="TL" id="titulo-card">Excuse Generator</h3>
-                                <img className="card-img-top" id="card-img-TL" src="/img/excuse-generator/EG.jpg" alt="" />
-                                <div className="card-body">
-                                    <h5 className="card-text-projects">Tecnologías y Lenguajes</h5>
-                                    <ul>
-                                        <lo>
-                                            HTML 5 - CSS 3 - JavaScript - Bootstrap - JQuery
-                                        </lo>
-                                    </ul>
-                                    <p className="card-text text-white"> a</p>
-                                    <a href="https://github.com/javieraizq88/ExcuseGenerator">
-                                        <h5> Proyecto en Github</h5>
-                                    </a>
-                                </div>
-                                <div className="card-footer">
-                                    <Link to="/projects/ExcuseGenerator" id="boton-ver-proyecto" className="btn btn-primary">VER MAS</Link>
-                                </div>
-                            </div>
-                        </div>
-
-                        {/* Instagram photo feed */}
-                        <div className=" col-md-4 col-sm-6 col-xs-6 mb-4">
-                            <div className="card h-100" id="card-InstagramPost">
-                                <h3 className="card-header" name="TL" id="titulo-card">Instagram Photo Feed</h3>
-                                <img className="card-img-top" id="card-img-TL" src="/img/IPF/IPF.jpg" alt="" />
-                                <div className="card-body">
-                                    <h5 className="card-text-projects">Tecnologías y Lenguajes</h5>
-                                    <ul>
-                                        <lo>
-                                            HTML 5 - CSS 3 - Bootstrap - JQuery
-                                        </lo>
-                                    </ul>
-                                    <br />
-                                    <p className="card-text text-white"> a</p>
-                                    <a href="https://github.com/javieraizq88/instagram-photo-feed-con-Bootstrap">
-                                        <h5> Proyecto en Github</h5>
-                                    </a>
-                                </div>
-                                <div className="card-footer">
-                                    <Link to="/projects/instagram-photo-feed" id="boton-ver-proyecto" className="btn btn-primary">VER MAS</Link>
-                                </div>
-                            </div>
-                        </div>
-
-                        {/* Instagram Post */}
-                        <div className=" col-md-4 col-sm-6 col-xs-6 mb-4">
-                            <div className="card h-100" id="card-InstagramPost">
-                                <h3 className="card-header" name="IP" id="titulo-card">Instagram Post</h3>
-                                <img className="card-img-top" id="card-img-TL" src="/img/instagram-post/IP.jpg" alt="" />
-                                <div className="card-body">
-                                    <h5 className="card-text-projects">Tecnologías y Lenguajes</h5>
-                                    <ul>
-                                        <lo>
-                                            HTML 5 - CSS 3
-                                        </lo>
-                                    </ul>
-                                    <p className="card-text text-white"> a</p>
-                                    <a href="https://github.com/javieraizq88/InstagramPost">
-                                        <h5> Proyecto en Github</h5>
-                                    </a>
-                                    <br />
-                                </div>
-                                <div className="card-footer">
-                                    <Link to="/projects/instagram-post" id="boton-ver-proyecto" className="btn btn-primary">VER MAS</Link>
-                                </div>
-                            </div>
-                        </div>
-
-                        {/* Digital Postcard */}
-                        <div className=" col-md-4 col-sm-6 col-xs-6 mb-4">
-                            <div className="card h-100" id="card-InstagramPost">
-                                <h3 className="card-header" name="IP" id="titulo-card">Digital Postcard</h3>
-                                <img className="card-img-top" id="card-img-TL" src="/img/digital-postcard/DP.jpg" alt="" />
-                                <div className="card-body">
-                                    <h5 className="card-text-projects">Tecnologías y Lenguajes</h5>
-                                    <ul>
-                                        <lo>
-                                            HTML 5 - CSS 3
-                                        </lo>
-                                    </ul>
-                                    <p className="card-text text-white"> a</p>
-                                    <br />
-                                    <a href="https://github.com/javieraizq88/digital-postcard">
-                                        <h5> Proyecto en Github</h5>
-                                    </a>
-                                </div>
-                                <div className="card-footer">
-                                    <Link to="/projects/digital-postcard" id="boton-ver-proyecto" className="btn btn-primary">VER MAS</Link>
-                                </div>
-                            </div>
-                        </div>
-
                     </div>
+
+                    {/* Ahorcado */}
+                    <div className="col-md-10 card mb-3" id="card-home" >
+                        <div className="row no-gutters">
+                            <div className="col-md-4">
+                                <img src="/img/ahorcado.jpg" id="imagen" className="card-img" alt="..." />
+                            </div>
+                            <div className=" col-md-8">
+                                <div className="ml-3 card-body">
+                                    <h4 className="card-header text-center">Jugar ahorcado</h4>
+                                    <br />
+                                    <h5 className="card-text">
+                                        Tecnologías y Lenguajes:
+                                        </h5>
+                                    <p className="card-text">
+                                        HTML 5 - CSS 3 - Angular - Typescript
+                                        </p>
+                                    <div className="mr-5 ml-5 justify-content-between d-flex" >
+                                        <a href="https://github.com/javieraizq88/Ahorcardo-angular">
+                                            <h5> Proyecto en Github</h5>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Encuesta */}
+                    <div className="col-md-10 card mb-3" id="card-home" >
+                        <div className="row no-gutters">
+                            <div className="col-md-4">
+                                <img src="/img/encuesta/E.jpg" id="imagen" className="card-img" alt="..." />
+                            </div>
+                            <div className=" col-md-8">
+                                <div className="ml-3 card-body">
+                                    <h4 className="card-header text-center">Formulario con validación</h4>
+                                    <br />
+                                    <h5 className="card-text">
+                                        Tecnologías y Lenguajes:
+                                        </h5>
+                                    <p className="card-text">
+                                        HTML 5 - CSS 3 - JavaScript - Bootstrap - JQuery - React.Js
+                                        </p>
+                                    <div className="mr-5 ml-5 justify-content-between d-flex" >
+                                        <a href="https://github.com/javieraizq88/formulario-jun-2020">
+                                            <h5> Proyecto en Github</h5>
+                                        </a>
+                                        <span id="link-boton">
+                                            <Link to="/projects/encuesta" id="boton-ver-proyecto" className="btn btn-primary">VER MAS</Link>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* battleship */}
+                    <div className="col-md-10 card mb-3" id="card-home" >
+                        <div className="row no-gutters">
+                            <div className="col-md-4">
+                                <img src="/img/battleship.jpg" id="imagen" className="card-img" alt="..." />
+                            </div>
+                            <div className=" col-md-8">
+                                <div className="ml-3 card-body">
+                                    <h4 className="card-header text-center">Battleship</h4>
+                                    <br />
+                                    <h5 className="card-text">
+                                        Tecnologías y Lenguajes:
+                                        </h5>
+                                    <p className="card-text">
+                                        HTML 5 - CSS 3 - JavaScript Vanilla
+                                        </p>
+                                    <div className="mr-5 ml-5 justify-content-between d-flex" >
+                                        <a href="https://github.com/javieraizq88/battleship">
+                                            <h5> Proyecto en Github</h5>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Simple Counter */}
+                    <div className="col-md-10 card mb-3" id="card-home" >
+                        <div className="row no-gutters">
+                            <div className="col-md-4">
+                                <img src="/img/simpleCounter.jpg" id="imagen" className="card-img" alt="..." />
+                            </div>
+                            <div className=" col-md-8">
+                                <div className="ml-3 card-body">
+                                    <h4 className="card-header text-center">Contador simple</h4>
+                                    <br />
+                                    <h5 className="card-text">
+                                        Tecnologías y Lenguajes:
+                                        </h5>
+                                    <p className="card-text">
+                                        HTML 5 - CSS 3 - JavaScript - Bootstrap - JQuery - React.Js
+                                        </p>
+                                    <div className="mr-5 ml-5 justify-content-between d-flex" >
+                                        <a href="https://github.com/javieraizq88/SimpleCounterWithReact">
+                                            <h5> Proyecto en Github</h5>
+                                        </a>
+                                        <span id="link-boton">
+                                            <Link to="/projects/simplecounter" id="boton-ver-proyecto" className="btn btn-primary">VER MAS</Link>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Tic Tac Toe */}
+                    <div className="col-md-10 card mb-3" id="card-home" >
+                        <div className="row no-gutters">
+                            <div className="col-md-4">
+                                <img src="/img/tic-tac-toe/gato.jpg" id="imagen" className="card-img" alt="..." />
+                            </div>
+                            <div className=" col-md-8">
+                                <div className="ml-3 card-body">
+                                    <h4 className="card-header text-center">Tic-Tac Toe</h4>
+                                    <br />
+                                    <h5 className="card-text">
+                                        Tecnologías y Lenguajes:
+                                        </h5>
+                                    <p className="card-text">
+                                        HTML 5 - CSS 3 - JavaScript - Bootstrap - JQuery - React.Js
+                                        </p>
+                                    <div className="mr-5 ml-5 justify-content-between d-flex" >
+                                        <a href="https://github.com/javieraizq88/ticTacToeWithReact">
+                                            <h5> Proyecto en Github</h5>
+                                        </a>
+                                        <span id="link-boton">
+                                            <Link to="/projects/tic-tac-toe" id="boton-ver-proyecto" className="btn btn-primary">VER MAS</Link>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Bubble sort */}
+                    <div className="col-md-10 card mb-3" id="card-home" >
+                        <div className="row no-gutters">
+                            <div className="col-md-4">
+                                <img src="/img/Bubble-sort.jpg" id="imagen" className="card-img" alt="..." />
+                            </div>
+                            <div className=" col-md-8">
+                                <div className="ml-3 card-body">
+                                    <h4 className="card-header text-center">Bubble sort</h4>
+                                    <br />
+                                    <h5 className="card-text">
+                                        Tecnologías y Lenguajes:
+                                        </h5>
+                                    <p className="card-text">
+                                        HTML 5 - CSS 3 - JavaScript Vanilla
+                                        </p>
+                                    <div className="mr-5 ml-5 justify-content-between d-flex" >
+                                        <a href="https://github.com/javieraizq88/SortingCardsWithBubble">
+                                            <h5> Proyecto en Github</h5>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* To do List */}
+                    <div className="col-md-10 card mb-3" id="card-home" >
+                        <div className="row no-gutters">
+                            <div className="col-md-4">
+                                <img src="/img/TodoList.jpg" id="imagen" className="card-img" alt="..." />
+                            </div>
+                            <div className=" col-md-8">
+                                <div className="ml-3 card-body">
+                                    <h4 className="card-header text-center">Lista de tareas</h4>
+                                    <br />
+                                    <h5 className="card-text">
+                                        Tecnologías y Lenguajes:
+                                        </h5>
+                                    <p className="card-text">
+                                        HTML 5 - CSS 3 - JavaScript - Bootstrap - JQuery - React.Js
+                                        </p>
+                                    <div className="mr-5 ml-5 justify-content-between d-flex" >
+                                        <a href="https://github.com/javieraizq88/ToDoListConReact">
+                                            <h5> Proyecto en Github</h5>
+                                        </a>
+                                        <span id="link-boton">
+                                            <Link to="/projects/todolist" id="boton-ver-proyecto" className="btn btn-primary">VER MAS</Link>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Traffic Light */}
+                    <div className="col-md-10 card mb-3" id="card-home" >
+                        <div className="row no-gutters">
+                            <div className="col-md-4">
+                                <img src="/img/traffic-light/TL-imagen.jpg" id="imagen" className="card-img" alt="..." />
+                            </div>
+                            <div className=" col-md-8">
+                                <div className="ml-3 card-body">
+                                    <h4 className="card-header text-center">Semáforo</h4>
+                                    <br />
+                                    <h5 className="card-text">
+                                        Tecnologías y Lenguajes:
+                                        </h5>
+                                    <p className="card-text">
+                                        HTML 5 - CSS 3 - JavaScript - Bootstrap - JQuery - React.Js
+                                        </p>
+                                    <div className="mr-5 ml-5 justify-content-between d-flex" >
+                                        <a href="https://github.com/javieraizq88/TrafficLightWithReact">
+                                            <h5> Proyecto en Github</h5>
+                                        </a>
+                                        <span id="link-boton">
+                                            <Link to="/projects/traffic-light" id="boton-ver-proyecto" className="btn btn-primary">VER MAS</Link>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Random card */}
+                    <div className="col-md-10 card mb-3" id="card-home" >
+                        <div className="row no-gutters">
+                            <div className="col-md-4">
+                                <img src="/img/random-card/RC.jpg" id="imagen" className="card-img" alt="..." />
+                            </div>
+                            <div className=" col-md-8">
+                                <div className="ml-3 card-body">
+                                    <h4 className="card-header text-center">Random Card</h4>
+                                    <br />
+                                    <h5 className="card-text">
+                                        Tecnologías y Lenguajes:
+                                        </h5>
+                                    <p className="card-text">
+                                        HTML 5 - CSS 3 - JavaScript - Bootstrap - JQuery
+                                        </p>
+                                    <div className="mr-5 ml-5 justify-content-between d-flex" >
+                                        <a href="https://github.com/javieraizq88/RandomCardDealer-generator-">
+                                            <h5> Proyecto en Github</h5>
+                                        </a>
+                                        <span id="link-boton">
+                                            <Link to="/projects/RandomCard" id="boton-ver-proyecto" className="btn btn-primary">VER MAS</Link>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Excuse Generator */}
+                    <div className="col-md-10 card mb-3" id="card-home" >
+                        <div className="row no-gutters">
+                            <div className="col-md-4">
+                                <img src="/img/excuse-generator/EG.jpg" id="imagen" className="card-img" alt="..." />
+                            </div>
+                            <div className=" col-md-8">
+                                <div className="ml-3 card-body">
+                                    <h4 className="card-header text-center">Generador de excusas</h4>
+                                    <br />
+                                    <h5 className="card-text">
+                                        Tecnologías y Lenguajes:
+                                        </h5>
+                                    <p className="card-text">
+                                        HTML 5 - CSS 3 - JavaScript - Bootstrap - JQuery
+                                        </p>
+                                    <div className="mr-5 ml-5 justify-content-between d-flex" >
+                                        <a href="https://github.com/javieraizq88/ExcuseGenerator">
+                                            <h5> Proyecto en Github</h5>
+                                        </a>
+                                        <span id="link-boton">
+                                            <Link to="/projects/ExcuseGenerator" id="boton-ver-proyecto" className="btn btn-primary">VER MAS</Link>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Instagram photo feed */}
+                    <div className="col-md-10 card mb-3" id="card-home" >
+                        <div className="row no-gutters">
+                            <div className="col-md-4">
+                                <img src="/img/IPF/IPF.jpg" id="imagen" className="card-img" alt="..." />
+                            </div>
+                            <div className=" col-md-8">
+                                <div className="ml-3 card-body">
+                                    <h4 className="card-header text-center">Instagram Photo Feed</h4>
+                                    <br />
+                                    <h5 className="card-text">
+                                        Tecnologías y Lenguajes:
+                                        </h5>
+                                    <p className="card-text">
+                                        HTML 5 - CSS 3 - Bootstrap - JQuery
+                                        </p>
+                                    <div className="mr-5 ml-5 justify-content-between d-flex" >
+                                        <a href="https://github.com/javieraizq88/instagram-photo-feed-con-Bootstrap">
+                                            <h5> Proyecto en Github</h5>
+                                        </a>
+                                        <span id="link-boton">
+                                            <Link to="/projects/instagram-photo-feed" id="boton-ver-proyecto" className="btn btn-primary">VER MAS</Link>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Instagram Post */}
+                    <div className="col-md-10 card mb-3" id="card-home" >
+                        <div className="row no-gutters">
+                            <div className="col-md-4">
+                                <img src="/img/instagram-post/IP.jpg" id="imagen" className="card-img" alt="..." />
+                            </div>
+                            <div className=" col-md-8">
+                                <div className="ml-3 card-body">
+                                    <h4 className="card-header text-center">Instagram Post</h4>
+                                    <br />
+                                    <h5 className="card-text">
+                                        Tecnologías y Lenguajes:
+                                        </h5>
+                                    <p className="card-text">
+                                        HTML 5 - CSS 3
+                                        </p>
+                                    <div className="mr-5 ml-5 justify-content-between d-flex" >
+                                        <a href="https://github.com/javieraizq88/InstagramPost">
+                                            <h5> Proyecto en Github</h5>
+                                        </a>
+                                        <span id="link-boton">
+                                            <Link to="/projects/instagram-post" id="boton-ver-proyecto" className="btn btn-primary">VER MAS</Link>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Digital Postcard */}
+                    <div className="col-md-10 card mb-3" id="card-home" >
+                        <div className="row no-gutters">
+                            <div className="col-md-4">
+                                <img src="/img/digital-postcard/DP.jpg" id="imagen" className="card-img" alt="..." />
+                            </div>
+                            <div className=" col-md-8">
+                                <div className="ml-3 card-body">
+                                    <h4 className="card-header text-center">Digital Postcard</h4>
+                                    <br />
+                                    <h5 className="card-text">
+                                        Tecnologías y Lenguajes:
+                                        </h5>
+                                    <p className="card-text">
+                                        HTML 5 - CSS 3
+                                        </p>
+                                    <div className="mr-5 ml-5 justify-content-between d-flex" >
+                                        <a href="https://github.com/javieraizq88/digital-postcard">
+                                            <h5> Proyecto en Github</h5>
+                                        </a>
+                                        <span id="link-boton">
+                                            <Link to="/projects/digital-postcard" id="boton-ver-proyecto" className="btn btn-primary">VER MAS</Link>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
 

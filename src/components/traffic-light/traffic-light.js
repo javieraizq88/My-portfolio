@@ -64,7 +64,7 @@ class TrafiicLight extends React.Component {
                     <Link
                         type="button"
                         className="btn btn-success"
-                        to="/projects"
+                        to="/"
                         id="back-to-jim-TL">
                         Back to JIM
                   </Link>

@@ -1,39 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import logo from "../img/logo.jpg";
 import Projects from '../components/projectsHome';
 
 const Home = props => {
     return (
         <>
             <div id="home">
-                {/* Navbar */}
-                <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-                    <img className="ml-5" src={logo} id="logo" alt="JIM Logo" />
-
-                    <button
-                        className="navbar-toggler"
-                        type="button"
-                        data-toggle="collapse"
-                        data-target="#navbarNavDropdown"
-                        aria-controls="navbarNavDropdown"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
-                    <div
-                        className="collapse navbar-collapse mr-5"
-                        id="navbarNavDropdown">
-                        <ul className="navbar-nav ml-auto">
-                            <li className="nav-item active">
-                                <Link className="nav-link active" to="/">Home<span className="sr-only">(current)</span></Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link className="nav-link" to="/cv">CV</Link>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
 
                 {/* banner */}
                 <div id="banner">
@@ -44,15 +15,15 @@ const Home = props => {
                 <Projects />
 
                 {/* Page Content */}
-                <div className="row">
+                <div id="container-contacto" className="row">
                     <div className="col-md-1"></div>
 
-                    <div id="container-contacto" className="col-md-10 col-xs-10 mr-2 mt-5 mb-5">
+                    <div  className="col-md-10 col-xs-10 mr-2 mt-5 mb-5">
                         <div className="card-header mt-3"><h1 >Contacto</h1></div>
 
                         <hr />
                         <address>
-                            <p className="ml-3" id="p-Home"><strong>Javiera Izquierdo Martino</strong></p>
+                            <p className="ml-3" ><strong>Javiera Izquierdo Martino</strong></p>
                             <h5 className="ml-3">
                                 <i class="fas fa-envelope ml-5"></i>
                                 javieraizquierdo7@gmail.com

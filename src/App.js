@@ -34,11 +34,12 @@ import FinalizarEncuesta from "./components/encuesta/finalizarEnc";
 import CV from "./components/CV";
 import ListaToDo from "./components/todo-list/todolist";
 import Counter from "./components/simple-counter/simpleCounter";
+import Navbar from "./components/navbar";
 
 const App = props => {
     return (
         <BrowserRouter>
-        {/* <Navbar /> */}
+            <Navbar />
             <Switch>
                 <Route exact path="/" component={Home} />
                 <Route exact path="/cv" component={CV} />

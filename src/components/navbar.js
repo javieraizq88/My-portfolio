@@ -7,8 +7,11 @@ const Navbar = props => {
     return (
         <>
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-                <img className="ml-5" src={logo} id="logo" alt="JIM Logo" />
-
+                <img
+                    className="ml-5"
+                    src={logo} id="logo"
+                    alt="JIM Logo"
+                />
                 <button
                     className="navbar-toggler"
                     type="button"
@@ -24,20 +27,14 @@ const Navbar = props => {
                     id="navbarNavDropdown">
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item">
-                            <Link className="nav-link" to="/">Home<span className="sr-only">(current)</span></Link>
+                            <Link className="nav-link" to="/">
+                                Home
+                            <span className="sr-only">(current)</span>
+                            </Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link" to="/cv">CV</Link>
                         </li>
-                        {/* <li className="nav-item">
-                            <Link className="nav-link" to="/services">Servicios</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/projects">Projectos</Link>
-                        </li> */}
-                        {/* <li className="nav-item">
-                            <Link className="nav-link" to="/contact">Contacto</Link>
-                        </li> */}
                     </ul>
                 </div>
             </nav>

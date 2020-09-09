@@ -1,23 +1,31 @@
+import StarWars from "...../public/img/1StarWars.jpg";
 export default [
     {
         "nombre": "Buscador de series y películas",
         "tecnology": "React.Js - Redux - API Rest - Material.UI - CSS - JavaScript",
         "github": "https://github.com/javieraizq88/buscadorPeliculas-React",
         "pagina": "https://buscador-peliculas-react.vercel.app/",
-        "imagen": ""
+        "imagen": StarWars
     },
     {
         "nombre": "Carrito de compras",
         "tecnology": "React.Js - Bootstrap - JQuery - CSS - JavaScript (Responsive)",
         "github": "https://github.com/javieraizq88/Carrito-Compra",
-        "pagina": "carrito-compra.vercel.app",
+        "pagina": "https://carrito-compra.vercel.app",
         "imagen": ""
     },
     {
         "nombre": "Star Wars",
         "tecnology": "React.Js - API Rest - Bootstrap - JQuery - CSS - JavaScript (Responsive)",
         "github": "https://github.com/javieraizq88/starWars",
-        "pagina": "star-wars-nine.now.sh",
+        "pagina": "https://star-wars-nine.now.sh",
+        "imagen": ""
+    },
+    {
+        "nombre": "Contact List",
+        "tecnology": "React.Js - API Rest - Bootstrap - JQuery - CSS - JavaScript (Responsive)",
+        "github": "https://github.com/javieraizq88/Contact--List-Final",
+        "pagina": "https://contact-list-final.vercel.app/",
         "imagen": ""
     },
     {
@@ -28,7 +36,7 @@ export default [
         "imagen": ""
     },
     {
-        "nombre": "Formulario",
+        "nombre": "Formulario 2",
         "tecnology": "React.Js - JavaScript - CSS - Bootstrap - JQuery - HTML",
         "github": "https://github.com/javieraizq88/formulario-jun-2020",
         "pagina": "",
@@ -59,7 +67,7 @@ export default [
         "nombre": "Sorting cards",
         "tecnology": "Javascript - CSS - Bootstrap - Jquery - HTML",
         "github": "https://github.com/javieraizq88/SortingCardsWithBubble",
-        "pagina": "",
+        "pagina": "https://sorting-cards-with-bubble.vercel.app/",
         "imagen": ""
     },
     {
@@ -84,6 +92,13 @@ export default [
         "imagen": ""
     },
     {
+        "nombre": "Formulario",
+        "tecnology": "JavaScript - CSS - Bootstrap - JQuery - HTML",
+        "github": "",
+        "pagina": "https://form-valitation-js.vercel.app/",
+        "imagen": ""
+    }
+    {
         "nombre": "Carta al azar",
         "tecnology": "JavaScript - CSS - Bootstrap - JQuery - HTML",
         "github": "",
@@ -100,8 +115,8 @@ export default [
     {
         "nombre": "Instagram Photo Feed",
         "tecnology": "CSS - Bootstrap - JQuery - HTML",
-        "github": "",
-        "pagina": "",
+        "github": "https://github.com/javieraizq88/instagram-photo-feed-con-bootstrap",
+        "pagina": "https://instagram-photo-feed-con-bootstrap.vercel.app/",
         "imagen": ""
     },
     {

@@ -15,7 +15,7 @@ const Projects = props => {
             <div className="row" id="project">
                 <div className="col-md-1"></div>
                 <div id="titulo-projects" className="col-md-10 col-xs-10 mr-2 mb-4">
-                    <h1>Proyectos</h1>
+                    <h2>Proyectos</h2>
                     <hr />
 
                     {/* Star Wars */}
@@ -34,7 +34,7 @@ const Projects = props => {
                                     <p className="card-text">
                                         HTML 5 - CSS 3 - JavaScript - Bootstrap - JQuery - React.Js - API Rest - Responsive
                                         </p>
-                                    <p className="card-text">(Use Fire Fox to open this projects please)</p>
+                                    <p className="card-text">(Use Fire Fox para abrir este proyecto)</p>
                                     <div className="mr-5 ml-5 justify-content-between d-flex" >
                                         <a href="https://github.com/javieraizq88/starWars">
                                             <h5> Proyecto en Github</h5>
@@ -146,7 +146,7 @@ const Projects = props => {
                                         HTML 5 - CSS 3 - JavaScript - Bootstrap - JQuery - React.Js
                                         </p>
                                     <div className="mr-5 ml-5 justify-content-between d-flex" >
-                                        <a href="https://github.com/javieraizq88/SimpleCounterWithReact">
+                                        <a href="htps://github.com/javieraizq88/SimpleCounterWithReactt">
                                             <h5> Proyecto en Github</h5>
                                         </a>
                                         <span id="link-boton">

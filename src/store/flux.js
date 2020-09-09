@@ -1,6 +1,7 @@
 const getState = ({ getStore, getAction, setStore }) => {
     return {
         store: {
+            proyecto: "",
 a: 0,
             // encuesta
             name: "",

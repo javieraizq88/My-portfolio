@@ -129,8 +129,8 @@ export default [
     {
         "nombre": "Digital Postcard",
         "tecnology": "CSS - HTML",
-        "github": "",
-        "pagina": "",
+        "github": "https://github.com/javieraizq88/digital-postcard",
+        "pagina": "https://digital-postcard.vercel.app/",
         "imagen": ""
     },
 

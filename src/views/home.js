@@ -1,5 +1,6 @@
 import React, {  } from 'react';
 import data from "../components/data.js";
+import { Link } from 'react-router-dom';
 // falta:
 // - Arreglar imagenes de starwars
 // - Agregar key de proyecto buscador de peliculas y pantallaso
@@ -57,15 +58,14 @@ const Home = props => {
                                                             <a href={proyecto.github}>
                                                                 <h6> Proyecto en Github</h6>
                                                             </a>
-                                                            <span id="link-boton">
-                                                                <a
-                                                                    href={proyecto.pagina}
-                                                                    
+                                                            <div id="link-boton">
+                                                                <Link
+                                                                    to={proyecto.pagina}
                                                                     id="boton-ver-proyecto"
                                                                     className="btn btn-primary">
                                                                     VER MAS
-                                                                </a>
-                                                            </span>
+                                                                </Link>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>

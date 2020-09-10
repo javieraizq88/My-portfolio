@@ -104,7 +104,7 @@ export default [
         "github": "",
         "pagina": "https://form-valitation-js.vercel.app/",
         "imagen": ""
-    }
+    },
     {
         "nombre": "Carta al azar",
         "tecnology": "JavaScript - CSS - Bootstrap - JQuery - HTML",

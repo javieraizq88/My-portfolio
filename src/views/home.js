@@ -1,5 +1,4 @@
 import React, {  } from 'react';
-import { Link } from 'react-router-dom';
 import data from "../components/data.js";
 // falta:
 // - Arreglar imagenes de starwars
@@ -59,13 +58,13 @@ const Home = props => {
                                                                 <h6> Proyecto en Github</h6>
                                                             </a>
                                                             <span id="link-boton">
-                                                                <Link
-                                                                    to={proyecto.pagina}
+                                                                <a
+                                                                    href={proyecto.pagina}
                                                                     target="_blank"
                                                                     id="boton-ver-proyecto"
                                                                     className="btn btn-primary">
                                                                     VER MAS
-                                                                </Link>
+                                                                </a>
                                                             </span>
                                                         </div>
                                                     </div>

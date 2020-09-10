@@ -16,9 +16,16 @@ export default [
     },
     {
         "nombre": "Star Wars",
-        "tecnology": "React.Js - API Rest - Bootstrap - JQuery - CSS - JavaScript (Responsive)",
+        "tecnology": "React.Js - API Rest - Bootstrap - JQuery - CSS - JavaScript - HTML (Responsive)",
         "github": "https://github.com/javieraizq88/starWars",
         "pagina": "https://star-wars-nine.now.sh",
+        "imagen": ""
+    },
+    {
+        "nombre": "Template 1",
+        "tecnology": "CSS - JavaScript - HTML (Responsive)",
+        "github": "https://github.com/javieraizq88/JIM-1-sinReact",
+        "pagina": "https://jim-template-1.vercel.app/index.html",
         "imagen": ""
     },
     {
@@ -46,7 +53,7 @@ export default [
         "nombre": "Battleship",
         "tecnology": "Javascript - HTML - CSS",
         "github": "https://github.com/javieraizq88/battleship",
-        "pagina": "",
+        "pagina": "https://battleship-final.vercel.app/",
         "imagen": ""
     },
     {
@@ -102,14 +109,14 @@ export default [
         "nombre": "Carta al azar",
         "tecnology": "JavaScript - CSS - Bootstrap - JQuery - HTML",
         "github": "",
-        "pagina": "",
+        "pagina": "https://random-card-dealer-generator.vercel.app/",
         "imagen": ""
     },
     {
         "nombre": "Generador de excusas",
         "tecnology": "JavaScript - CSS - Bootstrap - JQuery - HTML",
-        "github": "",
-        "pagina": "",
+        "github": "https://github.com/javieraizq88/ExcuseGenerator",
+        "pagina": "https://excuse-generator.vercel.app/",
         "imagen": ""
     },
     {
@@ -122,8 +129,8 @@ export default [
     {
         "nombre": "Instagram Post",
         "tecnology": "CSS - HTML",
-        "github": "",
-        "pagina": "",
+        "github": "https://github.com/javieraizq88/instagram-photo-feed-con-bootstrap",
+        "pagina": "https://instagram-post.vercel.app/instagram.html",
         "imagen": ""
     },
     {

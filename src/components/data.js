@@ -1,4 +1,4 @@
-import StarWars from "...../public/img/1StarWars.jpg";
+import StarWars from ".../../public/img/1StarWars.jpg";
 export default [
     {
         "nombre": "Buscador de series y películas",
@@ -46,7 +46,7 @@ export default [
         "nombre": "Formulario 2",
         "tecnology": "React.Js - JavaScript - CSS - Bootstrap - JQuery - HTML",
         "github": "https://github.com/javieraizq88/formulario-jun-2020",
-        "pagina": "",
+        "pagina": "https://formulario-jun-2020.vercel.app/",
         "imagen": ""
     },
     {
@@ -67,7 +67,7 @@ export default [
         "nombre": "Jugar al gato o Tic Tac Toe",
         "tecnology": "React.Js - JavaScript - CSS - Bootstrap - JQuery - HTML",
         "github": "https://github.com/javieraizq88/ticTacToeWithReact",
-        "pagina": "",
+        "pagina": "https://tic-tac-toe-gold.vercel.app/",
         "imagen": ""
     },
     {
@@ -94,7 +94,7 @@ export default [
     {
         "nombre": "Semáforo",
         "tecnology": "React.Js - JavaScript - CSS - Bootstrap - JQuery - HTML",
-        "github": "",
+        "github": "https://github.com/javieraizq88/TrafficLightWithReact",
         "pagina": "",
         "imagen": ""
     },

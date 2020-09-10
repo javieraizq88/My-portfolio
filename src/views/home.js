@@ -60,7 +60,7 @@ const Home = props => {
                                                             <span id="link-boton">
                                                                 <a
                                                                     href={proyecto.pagina}
-                                                                    target="_blank"
+                                                                    
                                                                     id="boton-ver-proyecto"
                                                                     className="btn btn-primary">
                                                                     VER MAS

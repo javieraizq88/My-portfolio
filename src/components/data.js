@@ -39,7 +39,7 @@ export default [
         "nombre": "Jugar ahorcado",
         "tecnology": "Angular - Typescript - CSS - HTML",
         "github": "https://github.com/javieraizq88/Ahorcardo-angular",
-        "pagina": "",
+        "pagina": "https://ahorcardo-angular.vercel.app/",
         "imagen": ""
     },
     {

@@ -1,11 +1,11 @@
-import StarWars from ".../../public/img/1StarWars.jpg";
+// import StarWars from ".../../public/img/1StarWars.jpg";
 export default [
     {
         "nombre": "Buscador de series y películas",
         "tecnology": "React.Js - Redux - API Rest - Material.UI - CSS - JavaScript",
         "github": "https://github.com/javieraizq88/buscadorPeliculas-React",
         "pagina": "https://buscador-peliculas-react.vercel.app/",
-        "imagen": StarWars
+        "imagen": ""
     },
     {
         "nombre": "Carrito de compras",

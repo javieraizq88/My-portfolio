@@ -1,4 +1,3 @@
-// import StarWars from ".../../public/img/1StarWars.jpg";
 export default [
     {
         "nombre": "Buscador de series y películas",
@@ -8,18 +7,18 @@ export default [
         "imagen": ""
     },
     {
-        "nombre": "Carrito de compras",
+        "nombre": "Carrito de compras simple",
         "tecnology": "React.Js - Bootstrap - JQuery - CSS - JavaScript (Responsive)",
         "github": "https://github.com/javieraizq88/Carrito-Compra",
         "pagina": "https://carrito-compra.vercel.app",
-        "imagen": ""
+        "imagen": "/img/1/carito-compra-simple.jpg"
     },
     {
         "nombre": "Star Wars",
         "tecnology": "React.Js - API Rest - Bootstrap - JQuery - CSS - JavaScript - HTML (Responsive)",
         "github": "https://github.com/javieraizq88/starWars",
-        "pagina": "https://star-wars-nine.now.sh",
-        "imagen": ""
+        "pagina": "",
+        "imagen": "/img/1/starwars.jpg"
     },
     {
         "nombre": "Template 1",

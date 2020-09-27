@@ -4,24 +4,12 @@ import injectContext from "./store/appContext";
 import Home from "./views/home";
 import Projects from "./components/projectsHome";
 import Contact from "./components/contactHome";
-import HomeStarWars from "./components/starwars/homeStarWars";
-import PeopleStarWars from "./components/starwars/peopleStarWars";
-import FilmsStarWars from "./components/starwars/filmsStarWars";
-import PlanetsStarWars from "./components/starwars/planetsStarWars";
-import StarshipsStarWars from "./components/starwars/starshipsStarWars";
-import VehiclesStarWars from "./components/starwars/vehiclesStarWars";
-import SpeciesStarWars from "./components/starwars/speciesStarWars";
-import CharacterStarWars from "./components/starwars/peopleCharacterStarWars";
-import StarshipStarWars from "./components/starwars/starshipsStarsipStarWars";
-import SpecieStarWars from "./components/starwars/speciesSpeciesStarWars";
-import VehicleStarWars from "./components/starwars/vehiclesVehicleStarWars";
 import TicTac from "./components/tic-tac-toe/Tic-tac-toe";
 import TrafiicLight from "./components/traffic-light/traffic-light";
 import InstagramPost from "./components/instagram-post/instagram-post";
 import DigitalPostcard from "./components/digital-postcard/digital-postcard";
 import InstagramPhotoFeed from "./components/instagram-photo-feed/instagram-photo-feed";
 import InstagramPhotoFeed2 from "./components/instagram-photo-feed/instagram2";
-import PlanetStarWars from "./components/starwars/planetsPlanetStarWars";
 import ExcuseGenerator from "./components/excuseGenerator/excuse";
 import RandomCard from "./components/random-card/radomCard";
 import Battleship from "./components/battleship/battleship";
@@ -48,7 +36,6 @@ const App = props => {
                 <Route exact path="/projects/encuesta" component={HomeEncuesta} />
                 <Route exact path="/projects/todolist" component={ListaToDo} />
                 <Route exact path="/projects/battleship" component={Battleship} />
-                <Route exact path="/projects/starwars" component={HomeStarWars} />
                 <Route exact path="/projects/tic-tac-toe" component={TicTac} />
                 <Route exact path="/projects/traffic-light" component={TrafiicLight} />
                 <Route exact path="/projects/instagram-post" component={InstagramPost} />
@@ -63,17 +50,6 @@ const App = props => {
                 <Route exact path="/projects/encuesta/3" component={Pregunta3Encuesta} />
                 <Route exact path="/projects/encuesta/4" component={Pregunta4Encuesta} />
                 <Route exact path="/projects/encuesta/fin" component={FinalizarEncuesta} />
-                <Route exact path="/projects/starwars/people" component={PeopleStarWars} />
-                <Route exact path="/projects/starwars/films" component={FilmsStarWars} />
-                <Route exact path="/projects/starwars/planets" component={PlanetsStarWars} />
-                <Route exact path="/projects/starwars/starships" component={StarshipsStarWars} />
-                <Route exact path="/projects/starwars/species" component={SpeciesStarWars} />
-                <Route exact path="/projects/starwars/vehicles" component={VehiclesStarWars} />
-                <Route exact path="/projects/starwars/people/:character" component={CharacterStarWars} />
-                <Route exact path="/projects/starwars/planets/:planet" component={PlanetStarWars} />
-                <Route exact path="/projects/starwars/starships/:starship" component={StarshipStarWars} />
-                <Route exact path="/projects/starwars/species/:specie" component={SpecieStarWars} />
-                <Route exact path="/projects/starwars/vehicles/:vehicle" component={VehicleStarWars} />
 
             </Switch>
         </BrowserRouter>

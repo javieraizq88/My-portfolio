@@ -4,14 +4,14 @@ export default [
         "tecnology": "React.Js - Redux - API Rest - Material.UI - CSS - JavaScript",
         "github": "https://github.com/javieraizq88/buscadorPeliculas-React",
         "pagina": "https://buscador-peliculas-react.vercel.app/",
-        "imagen": ""
+        "imagen": "/img/1/buscador-peliculas.jpg"
     },
     {
         "nombre": "Carrito de compras simple",
         "tecnology": "React.Js - Bootstrap - JQuery - CSS - JavaScript (Responsive)",
         "github": "https://github.com/javieraizq88/Carrito-Compra",
         "pagina": "https://carrito-compra.vercel.app",
-        "imagen": "/img/1/carito-compra-simple.jpg"
+        "imagen": "/img/1/catrito-compra-simple.jpg"
     },
     {
         "nombre": "Star Wars",

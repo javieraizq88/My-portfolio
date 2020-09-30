@@ -98,7 +98,6 @@ const CharacterStarWars = props => {
                         </div>
                     </div>
                 </div>
-
             </div>
         </>
     )

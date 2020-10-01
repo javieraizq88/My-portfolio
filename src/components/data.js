@@ -25,7 +25,7 @@ export default [
         "tecnology": "CSS - JavaScript - HTML (Responsive)",
         "github": "https://github.com/javieraizq88/JIM-1-sinReact",
         "pagina": "https://jim-template-1.vercel.app/index.html",
-        "imagen": "/img/1/template.jpg"
+        "imagen": "/img/1/template1.jpg"
     },
     {
         "nombre": "Contact List",

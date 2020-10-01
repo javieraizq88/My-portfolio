@@ -56,7 +56,7 @@ const Home = props => {
                                                         </p>
                                                         <div className="mr-5 ml-5 justify-content-between d-flex" >
                                                             <a href={proyecto.github}>
-                                                                <h6> Proyecto en Github</h6>
+                                                                <h6> Código en Github</h6>
                                                             </a>
                                                             <a href={proyecto.pagina}>
                                                                 <h6> Ver proyecto </h6>

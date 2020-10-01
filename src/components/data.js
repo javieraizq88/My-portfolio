@@ -11,7 +11,7 @@ export default [
         "tecnology": "React.Js - Bootstrap - JQuery - CSS - JavaScript (Responsive)",
         "github": "https://github.com/javieraizq88/Carrito-Compra",
         "pagina": "https://carrito-compra.vercel.app",
-        "imagen": "/img/1/catrito-compra-simple.jpg"
+        "imagen": "/img/1/carrito-compra-simple.jpg"
     },
     {
         "nombre": "Star Wars",
@@ -25,14 +25,14 @@ export default [
         "tecnology": "CSS - JavaScript - HTML (Responsive)",
         "github": "https://github.com/javieraizq88/JIM-1-sinReact",
         "pagina": "https://jim-template-1.vercel.app/index.html",
-        "imagen": ""
+        "imagen": "/img/1/template.jpg"
     },
     {
         "nombre": "Contact List",
         "tecnology": "React.Js - API Rest - Bootstrap - JQuery - CSS - JavaScript (Responsive)",
         "github": "https://github.com/javieraizq88/Contact--List-Final",
         "pagina": "https://contact-list-final.vercel.app/",
-        "imagen": ""
+        "imagen": "/img/1/contact-list.jpg"
     },
     {
         "nombre": "Jugar ahorcado",

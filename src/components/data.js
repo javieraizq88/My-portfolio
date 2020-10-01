@@ -11,7 +11,7 @@ export default [
         "tecnology": "React.Js - Bootstrap - JQuery - CSS - JavaScript (Responsive)",
         "github": "https://github.com/javieraizq88/Carrito-Compra",
         "pagina": "https://carrito-compra.vercel.app",
-        "imagen": "/img/1/catrito-compra-simple.jpg"
+        "imagen": "/img/1/carrito-compra-simple.jpg"
     },
     {
         "nombre": "Star Wars",

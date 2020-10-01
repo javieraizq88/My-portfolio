@@ -32,7 +32,7 @@ export default [
         "tecnology": "React.Js - API Rest - Bootstrap - JQuery - CSS - JavaScript (Responsive)",
         "github": "https://github.com/javieraizq88/Contact--List-Final",
         "pagina": "https://contact-list-final.vercel.app/",
-        "imagen": ""
+        "imagen": "/img/1/contact-list.jpg"
     },
     {
         "nombre": "Jugar ahorcado",

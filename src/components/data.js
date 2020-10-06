@@ -87,8 +87,8 @@ export default [
         "nombre": "Semáforo",
         "tecnology": "React.Js - JavaScript - CSS - Bootstrap - JQuery - HTML",
         "github": "https://github.com/javieraizq88/TrafficLightWithReact",
-        "pagina": "",
-        "imagen": ""
+        "pagina": "https://traffic-light-with-react.now.sh",
+        "imagen": "/img/1/traffic-light.jpg"
     },
     {
         "nombre": "Formulario",

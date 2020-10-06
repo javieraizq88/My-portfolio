@@ -56,13 +56,6 @@ export default [
         "imagen": "/img/1/battleship.jpg"
     },
     {
-        "nombre": "Contador simple",
-        "tecnology": "React.Js - JavaScript - CSS - Bootstrap - JQuery - HTML",
-        "github": "https://github.com/javieraizq88/SimpleCounterWithReact",
-        "pagina": "",
-        "imagen": ""
-    },
-    {
         "nombre": "Jugar al gato o Tic Tac Toe",
         "tecnology": "React.Js - JavaScript - CSS - Bootstrap - JQuery - HTML",
         "github": "https://github.com/javieraizq88/ticTacToeWithReact",

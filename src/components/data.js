@@ -17,7 +17,7 @@ export default [
         "nombre": "Star Wars",
         "tecnology": "React.Js - API Rest - Bootstrap - JQuery - CSS - JavaScript - HTML (Responsive)",
         "github": "https://github.com/javieraizq88/starWars",
-        "pagina": "star-wars.javieraizq88.vercel.app/",
+        "pagina": "https://star-wars.javieraizq88.vercel.app",
         "imagen": "/img/1/starwars.jpg"
     },
     {
@@ -87,8 +87,8 @@ export default [
         "nombre": "Semáforo",
         "tecnology": "React.Js - JavaScript - CSS - Bootstrap - JQuery - HTML",
         "github": "https://github.com/javieraizq88/TrafficLightWithReact",
-        "pagina": "",
-        "imagen": ""
+        "pagina": "https://traffic-light-with-react.now.sh",
+        "imagen": "/img/1/traffic-light.jpg"
     },
     {
         "nombre": "Formulario",

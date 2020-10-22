@@ -2,9 +2,9 @@ export default [
         {
         "nombre": "Buscador restaurantes",
         "tecnology": "React.Js - Bootstrap - CSS - JavaScript - HTML",
-        "github": "",
-        "pagina": "",
-        "imagen": "/img/1/buscador-peliculas.jpg"
+        "github": "https://github.com/javieraizq88/proyecto",
+        "pagina": "https://proyecto.javieraizq88.vercel.app/",
+        "imagen": "/img/1/buscador-restaurants.jpg"
     },
     {
         "nombre": "Buscador de series y películas",

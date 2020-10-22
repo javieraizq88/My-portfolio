@@ -1,4 +1,11 @@
 export default [
+        {
+        "nombre": "Buscador restaurantes",
+        "tecnology": "React.Js - Bootstrap - CSS - JavaScript - HTML",
+        "github": "",
+        "pagina": "",
+        "imagen": "/img/1/buscador-peliculas.jpg"
+    },
     {
         "nombre": "Buscador de series y películas",
         "tecnology": "React.Js - Redux - API Rest - Material.UI - CSS - JavaScript",

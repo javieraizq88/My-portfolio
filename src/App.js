@@ -23,6 +23,7 @@ import CV from "./components/CV";
 import ListaToDo from "./components/todo-list/todolist";
 import Counter from "./components/simple-counter/simpleCounter";
 import Navbar from "./components/navbar";
+import Prueba from "./views/prueba";
 
 const App = props => {
     return (
@@ -33,6 +34,7 @@ const App = props => {
                 <Route exact path="/cv" component={CV} />
                 <Route exact path="/projects" component={Projects} />
                 <Route exact path="/contact" component={Contact} />
+                <Route exact path="/prueba" component={Prueba} />
                 <Route exact path="/projects/encuesta" component={HomeEncuesta} />
                 <Route exact path="/projects/todolist" component={ListaToDo} />
                 <Route exact path="/projects/battleship" component={Battleship} />

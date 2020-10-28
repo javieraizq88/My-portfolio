@@ -4,12 +4,8 @@ import { Link } from 'react-router-dom';
 // falta:
 // - Agregar key de proyecto buscador de peliculas y pantallaso
 // - Arreglar github de https://github.com/javieraizq88/SimpleCounterWithReact
-// - Arreglar link q une una pagina con otra en https://github.com/javieraizq88/instagram-photo-feed-con-bootstrap y width
-// - Arreglar npm run build semaforo 
 
 const Home = props => {
-
-
     return (
         <>
             <div id="home">

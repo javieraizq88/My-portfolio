@@ -191,3 +191,37 @@ nav a:hover{
 }
 }
 
+
+
+.autoservicio,
+.beneficios{
+ height: 660px 
+}
+
+.movilidad-interna{
+  height: 540px;
+}
+
+.agradecimientos{
+  height: 343px;
+}
+
+.tus-contactos{
+  height: 590px;
+}
+
+.comunidades{
+  height: 570px;
+}
+
+.banco-puntos{
+  height: 870px;
+}
+
+.aprendizaje{
+  height: 390px;
+}
+
+.mis-desafios{
+  height: 370px;
+}

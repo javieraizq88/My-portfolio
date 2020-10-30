@@ -11,6 +11,7 @@ const Prueba = props =>{
     <div class="card-body">
       <h5 class="card-title">1) autoservicio</h5>
       <p class="card-text">This is a longtural lead-in to additional content. This content is a little bit longer.</p>
+      <p class="card-text">This is a longtural lead-in to additional content. This content is a little bit longer.</p>
     </div>
   </div>
 

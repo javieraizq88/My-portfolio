@@ -27,7 +27,7 @@ const Prueba = props =>{
   </div>
 
   <div class="card agradecimientos mb-4">
-    <img src="..." class="card-img-top" alt="..."/>
+    <img src="#" class="card-img-top" alt="..."/>
     <div class="card-body">
       <h5 class="card-title">3) agradecimientos</h5>
       <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>

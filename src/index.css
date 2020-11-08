@@ -225,3 +225,44 @@ nav a:hover{
 .mis-desafios{
   height: 370px;
 }
+
+ /* Vacaciones panel de gestion  */
+.vacaciones-contenedor{
+    height: 240px;
+    width: 239px;
+    margin-top: 1rem;
+    margin-left: 3.125rem;
+    padding-top: 4.375rem;
+    text-align: center;
+    border: 15px solid;
+    border-top-color: #7E94FA;
+    border-right-color: #7E94FA;
+    border-bottom-color: #E9D718;
+    border-left-color: #61c7cd;
+    border-radius: 50%;
+}
+.vacaciones-leyenda{
+  margin-top: 4rem;
+}
+.vacaciones-leyenda .d-flex .primero{
+  background-color:#7E94FA;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin: 13px 20px 0 0;
+}
+.vacaciones-leyenda .d-flex .segundo{
+  background-color:#E9D718;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin: 13px 20px 0 0;
+}
+.vacaciones-leyenda .d-flex .tercero{
+  background-color:#61c7cd;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin: 13px 20px 0 0;
+}
+

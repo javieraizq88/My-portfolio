@@ -38,6 +38,7 @@ const Prueba = props =>{
   <div class="card tus-contactos p-3 mb-4">
     <blockquote class="blockquote mb-0">
       <p> caja 4 tus contactos</p>
+      <p> caja 4 tus contactos</p>
       <footer class="blockquote-footer text-white">
         <small>
           Someone famous in <cite title="Source Title">Source Title</cite>

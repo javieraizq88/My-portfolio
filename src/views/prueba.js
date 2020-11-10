@@ -142,6 +142,61 @@ const Prueba = props => {
 
 {/* evaluacion y retro agil */}
 
+<div class="col-sm-4 col-12">
+    <div class="card bch-card mb-4">
+        <div class="card-body ">
+            <div class="panel-de-gestion-widget__titulo">
+                <h5 class="c-gray-dark">Evaluación y Retro Ágil</h5>
+                <i class="icon-icon-bch-outcomes flecha__azul"></i>
+            </div>
+            {/* <!-- evaluacion agil --> */}
+            <h4 class="c-brand fw-b mt-7">Evaluación Ágil</h4>
+            <div class="row">
+                {/* <!-- lado izquierdo --> */}
+                <div class="col-5 col-md-5 pt-4">
+                    <div class="d-flex">
+                        <i class="bch-pyo-icon-resultado size-icon-md c-brand"></i>
+                        <h2 class="pl-3 mb-0">4.7</h2>
+                    </div>
+                    <p class="c-gray-dark text--smaller">Cumple destacado</p>
+                </div>
+                {/* <!-- lado derecho --> */}
+                <div class="col-7 col-md-7">
+                    <div class="d-flex mb-2">
+                        <div class="pr-2 fw-b text--small">5.0</div> 
+                        <div class="c-gray text--small">Soy Protegonista</div>
+                    </div>
+                    <div class="d-flex ">
+                        <div class="pr-2 fw-b text--small">2.2</div> 
+                        <div class="c-gray text--small">Yo Contribuyo</div>
+                    </div>
+                    <p class="c-gray-dark text--smaller mt-1">+ 4 ADN</p>
+                </div>
+            </div>
+            <hr/>
+            <h4 class="c-brand fw-b mt-5">Retro Ágil</h4>
+            <div class="row pt-3">
+                {/* <!-- lado izquierdo --> */}
+                <div class="col-6 col-md-6">
+                    <div class="d-flex">
+                        <i class="bch-pyo-icon-retro-positiva size-icon-md c-brand"></i>
+                        <h2 class="pl-1 mb-0 fw-b">100</h2>
+                    </div>
+                    <p class="c-gray-dark text--smaller">Retro Ágil Positiva</p>
+                </div>
+                {/* <!-- lado derecho --> */}
+                <div class="col-6 col-md-6">
+                    <div class="d-flex">
+                        <i class="bch-pyo-icon-oportunidad-de-mejora size-icon-md c-brand"></i>
+                        <h2 class="pl-1 mb-0 fw-b">15</h2>
+                    </div>
+                    <p class="c-gray-dark text--smaller">Oportunidades de mejora</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 
     </div>
 

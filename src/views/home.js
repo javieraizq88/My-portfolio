@@ -1,6 +1,7 @@
-import React, {  } from 'react';
+import React, { } from 'react';
 import data from "../components/data.js";
 import { Link } from 'react-router-dom';
+import Navbar from '../components/navbar.js';
 // falta:
 // - Agregar key de proyecto buscador de peliculas y pantallaso
 // - Arreglar github de https://github.com/javieraizq88/SimpleCounterWithReact
@@ -8,6 +9,7 @@ import { Link } from 'react-router-dom';
 const Home = props => {
     return (
         <>
+        <Navbar />
             <div id="home">
 
                 {/* banner */}
@@ -18,7 +20,15 @@ const Home = props => {
 
                 <br />
                 <br />
+                <div className="row">
+                    <div className="col-md-1"></div>
 
+                    <div className="col-md-10 col-xs-10 mr-2 mb-4">
+                        <h2>cosas choras CSS</h2>
+                        <button>       <Link to="/CSS">hola </Link></button>
+            
+                    </div>
+                </div>
                 <div className="row" id="project">
                     <div className="col-md-1"></div>
                     <div id="titulo-projects" className="col-md-10 col-xs-10 mr-2 mb-4">
@@ -32,12 +42,12 @@ const Home = props => {
                                         <div className="card mb-3" id="card-home" >
                                             <div className="row no-gutters">
                                                 <div className="col-md-4">
-                                                    <img 
-                                                    src= {proyecto.imagen}                                                     
+                                                    <img
+                                                        src={proyecto.imagen}
                                                         id="imagen1"
                                                         className="card-img"
-                                                        alt="Imagen proyecto"/>
-                                                            
+                                                        alt="Imagen proyecto" />
+
                                                 </div>
                                                 <div className=" col-md-8">
                                                     <div className="ml-3 card-body">

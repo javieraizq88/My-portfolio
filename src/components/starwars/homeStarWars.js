@@ -117,7 +117,7 @@ const HomeStarWars = props => {
                 </div>
             </div >
         </>
-    
+
     )
 }
 

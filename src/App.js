@@ -23,15 +23,17 @@ import CV from "./components/CV";
 import ListaToDo from "./components/todo-list/todolist";
 import Counter from "./components/simple-counter/simpleCounter";
 import Navbar from "./components/navbar";
+import Cosas from "./components/CSS";
 import Prueba from "./views/prueba";
 
 const App = props => {
     return (
         <BrowserRouter>
-            <Navbar />
+            {/* <Navbar /> */}
             <Switch>
                 <Route exact path="/" component={Home} />
                 <Route exact path="/cv" component={CV} />
+                <Route exact path="/css" component={Cosas} />
                 <Route exact path="/projects" component={Projects} />
                 <Route exact path="/contact" component={Contact} />
                 <Route exact path="/prueba" component={Prueba} />

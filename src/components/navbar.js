@@ -12,7 +12,7 @@ const Navbar = props => {
                     src={logo} id="logo"
                     alt="JIM Logo"
                 />
-                
+
                 <button
                     className="navbar-toggler"
                     type="button"

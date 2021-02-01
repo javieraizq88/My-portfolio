@@ -1,5 +1,5 @@
 export default [
-        {
+    {
         "nombre": "Buscador restaurantes",
         "tecnology": "React.Js - Bootstrap - CSS - JavaScript - HTML",
         "github": "https://github.com/javieraizq88/proyecto",
@@ -11,6 +11,13 @@ export default [
         "tecnology": "React.Js - Redux - API Rest - Material.UI - CSS - JavaScript",
         "github": "https://github.com/javieraizq88/buscadorPeliculas-React",
         "pagina": "https://buscador-peliculas-react.vercel.app/",
+        "imagen": "/img/1/buscador-peliculas.jpg"
+    },
+    {
+        "nombre": "Alerta de cumpleaños",
+        "tecnology": "React.Js -  API Rest - CSS - JavaScript",
+        "github": "https://github.com/javieraizq88/buscadorPeliculas-React",
+        "pagina": "",
         "imagen": "/img/1/buscador-peliculas.jpg"
     },
     {

@@ -34,6 +34,9 @@ const Navbar = props => {
                             </Link>
                         </li>
                         <li className="nav-item">
+                            <Link className="nav-link" to="/estilos-css">Estilos CSS</Link>
+                        </li>
+                        <li className="nav-item">
                             <Link className="nav-link" to="/cv">CV</Link>
                         </li>
                     </ul>

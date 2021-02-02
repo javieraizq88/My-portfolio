@@ -20,15 +20,7 @@ const Home = props => {
 
                 <br />
                 <br />
-                <div className="row">
-                    <div className="col-md-1"></div>
 
-                    <div className="col-md-10 col-xs-10 mr-2 mb-4">
-                        <h2>cosas choras CSS</h2>
-                        <button>       <Link to="/CSS">hola </Link></button>
-            
-                    </div>
-                </div>
                 <div className="row" id="project">
                     <div className="col-md-1"></div>
                     <div id="titulo-projects" className="col-md-10 col-xs-10 mr-2 mb-4">

@@ -22,9 +22,8 @@ import FinalizarEncuesta from "./components/encuesta/finalizarEnc";
 import CV from "./components/CV";
 import ListaToDo from "./components/todo-list/todolist";
 import Counter from "./components/simple-counter/simpleCounter";
-import Navbar from "./components/navbar";
-import Cosas from "./components/CSS";
 import Prueba from "./views/prueba";
+import EstilosCSS from "./components/estilos-css";
 
 const App = props => {
     return (
@@ -33,7 +32,7 @@ const App = props => {
             <Switch>
                 <Route exact path="/" component={Home} />
                 <Route exact path="/cv" component={CV} />
-                <Route exact path="/css" component={Cosas} />
+                <Route exact path="/estilos-css" component={EstilosCSS} />
                 <Route exact path="/projects" component={Projects} />
                 <Route exact path="/contact" component={Contact} />
                 <Route exact path="/prueba" component={Prueba} />

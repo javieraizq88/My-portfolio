@@ -16,9 +16,9 @@ export default [
     {
         "nombre": "Alerta de cumpleaños",
         "tecnology": "React.Js -  API Rest - CSS - JavaScript",
-        "github": "https://github.com/javieraizq88/buscadorPeliculas-React",
+        "github": "https://github.com/javieraizq88/birthdayReminder",
         "pagina": "",
-        "imagen": "/img/1/buscador-peliculas.jpg"
+        "imagen": "/img/1/alerta-cumpleanos.png"
     },
     {
         "nombre": "Carrito de compras simple",

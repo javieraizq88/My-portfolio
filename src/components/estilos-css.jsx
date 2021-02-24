@@ -434,66 +434,15 @@ const EstilosCSS = props => {
         }
     }
 
-   
-
-
 
     return (
         <>
             <Navbar />
-            <h1 className="mt-7 px-4">Botones con estilos</h1>
-            <div className="container">
-                <div className="row">
-                    <div className="col-4">
-                        <div className="card pa-3 pb-5 ">
-                            <h4 className="ta-c mb-5">Botón simple envío de información</h4>
-                            <form action="my-portfolio.javieraizq88.vercel.app/" target="_blank" method="post">
-                                <div className="d-flex jc-c">
-                                    <input type="text" name="prueba" />
-                                </div>
-                                <div className="d-flex jc-c pt-3">
-                                    <input type="submit" value="enviar" />
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-
-                    <div className="col-4">
-                        <div className="card pa-3 pb-5">
-                            <h4 className="ta-c mb-5">Botón envío de información con color de fondo</h4>
-                            <form action="my-portfolio.javieraizq88.vercel.app/" target="_blank" method="post">
-                                <div className="d-flex jc-c">
-                                    <input type="text" name="prueba1" />
-                                </div>
-                                <div className="d-flex jc-c pt-3">
-                                    <input type="submit" value="enviar" className="boton-1" />
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-
-                    <div className="col-4">
-                        <div className="card pa-3 pb-5">
-                            <h4 className="ta-c mb-9">Botón con hover</h4>
-                            <form action="my-portfolio.javieraizq88.vercel.app/" target="_blank" method="post">
-                                <div className="d-flex jc-c">
-                                    <input type="text" name="prueba2" />
-                                </div>
-                                <div className="d-flex jc-c pt-3">
-                                    <input type="submit" value="enviar" className="boton-2" />
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
 
             <h1 className="mt-7 px-4">Canvas</h1>
             <div className="container">
                 <div className="row">
-{/* row 1 */}
+                    {/* row 1 */}
                     <div className="col-4">
                         <div className="card mt-4 mb-2 pa-3 pb-5">
                             <h4 className="ta-c mb-5 pt-3">Loading</h4>
@@ -528,7 +477,7 @@ const EstilosCSS = props => {
                         </div>
                     </div>
 
-{/* row 2 */}
+                    {/* row 2 */}
                     <div className="col-4">
                         <div className="card mt-4 mb-2 pa-3 pb-5">
                             <h4 className="ta-c mb-5 pt-3">Superposicion imagenes 2</h4>
@@ -556,7 +505,7 @@ const EstilosCSS = props => {
                         </div>
                     </div>
 
-{/* row 3 */}
+                    {/* row 3 */}
                     <div className="col-4">
                         <div className="card mt-4 mb-2 pa-3 pb-5">
                             <h4 className="ta-c mb-5 pt-3">Curvas bezier 1</h4>
@@ -598,7 +547,7 @@ const EstilosCSS = props => {
                         </div>
                     </div>
 
-{/* row 4 */}
+                    {/* row 4 */}
                     <div className="col-12">
                         <div className="card mt-4 mb-2 pa-3 pb-5">
                             <h4 className="ta-c mb-5 pt-3">Mosaico de imagenes</h4>
@@ -609,7 +558,7 @@ const EstilosCSS = props => {
                         </div>
                     </div>
 
-{/* row 5 */}
+                    {/* row 5 */}
                     <div className="col-4">
                         <div className="card mt-4 mb-2 pa-3 pb-5">
                             <h4 className="ta-c mb-5 pt-3">Grosor lineas</h4>
@@ -637,7 +586,7 @@ const EstilosCSS = props => {
                         </div>
                     </div>
 
-{/* row 6 */}
+                    {/* row 6 */}
                     <div className="col-4">
                         <div className="card mt-4 mb-2 pa-3 pb-5">
                             <h4 className="ta-c mb-5 pt-3">Rombo</h4>
@@ -665,7 +614,7 @@ const EstilosCSS = props => {
                         </div>
                     </div>
 
-{/* row 7 */}
+                    {/* row 7 */}
                     <div className="col-4">
                         <div className="card mt-4 mb-2 pa-3 pb-5">
                             <h4 className="ta-c mb-5 pt-3">Hexagono relleno de color, cierre de camino automático con fill</h4>
@@ -693,7 +642,7 @@ const EstilosCSS = props => {
                         </div>
                     </div>
 
-{/* row 8 */}
+                    {/* row 8 */}
                     <div className="col-4">
                         <div className="card mt-4 mb-2 pa-3 pb-5">
                             <h4 className="ta-c mb-5 pt-3">Hexagono sólo línea, sin cierre de camino</h4>
